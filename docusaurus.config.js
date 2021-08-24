@@ -3,18 +3,18 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'Fourier Audio',
+  tagline: '',
+  url: 'https://fourieraudio.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'fourieraudio', // Usually your GitHub org/user name.
+  projectName: 'docs', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Fourier Audio',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -28,7 +28,7 @@ module.exports = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/fourieraudio/docs',
           label: 'GitHub',
           position: 'right',
         },
@@ -77,7 +77,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Fourier Audio Ltd. Built with Docusaurus.`,
     },
     prism: {
       theme: lightCodeTheme,
