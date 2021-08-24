@@ -5,7 +5,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: 'Fourier Audio',
   tagline: '',
-  url: 'https://fourieraudio.com',
+  url: 'https://docs.fourieraudio.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
