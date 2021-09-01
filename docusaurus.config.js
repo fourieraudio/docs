@@ -75,25 +75,25 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Documentation',
-              to: '/docs/intro',
+              label: 'Rewind',
+              to: '/docs/intro_rewind',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Fourier Audio',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Website',
+              href: 'https://www.fourieraudio.com',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://www.twitter.com/thefourieraudio',
+            },
+            {
+              label: 'Lab',
+              href: 'https://lab.fourieraudio.com',
             },
           ],
         },
