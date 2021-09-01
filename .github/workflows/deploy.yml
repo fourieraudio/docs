@@ -19,7 +19,7 @@ jobs:
       uses: appleboy/ssh-action@master
       with:
         host: 46.101.58.33
-        username: root
+        username: fourier
         password: ${{ secrets.MARTY_FOURIER }}
         port: 22
         script: |
