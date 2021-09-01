@@ -58,13 +58,17 @@ module.exports = {
           type: 'doc',
           docId: 'intro',
           position: 'left',
-          label: 'Welcome',
+          label: 'Welcome & Support',
         },
         {
           type: 'doc',
-          docId: 'intro_rewind',
+          docId: 'rewind/intro',
           position: 'left',
           label: 'Rewind',
+        },
+        {
+          label: 'Website',
+          href: 'https://www.fourieraudio.com',
         },
       ],
     },
@@ -76,7 +80,7 @@ module.exports = {
           items: [
             {
               label: 'Rewind',
-              to: '/docs/intro_rewind',
+              to: '/docs/rewind/intro',
             },
           ],
         },
