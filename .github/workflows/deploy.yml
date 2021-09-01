@@ -15,7 +15,7 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     steps:
-    - name: executing remote ssh commands using password
+    - name: Update docusaurus (live)
       uses: appleboy/ssh-action@master
       with:
         host: 46.101.58.33
@@ -23,5 +23,4 @@ jobs:
         password: ${{ secrets.MARTY_ROOT }}
         port: 22
         script: |
-          cd /var/www/docusaurus/docs
-          ls
+          /usr/bin/ansible-pull -U https://${{ secrets.GH_USER_PASS }}:x-oauth-basic@github.com/fourieraudio/webserver.git -t docusaurus_update
