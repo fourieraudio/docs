@@ -1,29 +1,38 @@
 # Fourier Audio Documentation
 
-This repo contains the Docusaurus documentation which is shown at docs.fourieraudio.com.
+This repository contains the docs shown at https://docs.fourieraudio.com. If you just want to read
+them, head over there!
 
-In order to update the documentation, it is recommended that any updates are completed locally prior to a commit for PR. To build a local development setup:
+We gratefully receive [issues](https://github.com/fourieraudio/docs/issues) (if you've found
+something that's missing or incorrect), and [pull
+requests](https://github.com/fourieraudio/docs/pulls) (if you're feeling keen and want to improve
+something yourself!).
 
+## Contributing
+Feel free to create PRs directly from the GitHub online editor; all of the documentation is stored
+within files under [docs/](https://github.com/fourieraudio/docs/tree/main/docs).
 
-## Install dependencies
+However, if you're making more significant updates and you want to preview your changes locally,
+you can create your own version of the docs on your computer:
 
+1. To start, you'll want to prepare a development environment. Install `nodejs` and `yarn` if you
+   don't have them already, using your favourite package manager (`homebrew` is your best bet on
+   macOS, or whatever your distribution provides on linux).
+
+2. Clone the repository and install its dependencies:
 ```console
-yarn
-nodejs
+$ git clone git@github.com:fourieraudio/docs.git
+$ cd docs
+$ yarn
 ```
 
-## Clone the repo
+3. Start a local copy of the docs:
 ```console
-git clone git@github.com:fourieraudio/docs.git
+$ yarn start
 ```
 
-## Install and start yarn when in the repo
+4. A browser window opens which will allow you to preview changes live as you make them.
 
-```console
-yarn install
-yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-## Commit any changes to git, and create a PR
+5. Make any updates you want, commit them to a new branch, and open a pull request (there's good
+   guides for how to do this on the internet if you're new to it). Your changes will be reviewed and
+   merged!
