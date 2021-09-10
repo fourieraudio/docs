@@ -35,4 +35,4 @@ jobs:
         port: 22
         key: ${{ secrets.SSH_MARTY_FOURIER }}
         source: "/home/runner/work/docs/docs/build"
-        target: "/var/www/docusaurus"
+        target: "/home/fourier"
