@@ -25,17 +25,7 @@ jobs:
       run: yarn build
 
     - name: Package docusaurus build
-      run: tar -xzvf build
-
-    - name: Update docusaurus (live)
-      uses: appleboy/ssh-action@master
-      with:
-        host: 46.101.58.33
-        username: fourier
-        key: ${{ secrets.SSH_MARTY_FOURIER }}
-        port: 22
-        script: |
-            /usr/bin/ansible-pull -U https://${{ secrets.GH_USER_PASS }}:x-oauth-basic@github.com/fourieraudio/webserver.git -t docusaurus_update
+      run: tar -xzvf build.tar.gz build
 
     - name: Send build to marty
       uses: appleboy/scp-action@master
