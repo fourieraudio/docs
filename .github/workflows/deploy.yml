@@ -42,4 +42,4 @@ jobs:
         key: ${{ secrets.SSH_MARTY_FOURIER }}
         port: 22
         script: |
-          cp /home/github/workspace/build/* /var/www/docusaurus/live
+          cp -r /home/github/workspace/build/* /var/www/docusaurus/live
