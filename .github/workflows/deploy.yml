@@ -1,5 +1,5 @@
 
-name: Deploy Docs
+name: Deploy Docs to Marty
 
 on:
   push:
@@ -11,7 +11,7 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
-  build:
+  BuildAndMakeLive:
     name: Build
     runs-on: ubuntu-latest
     steps:
@@ -23,9 +23,6 @@ jobs:
 
     - name: Build docusaurus
       run: yarn build
-    #
-    # - name: Package docusaurus build
-    #   run: tar -czvf "build.tar.gz" "/home/runner/work/docs/docs/build"
 
     - name: Send build to marty
       uses: appleboy/scp-action@master
@@ -36,3 +33,13 @@ jobs:
         key: ${{ secrets.SSH_MARTY_FOURIER }}
         source: "/home/runner/work/docs/docs/build"
         target: "/home/fourier"
+
+    - name: Copy to live docusaurus docusaurus directory
+      uses: appleboy/ssh-action@master
+      with:
+        host: 46.101.58.33
+        username: fourier
+        key: ${{ secrets.SSH_MARTY_FOURIER }}
+        port: 22
+        script: |
+          cp /home/github/workspace/build/* /var/www/docusaurus/live
