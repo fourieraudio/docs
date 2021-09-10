@@ -25,7 +25,7 @@ jobs:
       run: yarn build
 
     - name: Package docusaurus build
-      run: ls
+      run: tar -czvf "build.tar.gz" -C "/build"
 
     # - name: Send build to marty
     #   uses: appleboy/scp-action@master
