@@ -27,7 +27,7 @@ jobs:
     - name: Package docusaurus build
       run: |
         cd build
-        tar -czvf "build.tar.gz"
+        ls
 
     # - name: Send build to marty
     #   uses: appleboy/scp-action@master
