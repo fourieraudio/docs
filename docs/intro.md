@@ -19,7 +19,6 @@ reached via e-mail, or alternatively we have a support slack channel if you need
 urgently:
 
 * Support e-mail: support@fourieraudio.com
-* [Urgent support slack channel](#)
 
 ## Approaching 88mph...
 Are you mind-bendingly irritated at the tools you use on a daily basis? Do you spend your life
