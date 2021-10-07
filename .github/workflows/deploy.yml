@@ -31,6 +31,7 @@ jobs:
         username: fourier
         port: 22
         key: ${{ secrets.SSH_DOC_FOURIER }}
+        passphrase: ${{ secrets.SSH_DOC_FOURIER_PASSPHRASE }}
         source: "/home/runner/work/docs/docs/build"
         target: "/home/fourier"
 
@@ -40,6 +41,7 @@ jobs:
         host: 134.209.187.249
         username: fourier
         key: ${{ secrets.SSH_DOC_FOURIER }}
+        passphrase: ${{ secrets.SSH_DOC_FOURIER_PASSPHRASE }}
         port: 22
         script: |
           sudo cp -r /home/fourier/github/workspace/build/* /var/www/docusaurus/live
