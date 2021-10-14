@@ -3,6 +3,9 @@ sidebar_position: 6
 ---
 
 # Channel Edit Pane
+The channel edit pane can be opened with the ![pencil](/img/rewind/ui-edit-pencil.png) edit button from the
+Rewind main interface.
+
 ![Channel Edit Pane](/img/rewind/edit-pane.png)
 
 The channel edit pane can be used to configure the channels in your show.

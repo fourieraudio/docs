@@ -67,6 +67,10 @@ module.exports = {
           label: 'Rewind',
         },
         {
+          label: 'Downloads & FAQs',
+          href: 'https://www.fourieraudio.com/rewind-support',
+        },
+        {
           label: 'Website',
           href: 'https://www.fourieraudio.com',
         },

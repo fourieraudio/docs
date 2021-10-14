@@ -19,6 +19,12 @@ reached via e-mail:
 
 * Support e-mail: support@fourieraudio.com
 
+We're pretty responsive via e-mail, and contacting us this way helps us get your support request to
+the most relevant person as quickly as possible.
+
+If you have a Rewind Production licence, your sales contact will have given you a phone number you
+can use for real-time support, should you need it.
+
 ## Approaching 88mph...
 Are you mind-bendingly irritated at the tools you use on a daily basis? Do you spend your life
 re-configuring a bewildering array of systems that seem to secretly hate you? Is it no longer a
