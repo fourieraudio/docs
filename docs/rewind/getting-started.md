@@ -23,7 +23,8 @@ place.
 - **RAM**: *Rewind* can chew through a *lot* of RAM (all of that audio has to be stored somewhere!).
   Make sure you have enough RAM for the number of channels, sample rate, and amount of time travel
   you desire: 16 GiB is recommended as a _minimum_, and large systems or systems running at high
-  sample rates should have 32 GiB.
+  sample rates should have 32 GiB. The amount of RAM that Rewind will use can be
+  [configured](configuration-pane) to taste.
 
 - **An almost fanatical devotion to Rewind**: For reliable show-critical audio playback with
   demanding configurations (over 2/3 of system RAM used by *Rewind*), quit any other applications
@@ -33,8 +34,9 @@ place.
 
 ## Method
 
-1. [Download](#) (or acquire via other means, nefarious or otherwise) the latest installer package.
-   We ship new versions of Rewind frequently, so be sure to always download the latest version.
+1. [Download](https://fourieraudio.com/rewind-support/) (or acquire via other means, nefarious or
+   otherwise) the latest installer package.  We ship new versions of Rewind frequently, so be sure
+   to always download the latest version.
 
 2. Run the installer. It'll afford you some pleasantries, check that you agree with our entirely
    reasonable terms, and, assuming you do, make a brand shining new entry in your Applications
