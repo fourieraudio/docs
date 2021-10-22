@@ -10,7 +10,7 @@ can process:
 | Edition | Channels |
 |---------|----------|
 | Personal | 16 |
-| Professional | 32 |
+| Professional | 64 |
 | Production | 128 (wow!) |
 
 To protect your investment, guard against intellectual property theft, and safeguard our
