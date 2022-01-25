@@ -21,7 +21,7 @@ Under the 'Use' column, first select and tick the audio interface which you wish
 
 Take note of the numbers of the outputs shown in a different colour (in this case, red), ensure that the clock source is configured to the input device, and that the sample rate is correct.
 
-In Rewind, open the configuration pane, and configure the Sample Rate and IO Device to that of the newly created Aggregate Device. Also, set the Output Assignments to the numbers as noted above.
+In Rewind, open the configuration pane ![cog](/img/rewind/ui-cog.png), and configure the Sample Rate and IO Device to that of the newly created Aggregate Device. Also, set the Output Assignments to the numbers as noted above.
 
 ![config](/img/rewind/ui-config.png)
 
