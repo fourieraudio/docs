@@ -6,7 +6,7 @@ sidebar_position: 8
 
 In situations where you wish to use the computer's local monitoring output (such as wired headphone output) to monitor another device (such as Dante Virtual Soundcard), you can make use of Apple's Aggregate Device functionality, combined with Rewind's output channel selector.
 
-Firstly, open Audio MIDI Setup from /Applications/Utilities.
+Firstly, open macOS Audio MIDI Setup from /Applications/Utilities:
 
 ![overview](/img/rewind/audiomidi-overview.png)
 
