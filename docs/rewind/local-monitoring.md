@@ -11,7 +11,7 @@ Firstly, open macOS Audio MIDI Setup from /Applications/Utilities:
 ![overview](/img/rewind/audiomidi-overview.png)
 
 
-Then click on the plus ![plus](/img/rewind/audiomidi-plus.png), and select 'Create Aggregate Device'.
+Then click on the plus ![plus](/img/rewind/audiomidi-plus.png) in the bottom left-hand corner of the window, and select 'Create Aggregate Device'.
 
 ![aggregate-overview](/img/rewind/audiomidi-aggregate-overview.png)
 
