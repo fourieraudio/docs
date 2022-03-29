@@ -44,10 +44,12 @@ place.
 
 3. Start *Fourier Rewind* and behold the wondrously lime splash screen. Magical.
 
-4. *Rewind* will have started by connecting to your system default audio interface. This will almost
+4. *Rewind* will have started by connecting to your system default audio interface.  This will almost
    certainly not be the interface that your show audio is on, so to select the correct interface,
    select the ![cog](/img/rewind/ui-cog.png) Cog button to open the configuration pane, and select
    the correct interface for your system. Click the big red button, and *Rewind* will come back
    connected to your show audio! Congrats, you now have time travel!
+
+**NB. when first running Fourier Rewind, ensure that the system default audio interface selected in System Preferences is the local IO (ie. 'MacBook Pro Microphone' and 'MacBook Pro Speaker' if on a MacBook Pro laptop). This is a bug with Jack that we are looking to resolve in a future release.**
 
 ![Configuration Interface](/img/rewind/ui-config.png)
