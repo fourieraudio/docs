@@ -13,7 +13,7 @@ Download the latest version of Fourier Rewind [here](https://fourieraudio.com/su
 * RTA added for professional and production license holders.
 
 ### Bug Fixes
-* Fixed bug where rewind would fail to report a newer version being available to the user.
+* Fixed bug where Rewind would fail to report a newer version being available to the user.
 
 ## v1.1.0
 7th March 2022

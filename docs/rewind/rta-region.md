@@ -13,4 +13,4 @@ It is important to note that the RTA only responds to the left output channel an
 
 The RTA has 60 bars between 20 Hz and 20 kHz each of width 1/6 of an octave.
 
-The RTA uses a 16384 sample FFT window size and a 50% overlap. It uses a Hann/Hanning window and the height of each bar is determined by the greatest height of any point within it.
+The RTA uses a 16384 sample FFT window size and a Hann/Hanning window with 50% overlap.
