@@ -7,11 +7,11 @@ sidebar_position: 9
 Rewind is available in three different editions, which differ only in the number of channels they
 can process:
 
-| Edition | Channels |
-|---------|----------|
-| Personal | 16 |
-| Professional | 64 |
-| Production | 128 (wow!) |
+| Edition | Channels | RTA |
+|---------|----------|-----|
+| Personal | 16 | No |
+| Professional | 64 | Yes |
+| Production | 128 (wow!) | Yes |
 
 To protect your investment, guard against intellectual property theft, and safeguard our
 R&D for the future, we use the *iLok* dongle system to license Rewind. You will need an iLok 2 or
