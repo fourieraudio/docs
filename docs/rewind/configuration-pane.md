@@ -33,6 +33,8 @@ You can select:
 * The amount of Time Travel you want Rewind to make available.
 * Which channels on the IO device you want the output to be mapped to.
 
+If the default IO is selected, the system will try to use the default devices (configured in macOS *System Preferences*), creating an aggregate device if necessary. Therefore both the default input and output devices must run at the same sample rate or Rewind will fail to start.
+
 Rewind will not let you configure it such that there is less than 4 GiB of RAM available for your
 system to perform background operations. The amount of RAM consumed by Rewind in the currently
 selected configuration is shown by the RAM Consumption slider.

@@ -42,9 +42,11 @@ place.
    reasonable terms, and, assuming you do, make a brand shining new entry in your Applications
    folder: "*Fourier Rewind*".
 
-3. Start *Fourier Rewind* and behold the wondrously lime splash screen. Magical.
+3. If your default input and output audio devices aren't the same, make sure they can both run at the same sample rate, or select the system's local IO as the default device instead (in macOS *System Preferences*). See [Troubleshooting](troubleshooting) for further information.
 
-4. *Rewind* will have started by connecting to your system default audio interface. This will almost
+4. Start *Fourier Rewind* and behold the wondrously lime splash screen. Magical.
+
+5. *Rewind* will have started by connecting to your system default audio interface.  This will almost
    certainly not be the interface that your show audio is on, so to select the correct interface,
    select the ![cog](/img/rewind/ui-cog.png) Cog button to open the configuration pane, and select
    the correct interface for your system. Click the big red button, and *Rewind* will come back

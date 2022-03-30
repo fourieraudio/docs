@@ -4,8 +4,7 @@ sidebar_position: 10
 
 # MIDI
 
-The *lingua franca* of inter-device communication, *of course* we speak MIDI! <small>(And OSC support is
-coming very soon...)</small>
+The *lingua franca* of inter-device communication, *of course* we speak MIDI! 
 
 Rewind will detect any *Core Audio* MIDI device present when it starts and can use it
 to select and deselect channels and to scroll or jump time forwards or backwards.
