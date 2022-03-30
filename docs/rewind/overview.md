@@ -10,6 +10,8 @@ So, what have we here? The interface is split into three key parts:
 1. At the **top right** the [RTA Region](rta-region),
 1. and at the **bottom**, the [Channel Selection Region](channel-selection-region).
 
+Note that the RTA Region will only appear if you have a professional or production license
+
 In the top right-hand corner there are two buttons that open:
 
 1. ![Configuration Pane](/img/rewind/ui-cog.png) The [configuration pane](configuration-pane).
