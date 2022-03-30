@@ -5,8 +5,9 @@ sidebar_position: 3
 # Overview
 ![Main Screenshot](/img/rewind/overview-screenshot.png)
 
-So, what have we here? The interface is split into two key parts:
-1. At the **top**, the [Time Control Region](time-control-region),
+So, what have we here? The interface is split into three key parts:
+1. At the **top left**, the [Time Control Region](time-control-region),
+1. At the **top right** the [RTA Region](rta-region),
 1. and at the **bottom**, the [Channel Selection Region](channel-selection-region).
 
 In the top right-hand corner there are two buttons that open:
