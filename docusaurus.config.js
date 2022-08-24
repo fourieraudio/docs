@@ -12,6 +12,9 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'fourieraudio', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
+  customFields: {
+    rwVersion: 'v1.2.0',
+  },
   themeConfig: {
     colorMode: {
       // "light" | "dark"
@@ -67,10 +70,6 @@ module.exports = {
           label: 'Rewind',
         },
         {
-          label: 'Downloads & FAQs',
-          href: 'https://www.fourieraudio.com/rewind-support',
-        },
-        {
           label: 'Website',
           href: 'https://www.fourieraudio.com',
         },
@@ -97,11 +96,7 @@ module.exports = {
             },
             {
               label: 'Twitter',
-              href: 'https://www.twitter.com/thefourieraudio',
-            },
-            {
-              label: 'Lab',
-              href: 'https://lab.fourieraudio.com',
+              href: 'https://www.twitter.com/fourieraudio',
             },
           ],
         },
