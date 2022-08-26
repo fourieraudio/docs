@@ -47,7 +47,7 @@ When you begin a Rewind trial, or purchase a Rewind licence, you will be asked f
 
 Once deposited to your account, in order to activate your licence:
 1. Launch iLok License Manager (installed with Rewind if you don't already have it)
-2. Login to your iLok account
+2. Log in to your iLok account
 3. Plug in your physical iLok (that is linked to that iLok account)
 4. Drag your Rewind licence to your iLok (shown in the left hand column of the screen)
 
