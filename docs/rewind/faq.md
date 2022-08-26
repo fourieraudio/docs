@@ -37,7 +37,7 @@ In the unlikely event that you’d like a refund,  please get in touch with us a
 
 ### Do you provide discounts?
 
-Yes. If you’re looking to purchase Rewind for multiple projects, or use it in an education setting (either as user or for teaching), please get in touch at [hello@fourieraudio.com](mailto:hello@fourieraudio.com). We’ll sort a pricing structure that works for you
+Yes. If you’re looking to purchase Rewind for multiple projects, or use it in an education setting (either as a student or as an educator), please get in touch at [hello@fourieraudio.com](mailto:hello@fourieraudio.com). We’ll sort a pricing structure that works for you.
 
 ### Something else?
 
