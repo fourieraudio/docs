@@ -12,9 +12,6 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'fourieraudio', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
-  customFields: {
-    rwVersion: 'v1.2.0',
-  },
   themeConfig: {
     colorMode: {
       // "light" | "dark"
