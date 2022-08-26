@@ -17,7 +17,7 @@ Rewind is in active development and we’d love your feedback! Please let us kno
 
 ### Can I rent Rewind?
 
-Not right now but if you would be interested in this, please get in touch by emailing hello@fourieraudio.com,
+Not right now - but if you would be interested in this, please get in touch by emailing [hello@fourieraudio.com](mailto:hello@fourieraudio.com).
 
 ### Does Rewind work with M1 Apple computers?
 
@@ -37,7 +37,7 @@ In the unlikely event that you’d like a refund,  please get in touch with us a
 
 ### Do you provide discounts?
 
-Yes. If you’re looking to purchase Rewind for multiple projects, or use it in an education setting (either as user or for teaching), please get in touch at [hello@fourieraudio.com](mailto:hello@fourieraudio.com). We’ll sort a pricing structure that works for you
+Yes. If you’re looking to purchase Rewind for multiple projects, or use it in an education setting (either as a student or as an educator), please get in touch at [hello@fourieraudio.com](mailto:hello@fourieraudio.com). We’ll sort a pricing structure that works for you.
 
 ### Something else?
 
