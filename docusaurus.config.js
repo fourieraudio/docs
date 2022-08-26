@@ -67,10 +67,6 @@ module.exports = {
           label: 'Rewind',
         },
         {
-          label: 'Downloads & FAQs',
-          href: 'https://www.fourieraudio.com/rewind-support',
-        },
-        {
           label: 'Website',
           href: 'https://www.fourieraudio.com',
         },
@@ -97,11 +93,7 @@ module.exports = {
             },
             {
               label: 'Twitter',
-              href: 'https://www.twitter.com/thefourieraudio',
-            },
-            {
-              label: 'Lab',
-              href: 'https://lab.fourieraudio.com',
+              href: 'https://www.twitter.com/fourieraudio',
             },
           ],
         },
