@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Release Notes
 
-Download the latest version of Fourier Rewind [here](https://downloads.fourieraudio.com/rewind/latest/FourierRewind-Latest.zip).
+Download the latest version of Fourier Rewind for macOS [here](https://downloads.fourieraudio.com/rewind/latest/FourierRewind-Latest.zip).
 
 ## Latest Release - v1.2.0
 30th March 2022
