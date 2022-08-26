@@ -17,7 +17,7 @@ Rewind is in active development and we’d love your feedback! Please let us kno
 
 ### Can I rent Rewind?
 
-Not right now but if you would be interested in this, please get in touch by emailing hello@fourieraudio.com,
+Not right now - but if you would be interested in this, please get in touch by emailing [hello@fourieraudio.com](mailto:hello@fourieraudio.com).
 
 ### Does Rewind work with M1 Apple computers?
 
