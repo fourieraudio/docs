@@ -1,5 +1,4 @@
-
-name: Deploy Docs to Doc
+name: Deploy Docs to Doc (Staging)
 
 on:
   push:
@@ -23,6 +22,10 @@ jobs:
 
     - name: Build docusaurus
       run: yarn build
+      env:
+        # Workaround for https://github.com/webpack/webpack/issues/14532
+        # See also https://github.com/facebook/docusaurus/issues/5778
+        NODE_OPTIONS: "--openssl-legacy-provider"
 
     - name: Send build to doc
       uses: appleboy/scp-action@master
@@ -31,7 +34,7 @@ jobs:
         username: fourier
         port: 22
         key: ${{ secrets.SSH_DOC_FOURIER }}
-        source: "/home/runner/work/docs/docs/build"
+        source: "/home/runner/work/pascal/pascal/build"
         target: "/home/fourier"
 
     - name: Copy to live docusaurus docusaurus directory
@@ -42,4 +45,4 @@ jobs:
         key: ${{ secrets.SSH_DOC_FOURIER }}
         port: 22
         script: |
-          sudo cp -r /home/fourier/github/workspace/build/* /var/www/docusaurus/live
+          sudo cp -r /home/fourier/github/workspace/build/* /var/www/docusaurus_staging/live
