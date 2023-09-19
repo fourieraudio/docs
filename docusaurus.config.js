@@ -26,33 +26,33 @@ module.exports = {
       respectPrefersColorScheme: false,
 
       // Dark/light switch icon options
-      switchConfig: {
-        // Icon for the switch while in dark mode
-        darkIcon: '🌙',
+      // switchConfig: {
+      //   // Icon for the switch while in dark mode
+      //   darkIcon: '🌙',
 
-        // CSS to apply to dark icon,
-        // React inline style object
-        // see https://reactjs.org/docs/dom-elements.html#style
-        darkIconStyle: {
-          marginLeft: '2px',
-        },
+      //   // CSS to apply to dark icon,
+      //   // React inline style object
+      //   // see https://reactjs.org/docs/dom-elements.html#style
+      //   darkIconStyle: {
+      //     marginLeft: '2px',
+      //   },
 
-        // Unicode icons such as '\u2600' will work
-        // Unicode with 5 chars require brackets: '\u{1F602}'
-        lightIcon: '\u{1F602}',
+      //   // Unicode icons such as '\u2600' will work
+      //   // Unicode with 5 chars require brackets: '\u{1F602}'
+      //   lightIcon: '\u{1F602}',
 
-        lightIconStyle: {
-          marginLeft: '1px',
-        },
-      },
+      //   lightIconStyle: {
+      //     marginLeft: '1px',
+      //   },
+      // },
     },
     navbar: {
       title: 'Fourier Audio',
-      logo: {
-        alt: 'Fourier Audio',
-        src: 'img/logo.svg',
-        href: '/docs/intro', // Default to `siteConfig.baseUrl`.
-      },
+      // logo: {
+      //   alt: 'Fourier Audio',
+      //   src: 'img/logo.svg',
+      //   href: '/docs/intro', // Default to `siteConfig.baseUrl`.
+      // },
       items: [
         {
           type: 'doc',
@@ -62,9 +62,9 @@ module.exports = {
         },
         {
           type: 'doc',
-          docId: 'rewind/intro',
+          docId: 'transform/intro',
           position: 'left',
-          label: 'Rewind',
+          label: 'Transform',
         },
         {
           label: 'Website',
@@ -78,6 +78,10 @@ module.exports = {
         {
           title: 'Docs',
           items: [
+            {
+              label: 'Transform',
+              to: '/docs/transform/intro',
+            },
             {
               label: 'Rewind',
               to: '/docs/rewind/intro',
