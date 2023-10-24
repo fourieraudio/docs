@@ -10,6 +10,7 @@ This page features some commonly asked questions regarding the **transform**.eng
 
 You will need:
 * A **transform**.engine (:wink:)
+* One or more Dante-enabled devices to patch the engine to
 * A computer running either Windows (10 upwards) or macOS (11 upwards) to control the engine.
 
 The **transform**.engine is controlled using the Transform Windows/macOS application, that will be free to download on this site.

@@ -48,11 +48,12 @@ module.exports = {
     },
     navbar: {
       title: 'Fourier Audio',
-      // logo: {
-      //   alt: 'Fourier Audio',
-      //   src: 'img/logo.svg',
-      //   href: '/docs/intro', // Default to `siteConfig.baseUrl`.
-      // },
+      logo: {
+        alt: 'Fourier Audio',
+        src: 'img/logo.svg',
+        href: '/docs/intro', // Default to `siteConfig.baseUrl`.
+        width: 60,
+      },
       items: [
         {
           type: 'doc',
@@ -64,7 +65,7 @@ module.exports = {
           type: 'doc',
           docId: 'transform/intro',
           position: 'left',
-          label: 'Transform',
+          label: 'transform.engine',
         },
         {
           label: 'Website',
