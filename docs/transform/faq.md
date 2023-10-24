@@ -11,11 +11,7 @@ This page features some commonly asked questions regarding the **transform**.eng
 You will need:
 * A **transform**.engine (:wink:)
 * One or more Dante-enabled devices to patch the engine to
-* A computer running either Windows (10 upwards) or macOS (11 upwards) to control the engine.
-
-The **transform**.engine is controlled using the Transform Windows/macOS application, that will be free to download on this site.
-
-The **transform**.engine is Dante-enabled, meaning that it can be integrated into any Dante system. More details about Dante can be found [here](https://www.audinate.com/video-series-getting-started-with-dante-audio-networking-training).
+* A computer to run the Transform control software, running either Windows (10 upwards) or macOS (11 upwards).
 
 ### How can I buy a **transform**.engineengine?
 
@@ -29,27 +25,29 @@ No. In order to deliver low latency and reliability, the **transform**.engine do
 
 The Windows/macOS application (on a separate computer) can be used to configure your engine and control the plugins.
 
-### Do I need a separate computer to control the **transform**.engine?
+### How can I configure the **transform**.engine?
 
-Yes, you will need a computer running either Windows (10 upwards) or macOS (11 upwards) to control the engine, using the Transform application.
+You can control the **transform**.engine with a computer running either Windows (10 upwards) or macOS (11 upwards), using the Transform control application. Once you're up and running, the **transform**.engine doesn't require the client to continue processing using your configuration!
 
 ### What plugins can I run?
 
-The **transform**.engine supports all VST3 native plugins, that can be installed and activated offline.
+The **transform**.engine supports all Windows VST3 plugins, that can be installed and activated offline.
 
 ### How many plugins can I run?
 
-This is very much down to the type of plugins you choose to run.
+How long is a piece of string? No two plugins are alike, so the number of plugins you can run will depend on the DSP load presented by each plugin. We don't limit the number of plugins you can run on a **transform**.engine beyond the amount of raw DSP available.
 
-The **transform**.engine will provide real-time feedback on how much processing is available, and provide a guide of how mcuh processing each installed plugin will require.
+The Transform application provides real-time feedback on the current DSP load, providing a live indication of how many more plugins you can add before your run out of processing.
 
-### Does the **transform**.engine client application work with M1 Apple computers?
+Benchmarks coming soon - watch this space!
+
+### Does the **transform**.engine  application work with Apple M1 computers?
 
 Yes it does! M1 computers are supported.
 
 ### How many channels can the **transform**.engine process?
 
-The **transform**.engine can process up to 64 bidirectional channels of audio, up to 96 kHz.
+The **transform**.engine has 64 channels of Dante input and 64 channels of Dante output. These can be freely assigned to chains as required. They can run at up to 96 kHz.
 
 ### I have a great idea for a feature. How can I let you know?
 
