@@ -16,7 +16,7 @@ The **transform**.engine is controlled using the Transform Windows/macOS applica
 
 The **transform**.engine is Dante-enabled, meaning that it can be integrated into any Dante system. More details about Dante can be found [here](https://www.audinate.com/video-series-getting-started-with-dante-audio-networking-training).
 
-### How can I buy a *transform.*engine?
+### How can I buy a **transform**.engineengine?
 
 The **transform**.engine will be distributed by DiGiCo's wonderful international dealers and distributors. To find your nearest one, visit their website [here](https://digico.biz/digico-contacts/).
 
