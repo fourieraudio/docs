@@ -13,17 +13,13 @@ You will need:
 * One or more Dante-enabled devices to patch the engine to
 * A computer to run the Transform control software, running either Windows (10 upwards) or macOS (11 upwards).
 
-### How can I buy a **transform**.engineengine?
+### How can I buy a **transform**.engine?
 
-The **transform**.engine will be distributed by DiGiCo's wonderful international dealers and distributors. To find your nearest one, visit their website [here](https://digico.biz/digico-contacts/).
+**transform**.engine will be shipping from Q1 2024. Be the first to know how to get your hands on it by signing up [here](https://82a5cty9u25.typeform.com/to/BQ74GE2D).
 
-**transform**.engine will be shipping from Q1 2024.
+### Do I need to plug a screen into the **transform**.engine?
 
-### Can I plug a screen into the **transform**.engine?
-
-No. In order to deliver low latency and reliability, the **transform**.engine does not have a video output.
-
-The Windows/macOS application (on a separate computer) can be used to configure your engine and control the plugins.
+No: the Transform application running on your computer connects to the **tranform**.engine over the network to control it; no additional screen necessary.
 
 ### How can I configure the **transform**.engine?
 
