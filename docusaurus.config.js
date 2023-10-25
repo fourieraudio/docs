@@ -65,7 +65,7 @@ module.exports = {
             },
             {
               label: 'Rewind',
-              to: '/docs/rewind/intro',
+              to: '/docs/legacy/rewind/intro',
             },
           ],
         },
