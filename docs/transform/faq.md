@@ -52,3 +52,7 @@ We’d love to hear your dream features! Please let us know your ideas at [hello
 ### Something else?
 
 Got another question? Drop us a line at [support@fourieraudio.com](mailto:support@fourieraudio.com) and we'll get back to you ASAP.
+
+
+VST is a trademark of Steinberg Media Technologies GmbH, registered in Europe and other countries
+![VST3 Logo](/img/vst.png)
