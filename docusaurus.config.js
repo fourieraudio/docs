@@ -25,26 +25,6 @@ module.exports = {
       // using user system preferences, instead of the hardcoded defaultMode
       respectPrefersColorScheme: false,
 
-      // Dark/light switch icon options
-      switchConfig: {
-        // Icon for the switch while in dark mode
-        darkIcon: '🌙',
-
-        // CSS to apply to dark icon,
-        // React inline style object
-        // see https://reactjs.org/docs/dom-elements.html#style
-        darkIconStyle: {
-          marginLeft: '2px',
-        },
-
-        // Unicode icons such as '\u2600' will work
-        // Unicode with 5 chars require brackets: '\u{1F602}'
-        lightIcon: '\u{1F602}',
-
-        lightIconStyle: {
-          marginLeft: '1px',
-        },
-      },
     },
     navbar: {
       title: 'Fourier Audio',
@@ -52,6 +32,7 @@ module.exports = {
         alt: 'Fourier Audio',
         src: 'img/logo.svg',
         href: '/docs/intro', // Default to `siteConfig.baseUrl`.
+        width: 60,
       },
       items: [
         {
@@ -62,9 +43,9 @@ module.exports = {
         },
         {
           type: 'doc',
-          docId: 'rewind/intro',
+          docId: 'transform/intro',
           position: 'left',
-          label: 'Rewind',
+          label: 'transform.engine',
         },
         {
           label: 'Website',
@@ -79,8 +60,12 @@ module.exports = {
           title: 'Docs',
           items: [
             {
+              label: 'Transform',
+              to: '/docs/transform/intro',
+            },
+            {
               label: 'Rewind',
-              to: '/docs/rewind/intro',
+              to: '/docs/legacy/rewind/intro',
             },
           ],
         },
