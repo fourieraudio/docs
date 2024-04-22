@@ -33,9 +33,10 @@ compatibility ranges at any time.</small>
 
 # Releases
 
-| Engine Version | Compatible Client Version | Release Date | Latest | Release Notes        |
+| Engine Version | Compatible Client Version | Release Date | Latest |                      |
 | -------------- | ------------------------- | ------------ | ------ | -------------------- |
-| 1.0.0          | 1.0.0                     | 22/04/2024   | Yes    | [Click here](v1-0-0) |
+| 1.0.0          | 1.0.0                     | 22/04/2024   |        | [Release notes](v1-0-0) |
+| "              | 1.0.1                     | 22/04/2024   | Yes    | [Release notes](v1-0-1) |
 
 :::note
 
