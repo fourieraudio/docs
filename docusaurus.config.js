@@ -1,21 +1,26 @@
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'Fourier Audio',
-  tagline: '',
-  url: 'https://docs.fourieraudio.com',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'fourieraudio', // Usually your GitHub org/user name.
-  projectName: 'docs', // Usually your repo name.
+  title: "Fourier Audio",
+  tagline: "",
+  url: "https://docs.fourieraudio.com",
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  markdown: {
+    mermaid: true,
+  },
+  favicon: "img/favicon.ico",
+  organizationName: "fourieraudio", // Usually your GitHub org/user name.
+  projectName: "docs", // Usually your repo name.
+  plugins: [require.resolve("docusaurus-lunr-search")],
+  themes: ["@docusaurus/theme-mermaid"],
   themeConfig: {
     colorMode: {
       // "light" | "dark"
-      defaultMode: 'dark',
+      defaultMode: "dark",
 
       // Hides the switch in the navbar
       // Useful if you want to support a single color mode
@@ -24,70 +29,74 @@ module.exports = {
       // Should we use the prefers-color-scheme media-query,
       // using user system preferences, instead of the hardcoded defaultMode
       respectPrefersColorScheme: false,
-
     },
     navbar: {
-      title: 'Fourier Audio',
+      title: "Fourier Audio",
       logo: {
-        alt: 'Fourier Audio',
-        src: 'img/logo.svg',
-        href: '/docs/intro', // Default to `siteConfig.baseUrl`.
+        alt: "Fourier Audio",
+        src: "img/logo.svg",
         width: 60,
       },
       items: [
         {
-          type: 'doc',
-          docId: 'intro',
-          position: 'left',
-          label: 'Welcome & Support',
+          type: "doc",
+          docId: "support",
+          position: "left",
+          label: "Support",
         },
         {
-          type: 'doc',
-          docId: 'transform/intro',
-          position: 'left',
-          label: 'transform.engine',
+          type: "doc",
+          docId: "manual/manual",
+          position: "left",
+          label: "User Manual",
         },
         {
-          label: 'Website',
-          href: 'https://www.fourieraudio.com',
+          type: "doc",
+          docId: "downloads/index",
+          position: "left",
+          label: "Downloads",
+        },
+        {
+          label: "Forum",
+          href: "https://discourse.fourieraudio.com",
+        },
+        {
+          label: "Website",
+          href: "https://www.fourieraudio.com",
         },
       ],
     },
     footer: {
-      style: 'dark',
+      style: "dark",
       links: [
         {
-          title: 'Docs',
+          title: "Docs",
           items: [
             {
-              label: 'Transform',
-              to: '/docs/transform/intro',
-            },
-            {
-              label: 'Rewind',
-              to: '/docs/legacy/rewind/intro',
+              label: "transform.engine",
+              to: "/",
             },
           ],
         },
         {
-          title: 'Fourier Audio',
+          title: "Fourier Audio",
           items: [
             {
-              label: 'Website',
-              href: 'https://www.fourieraudio.com',
+              label: "Website",
+              href: "https://www.fourieraudio.com",
             },
             {
-              label: 'Twitter',
-              href: 'https://www.twitter.com/fourieraudio',
+              label: "Twitter",
+              href: "https://www.twitter.com/fourieraudio",
             },
           ],
         },
         {
-          title: 'More',
+          title: "More",
           items: [
             {
-              label: 'GitHub',
-              href: 'https://github.com/fourieraudio/docs',
+              label: "GitHub",
+              href: "https://github.com/fourieraudio/docs",
             },
           ],
         },
@@ -101,16 +110,16 @@ module.exports = {
   },
   presets: [
     [
-      '@docusaurus/preset-classic',
+      "@docusaurus/preset-classic",
       {
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/fourieraudio/docs/blob/main/',
+          routeBasePath: '/',
+          sidebarPath: require.resolve("./sidebars.js"),
+          editUrl: "https://github.com/fourieraudio/docs/blob/main/",
         },
+        blog: false,
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       },
     ],
