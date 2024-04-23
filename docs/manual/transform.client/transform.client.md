@@ -23,6 +23,13 @@ Launch the **transform**.client, and select 'Connect to new device', input the I
 
 And voila, you're in!
 
+:::warning
+
+Please note that at this time, the **transform**.client must be connected by static, or DHCP, IP addres - not link-local; see [known issue TF-1686](../known-issues).
+This will be resolved in a future release.
+
+:::
+
 ### Multiple Clients
 
 Multiple users on different devices can connect to the same **transform**.engine and make edits to different plugins at the same time.

@@ -45,6 +45,13 @@ In order for the audio engine to start (enabling you to install, open and plugin
 
 :::
 
+:::warning
+
+Please note that at this time, the **transform**.client must be connected by static, or DHCP, IP addres - not link-local; see [known issue TF-1686](../known-issues).
+This will be resolved in a future release.
+
+:::
+
 # Step 4: Configure the IP address of the client computer
 
 On your Windows or macOS computer (that you have connected to your **transform**.engine as per
