@@ -17,3 +17,10 @@ You will need:
 
 Using the OLED display on the front of the unit, you can configure the IP address for the Dante Control, Primary and Secondary connections.
 For more details on this, see [here](../transform.engine/oled).
+
+:::warning
+
+Please note that at this time, the **transform**.client must be connected by either a static or DHCP IP address - **not link-local**; see [known issue TF-1686](../known-issues).
+This will be resolved in a future release.
+
+:::
