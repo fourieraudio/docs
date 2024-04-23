@@ -25,7 +25,7 @@ And voila, you're in!
 
 :::warning
 
-Please note that at this time, the **transform**.client must be connected by static, or DHCP, IP addres - not link-local; see [known issue TF-1686](../known-issues).
+Please note that at this time, the **transform**.client must be connected by either a static or DHCP IP address - **not link-local**; see [known issue TF-1686](../known-issues).
 This will be resolved in a future release.
 
 :::
