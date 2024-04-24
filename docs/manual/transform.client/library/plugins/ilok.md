@@ -14,7 +14,7 @@ As the Windows environment cannot access the internet, iLok protected plugins mu
 
 A number of plugin manufacturers use iLok for plugin licensing. We've put a guide below to get you up to speed.
 
-For plugin manufacturer specific licensing, find them [here](manufacturers).
+For plugin manufacturer specific licensing, find them [here](./manufacturers).
 
 How to license your **iLok** protected plugins on the **transform**.engine:
 

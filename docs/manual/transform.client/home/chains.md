@@ -17,7 +17,7 @@ Click add and a plugin chain will appear, with audio passing from top to bottom.
 - Name - Definable text and colour
 - Input - Select Audio input
 - Plus - Add plugins
-- Delay Compensation - Auto-align your outputs, more info [here](delay-compensation.md).
+- Delay Compensation - Auto-align your outputs, more info [here](./delay-compensation).
 - Output - Select Audio output
 
 Five different states of your plugins:

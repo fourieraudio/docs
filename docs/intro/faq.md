@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # FAQs
 
-This page features some commonly asked questions regarding the **transform**.engine. 
+This page features some commonly asked questions regarding the **transform**.engine.
 
 You might like to check out the [spec sheet](hardware-specifications)!
 
@@ -18,7 +18,7 @@ You will need:
 
 ### How can I buy a **transform**.engine?
 
-**transform**.engine is shipping now 🎉! Contact your [local dealer](https://fourieraudio.com/where-to-buy/) to get your hands on one.
+**transform**.engine is shipping now 🎉! Contact your [local dealer](https://fourieraudio.com/where-to-buy-find/) to get your hands on one.
 
 ### Do I need to plug a screen into the **transform**.engine?
 
