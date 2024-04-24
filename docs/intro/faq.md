@@ -6,7 +6,7 @@ sidebar_position: 2
 
 This page features some commonly asked questions regarding the **transform**.engine. 
 
-You might like to check out the [spec sheet](hardware-specifications)!
+You might like to check out the [spec sheet](./hardware-specifications.md)!
 
 ### What will I need in order to get started with the **transform**.engine?
 
@@ -31,7 +31,7 @@ You can control the **transform**.engine with a computer running either Windows 
 ### What plugins can I run?
 
 The **transform**.engine supports Windows VST3 plugins that can be installed and activated offline.
-For more info see our [plugin compatibility database](/plugin-database).
+For more info see our [plugin compatibility database](../plugin-database.md).
 
 ### How many plugins can I run?
 

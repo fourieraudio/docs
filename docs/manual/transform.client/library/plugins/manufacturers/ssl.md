@@ -10,13 +10,13 @@ How to install **Solid State Logic** plugins on your **transform**.engine!
 
 **Plugin Download Link:** [SSL Plugins](https://support.solidstatelogic.com/hc/en-gb/articles/4849510029085-SSL-and-Harrison-Plug-in-Downloads#ssl-and-harrison-plug-in-downloads-0-0)
 
-**Licensing Method:** iLok ([Licensing Guide](../ilok))
+**Licensing Method:** iLok ([Licensing Guide](../ilok.md)
 
 **Plugin Format:** Windows VST3
 
 **Installer File Format:** `.exe`
 
-1. After following the [Accessing Windows steps](../installation#accessing-windows-to-install-plugins), you will be in a position to install plugins.
+1. After following the [Accessing Windows steps](../installation.md#accessing-windows-to-install-plugins), you will be in a position to install plugins.
 2. On your personal device, download the desired plugin(s) for a Windows OS from the above link, it should be in a `.exe` file format.
 3. Copy this installer file to a USB stick.
 4. Plug it into any of the USB ports on the **transform**.engine.

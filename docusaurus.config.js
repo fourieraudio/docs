@@ -7,6 +7,7 @@ module.exports = {
   tagline: "",
   url: "https://docs.fourieraudio.com",
   baseUrl: "/",
+  trailingSlash: true,
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   markdown: {

@@ -11,9 +11,9 @@ Deliberately designed to be simple, we want to get you up and running in next to
 
 Split into three tabs:
 
-1. Accessible at the top left: [**Home**](home) - Build your plugin chains.
-2. Next door to Home: [**Library**](library) - Your toolbox, add and remove plugins.
-3. Top right corner: [**System**](system/showfiles) - allows you to set up your show, and get under the hood of your **transform**.engine.
+1. Accessible at the top left: [**Home**](home/home.md) - Build your plugin chains.
+2. Next door to Home: [**Library**](library/library.md) - Your toolbox, add and remove plugins.
+3. Top right corner: [**System**](system/showfiles.md) - allows you to set up your show, and get under the hood of your **transform**.engine.
 
 ### Connecting to your **transform**.engine.
 
@@ -25,7 +25,7 @@ And voila, you're in!
 
 :::warning
 
-Please note that at this time, the **transform**.client must be connected by either a static or DHCP IP address - **not link-local**; see [known issue TF-1686](../known-issues).
+Please note that at this time, the **transform**.client must be connected by either a static or DHCP IP address - **not link-local**; see [known issue TF-1686](../known-issues.md).
 This will be resolved in a future release.
 
 :::

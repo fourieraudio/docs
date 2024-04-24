@@ -36,7 +36,7 @@ Five different states of your plugins:
 
 5. <img src={pluginfailed} alt="Plugin status - failed icon" width="100" /> **Failed**- The system has tried to get this plugin to start but has failed. Try using the 'Test Run' feature in Add/Remove plugins.
 
-Whilst in the top tool bar, you'll see a 'DSP load' bar, to give you a live indication of how much processing power is being used by your plugins. For a more detailed look, click on it and you will be taken to the [Performance](../system/performance) tab.
+Whilst in the top tool bar, you'll see a 'DSP load' bar, to give you a live indication of how much processing power is being used by your plugins. For a more detailed look, click on it and you will be taken to the [Performance](../system/performance.md) tab.
 
 ![Home tab with 6 chains](/img/transformclient/home-chains.png)
 

@@ -11,7 +11,7 @@ When a channel is selected, its audio will be sent to the outputs. Additionally,
 monitors each channel, and the selection button shows the configured colour and label.
 
 The channel selection region automatically expands to the number of channels enabled by the
-[licence](licensing) you have purchased. The screenshot shows a 32-channel configuration, with
+[licence](licensing.md) you have purchased. The screenshot shows a 32-channel configuration, with
 channels 2 and 3 currently selected.
 
 ## Signal Indicators

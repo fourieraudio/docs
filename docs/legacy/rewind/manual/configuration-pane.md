@@ -9,10 +9,10 @@ Rewind main interface.
 The configuration pane allows you to configure two types of setting:
 
 * **System Settings**: These are local to your computer, and relate to the particular audio
-  configuration of that machine. They are not saved in your [showfile](showfiles).
+  configuration of that machine. They are not saved in your [showfile](showfiles.md).
 
 * **User Settings**: These are settings that relate to how you want Rewind to act, and are not
-  specific to a given computer. They are saved into your [showfile](showfiles).
+  specific to a given computer. They are saved into your [showfile](showfiles.md).
 
 Use the tabs to navigate between the two types of setting.
 
