@@ -57,11 +57,11 @@ Ethernet network to use **transform**.engine; `100BASE-T` (IEEE 802.3u) networks
 :::warning
 
 Please note that at this time, the Secondary network must be configured to use **Static** or
-**DHCP** addressing for Dante Redundancy support; see [known issue TF-944](../known-issues).
+**DHCP** addressing for Dante Redundancy support; see [known issue TF-944](../known-issues.md).
 Link-local Dante Secondary will be supported in a future release.
 
 :::
 
-Example system configurations can be found [here!](dante-network-examples)
+Example system configurations can be found [here!](dante-network-examples.md)
 
 For further information about Dante network settings and support, please visit: https://www.audinate.com/support

@@ -24,7 +24,7 @@ place.
   Make sure you have enough RAM for the number of channels, sample rate, and amount of time travel
   you desire: 16 GiB is recommended as a _minimum_, and large systems or systems running at high
   sample rates should have 32 GiB. The amount of RAM that Rewind will use can be
-  [configured](configuration-pane) to taste.
+  [configured](configuration-pane.md) to taste.
 
 - **An almost fanatical devotion to Rewind**: For reliable show-critical audio playback with
   demanding configurations (over 2/3 of system RAM used by *Rewind*), quit any other applications
@@ -42,7 +42,7 @@ place.
    reasonable terms, and, assuming you do, make a brand shining new entry in your Applications
    folder: "*Fourier Rewind*".
 
-3. If your default input and output audio devices aren't the same, make sure they can both run at the same sample rate, or select the system's local IO as the default device instead (in macOS *System Preferences*). See [Troubleshooting](troubleshooting) for further information.
+3. If your default input and output audio devices aren't the same, make sure they can both run at the same sample rate, or select the system's local IO as the default device instead (in macOS *System Preferences*). See [Troubleshooting](troubleshooting.md) for further information.
 
 4. Start *Fourier Rewind* and behold the wondrously lime splash screen. Magical.
 

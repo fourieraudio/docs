@@ -23,7 +23,7 @@ Be sure to read diligently the important information in the safety instructions!
 
 # Step 2: Plug it in
 
-Start by plugging in the network connections to a Dante network. To see some of the various options for network configuration, check out our handy manual page [here](installation/dante-network-examples).
+Start by plugging in the network connections to a Dante network. To see some of the various options for network configuration, check out our handy manual page [here](installation/dante-network-examples.md).
 
 Next, take your IEC cable and plug it into the **transform**.engine, and turn the power switch on.
 Wait for the engine to start: this may take a couple of minutes.
@@ -47,7 +47,7 @@ In order for the audio engine to start (enabling you to install, open and plugin
 
 :::warning
 
-Please note that at this time, the **transform**.client must be connected by either a static or DHCP IP address - **not link-local**; see [known issue TF-1686](./known-issues).
+Please note that at this time, the **transform**.client must be connected by either a static or DHCP IP address - **not link-local**; see [known issue TF-1686](known-issues.md).
 This will be resolved in a future release.
 
 :::
@@ -61,7 +61,7 @@ On your Windows or macOS computer (that you have connected to your **transform**
 
 # Step 5: Install the **transform**.client software
 
-Download the latest version of the **transform**.client software [here](../downloads).
+Download the latest version of the **transform**.client software [here](../downloads/index.md).
 
 Then install the **transform**.client software onto your computer following the Installer instructions.
 

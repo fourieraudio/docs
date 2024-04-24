@@ -7,7 +7,7 @@ sidebar_label: Audio Configuration
 
 As the **transform**.engine uses Dante, the principal audio configuration options can be found in Dante Controller.
 
-When running Dante Controller (for further details on where to find the latest version, click [here](dante)), firstly click on the **transform**.engine that you wish to configure, and then select the "Device Config" tab.
+When running Dante Controller (for further details on where to find the latest version, click [here](dante.md)), firstly click on the **transform**.engine that you wish to configure, and then select the "Device Config" tab.
 
 There you are able to set the sample rate of that **transform**.engine, as well as the sample encoding and Dante network latency.
 
@@ -54,4 +54,4 @@ Available period sizes are:
 - 32 samples (1 ms internal latency at 96 kHz)
 - 64 samples (2 ms internal latency at 96 kHz)
 
-The buffer size can be configured in the **transform**.client software, with details available [here](../transform.client/system/system-status).
+The buffer size can be configured in the **transform**.client software, with details available [here](../transform.client/system/system-status.md).

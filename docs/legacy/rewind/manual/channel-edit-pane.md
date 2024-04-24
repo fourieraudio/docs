@@ -11,7 +11,7 @@ Rewind main interface.
 The channel edit pane can be used to configure the channels in your show.
 
 Each channel can optionally be labelled and have a colour assigned. If assigned,
-they will be shown in the [Channel Selection Region](channel-selection-region):
+they will be shown in the [Channel Selection Region](channel-selection-region.md):
 ![Channel Selection Button with label and colour](/img/rewind/ui-channel-button.png).
 
 You can copy and paste channel name data directly into *Rewind* from your favourite
