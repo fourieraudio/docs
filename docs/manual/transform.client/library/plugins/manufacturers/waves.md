@@ -20,7 +20,7 @@ How to install **Waves** plugins on your **transform**.engine!
 
 :::warning
 
-When scanning for newly installed Waves Plugins, the **transform**.client may invite you to intervene and 'Open Host'; please ignore this and wait for the system to complete the scan automatically; see [known issue TF-1702](../../../../known-issues).
+When scanning for newly installed Waves Plugins, the **transform**.client may invite you to intervene and 'Open Host'; please ignore this and wait for the system to complete the scan automatically.
 
 :::
 
