@@ -18,6 +18,12 @@ How to install **Waves** plugins on your **transform**.engine!
 
 **Waves Support Website:** [Waves Support](https://www.waves.com/support)
 
+:::warning
+
+When scanning for newly installed Waves Plugins, the **transform**.client may invite you to intervene and 'Open Host'; please ignore this and wait for the system to complete the scan automatically.
+
+:::
+
 1. After following the [Accessing Windows steps](../installation#accessing-windows-to-install-plugins), you will be in a position to install plugins.
 2. On your personal device, download Waves Central using the link above.
 3. Once installed, launch Waves Central and log into your Waves account.
@@ -30,7 +36,7 @@ How to install **Waves** plugins on your **transform**.engine!
 10. Locate your USB stick in the window and find your Waves folder.
 11. Install Waves Central from this folder.
 12. Once installed, select 'Offline Installer' like before, and select 'Install from an Offline Installer' in the bottom toolbar.
-14. Repeat the process if you have further plugins to install.
+13. Repeat the process if you have further plugins to install.
 
 ### Licensing
 
