@@ -19,7 +19,7 @@ Whilst some plugin manufacturers use OpenGL, for optimum performance on the **tr
 
 ### VSTi
 
-Whilst we support VST3s, your VSTis won't get past our plugin scanner, sorry. They run a tight ship, and if you're name isn't VST3, you're not getting in.
+Whilst we support VST3s, your VSTis won't get past our plugin scanner, sorry. They run a tight ship, and if your name isn't VST3, you're not getting in.
 
 ### Multi-channel
 
