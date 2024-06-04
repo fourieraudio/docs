@@ -7,13 +7,19 @@ sidebar_label: Network Examples
 
 This page features examples of different network designs depending on user requirements.
 
+:::tip
+
+To ensure Control and Primary network traffic are kept separate, you will be unable to make Dante cross points over the Control port. For point to point audio connections, you will need to break the connection, plug your Dante devices and personal device running Dante Controller.
+
+:::
+
 ### Simple Set Up
 
 ![simple-te-set-up-configuration](../../../static/img/dante-network-examples/simple-set-up-configuration.png)
 
 **Advantages**
 
-- No network switches required
+- A network switch is required to set up the Dante patching but you can then remove it and make a point to point connection between your **transform**.engine and other Dante device once done.
 - Point to point audio transport, optimum latency
 - Optional secondary audio connection for redundancy
 

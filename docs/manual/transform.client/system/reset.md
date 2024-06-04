@@ -19,7 +19,7 @@ If you are looking to only delete one showfile, you can do so in the **Showfiles
 
 :::
 
-### Windows Reset
+### Plugin Host Reset
 
 This one is for special occasions only. Say you've just received a transform.engine that already has some plugins on it... This option will enable you to reset the Windows environment back to the factory default - i.e. it will uninstall **all** plugins from the **transform**.engine.
 
