@@ -10,7 +10,7 @@ How to install **Solid State Logic** plugins on your **transform**.engine!
 
 **Plugin Download Link:** [SSL Plugins](https://support.solidstatelogic.com/hc/en-gb/articles/4849510029085-SSL-and-Harrison-Plug-in-Downloads#ssl-and-harrison-plug-in-downloads-0-0)
 
-**Licensing Method:** iLok ([Licensing Guide](../ilok.md)
+**Licensing Method:** iLok ([Licensing Guide](../ilok.md))
 
 **Plugin Format:** Windows VST3
 
