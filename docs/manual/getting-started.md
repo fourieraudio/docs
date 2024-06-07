@@ -3,6 +3,8 @@ sidebar_position: 0
 ---
 
 import ReactPlayer from 'react-player'
+import SplashScreen from '../../static/img/transformclient/transform.client-connection-screen.png'
+import SplashScreen2 from '../../static/img/transformclient/transform.client-connection-screen-2.png'
 
 # Getting Started
 
@@ -135,13 +137,13 @@ Your devices will now be patched 1 to 1!
 
 Whilst Dante is very clever, ensuring your clock settings are correct are vital for crystal clear audio.
 
-Dante will automatically select a clock leader, but if for example you are using a Digico console, and the console is set to anything other than the DMI-Dante card as the sync primary. You will need to ensure your DMI-Dante card takes it's sync from the console. To do this, in Dante controller, in clock status, you need to tick the 'Preferred Leader' box and 'Enable Sync to External' on your DMI-Dante card.
+Dante will automatically select a clock leader, but if for example you are using a Digico console, and the console is set to anything other than the DMI-Dante card as the sync primary. You will need to ensure your DMI-Dante card takes it's sync from the console. To do this, in Dante controller, under clock status, you need to tick the 'Preferred Leader' box and 'Enable Sync to External' on your DMI-Dante card.
 
 ![Dante controller- Clock Status](../../static/img/dante-network-examples/Dante-controller-clock-settings.png)
 
 This means your Dante network will be clocking from your console sync. If you don't do this, your console and Dante network will be running to different clocks and could lead to potential problems! 
 
-Once patching and clocking is done, unplug the **transform**.engine, audio console and personal computer from the network switch. Plug the primary connection directly from **transform**.engine to the primary port of the  audio console (do the same for secondary if in use). 
+Once patching and clocking is done, unplug the **transform**.engine, audio console and personal computer from the network switch. Plug the primary connection directly from **transform**.engine to the primary connection of the audio console (do the same for secondary if in use). 
 
 We are now ready for audio, let’s prep **transform**.client! 
 
@@ -158,20 +160,24 @@ Download **transform**.client from our website [here](../downloads/index.md), an
 With your audio connections now patched and connected, plug a cable from the control port of the **transform**.engine to your personal computer. You will then need to edit the IP settings of your personal computer.
 
 ### Current Personal Computer IP settings:
-Mode: Static
-IP: 192.168.1.200  (this was for Dante patching)
-Subnet: 255.255.255.0  (equivalent to  /24)
+Mode: **Static**  
+IP: **192.168.1.200**  (this was for Dante patching)  
+Subnet: **255.255.255.0**  (equivalent to  /24)  
 
 ### New Personal Computer IP Settings:
-Mode: Static
-IP: 192.168.3.200
-Subnet: 255.255.255.0  (equivalent to  /24)
+Mode: **Static**  
+IP: **192.168.3.200**  
+Subnet: **255.255.255.0**  (equivalent to  /24)  
 
 Your personal computer and the control port of the **transform**.engine are now on the same subnet and will be able to talk to one another! 
 
 Launch **transform**.client! You’ll be presented with a window like this:
 
+<img src={SplashScreen} width="450"/>
+
 Select ‘Connect to new device’ and enter the IP address (in this case 192.168.3.100), hit enter, and voila! 
+
+<img src={SplashScreen2} width="450"/>
 
 Your **transform**.engine has been found, click the device and you’ll be ready to enter the new world of plugins, live.
 
@@ -191,13 +197,13 @@ However, if your **transform**.engine is on a different version to your **transf
 
 **Second klaxon** (and friendly reminder): the **transform**.client has the associated **transform**.engine firmware bundled into the software, hence you don’t need an extra file. Wherever your **transform**.client software goes, the relevant firmware will be there too! 
 
+:::
+
 When the **transform**.engine and **transform**.client are on incompatible versions, when selecting your **transform**.engine in the  **transform**.client, it will launch directly to the ‘Software’ tab, do not pass go, do not collect $200. 
 
 At this point you will see the message ‘Upgrade to ??.??.?? (required)’ and you will be unable to do anything else. Select upgrade and it will do its thing, once finished, you’ll be prompted to restart and your **transform**.engine will be firing on all cylinders in no time. This will ensure maximum performance and compatibility! 
 
 If you have any problems when upgrading - please don't hesitate to drop us an email at support@fourieraudio.com and we'll get back to you ASAP.
-
-:::
 
 # Step 7: Installing Plugins
 
@@ -207,11 +213,11 @@ Here's Elliot talking you through plugin installation.
 
 <ReactPlayer controls url="https://www.youtube.com/watch?v=wM6M_uJXXxI" />
 
-To install plugins and licence some plugins on your **transform**.engine, you will need to install them in the virtual Windows 10 environment.
+To install plugins and licence some plugins on your **transform**.engine, you will need to install them in the Plugin Host (Windows 10 environment).
 
-We will  use a SSL plugin as  example below, we also have a range of walk through guides to installation and licensing on our website from various manufacturers, [here](https://docs.fourieraudio.com/manual/**transform**.client/library/plugins/manufacturers/).
+We will  use a SSL plugin as an example below, we also have a range of walk through guides to installation and licensing on our website from various manufacturers, [here](https://docs.fourieraudio.com/manual/**transform**.client/library/plugins/manufacturers/).
 
-### Accessing Windows Environment
+### Accessing the Plugin Host
 
 1. Open the Fourier Audio Transform client software. 
 2. Select the **transform**.engine you would like to install the plugins onto.
@@ -219,7 +225,7 @@ We will  use a SSL plugin as  example below, we also have a range of walk throug
 4. A warning message will appear ‘This will stop the audio engine, are you sure you want to continue?’. If happy to proceed, select ‘Continue to Add/Remove Plugins’.
 5. Your installed plugins will appear in the list, to add more, select ‘Open plugin host’, this will take you to the virtualized Windows 10 environment.
 
-Once into the Windows 10 environment, install plugins as you normally would on any Windows 10 system. Example of an SSL plugin below:
+Once in the Plugin Host, install plugins as you normally would on any Windows 10 system. Example of an SSL plugin below:
 
 1. After following the ‘Accessing Windows Environment’, you will be in a position to install plugins.
 2. On your personal device, download the desired plugin(s) for a Windows OS from the above link, it should be in a `.exe` file format.
@@ -242,8 +248,9 @@ Here's Elliot talking you through showfile management and system status.
 If you select the System tab, you will see 5 tabs on the right hand side.
 
 **Showfiles-** **transform**.engine automatically saves every change you make, immediately, but if you want to take your show file elsewhere, or copy it, you can do it here.
-System Status- an overview of the different components of your system. Key detail here is ‘Audio IO’, this will tell you if the audio engine is ‘Running’ and a spinning cog for visual feedback! 
-**Performance-** a more detailed looked at the DSP load
-**Software-** version numbers and log files! 
-**System Reset-** proceed with extreme caution, delete all show files, and return the plugin host to its factory default (removes all installed plugins and  any license files stored in the plugin host environment). Your box will be brand new! Remember: with great power, comes great responsibility. 
-For more detailed information, please visit https://docs.fourieraudio.com/manual/**transform**.client/! 
+System Status- an overview of the different components of your system. Key detail here is ‘Audio IO’, this will tell you if the audio engine is ‘Running’ and a spinning cog for visual feedback!  
+**Performance-** a more detailed looked at the DSP load.  
+**Software-** version numbers and log files!  
+**System Reset-** proceed with extreme caution, delete all show files, and return the plugin host to its factory default (removes all installed plugins and  any license files stored in the plugin host environment). Your box will be brand new! Remember: with great power, comes great responsibility.  
+
+For more detailed information, please click [here](../../docs/manual/transform.client/system/system-status.md). 
