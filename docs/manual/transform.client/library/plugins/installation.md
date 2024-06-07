@@ -9,7 +9,7 @@ import warningmessage from '../../../../../static/img/transformclient/popup-add-
 
 The **transform**.engine hosts all plugins within an isolated Windows 10 environment.
 
-### Accessing Windows to Install Plugins
+### Accessing the Plugin Host to Install Plugins
 
 To install all plugins on the **transform**.engine, you will need to access the plugin hosting environment that runs in the background.
 
