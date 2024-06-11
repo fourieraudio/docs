@@ -7,7 +7,9 @@ sidebar_label: Plugins
 
 The MVP of the **transform**.engine, plugins!
 
-Here you'll find handy guides on how to install and license a number of different manufacturers plugins.
+It's the same process as installing any plugin on a Windows 10 offline computer. No suprises! 
+
+To help you get going, you'll find handy guides on how to install and license a number of different manufacturers plugins.
 
 Whilst we've sought to include a large and varied list of manufacturers, if you think we have missed someone, let us know on [hello@fourieraudio.com](mailto:hello@fourieraudio.com)!
 
