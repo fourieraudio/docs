@@ -7,7 +7,7 @@ sidebar_label: Unsupported
 
 The **transform**.engine aims to support any Windows 10 compatible plugin that can be installed and
 activated offline. The Windows plugin hosting environment has no internet access to ensure it
-remains pristine reliable, end show-ready.
+remains pristine, reliable, and show-ready.
 
 Unfortunately, a small number of manufacturers currently do not support a fully-offline installation
 process. Whilst we're working hard to find solutions for these, at the moment plugins from these
