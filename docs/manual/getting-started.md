@@ -18,7 +18,7 @@ This page will hopefully get you up and running as soon as possible, we've kept 
 
 :::
 
-# Step 1: Unpack the cardboard box
+## Step 1: Unpack the cardboard box
 
 The fun bit! Carefully unpack your **transform**.engine from the box. In the box, you will find:
 
@@ -29,14 +29,14 @@ The fun bit! Carefully unpack your **transform**.engine from the box. In the box
 If you are missing any of the above - please get in touch with your supplier and they will be able to help.
 Be sure to read diligently the important information in the safety instructions!
 
-# Step 2: Plug it in
+## Step 2: Plug it in
 
 Start by plugging in the network connections to a Dante network. To see some of the various options for network configuration, check out our handy manual page [here](installation/dante-network-examples.md).
 
 Next, take your IEC cable and plug it into the **transform**.engine, and turn the power switch on.
 Wait for the engine to start: this may take a couple of minutes.
 
-# Step 3: Configure the IP address(es) of the **transform**.engine
+## Step 3: Configure the IP address(es) of the **transform**.engine
 
 For the purposes of this getting started guide, we will assume it is a fairly simple setup, consisting of 1x **transform**.engine, 1x Dante enabled audio mixing console, and 1x personal computer to run the **transform**.client on.
 
@@ -51,27 +51,27 @@ Please bear in mind, we will use example IP addresses below, but please configur
 :::
 
 
-## Example **transform**.engine IP addresses:
+### Example **transform**.engine IP addresses:
 
-### Primary
+#### Primary
 Mode: **Static**  
 IP: **192.168.1.100**  
 Subnet Prefix: **/24**  (equivalent to  255.255.255.0)    
 Gateway: **N/A**  
 
-### Secondary  (optional)
+#### Secondary  (optional)
 Mode: **Static**  
 IP: **192.168.2.100**  
 Subnet Prefix: **/24**  (equivalent to  255.255.255.0)     
 Gateway: **N/A**  
 
-### Control
+#### Control
 Mode: **Static**  
 IP: **192.168.3.100**  
 Subnet Prefix: **/24**  (equivalent to  255.255.255.0)   
 Gateway: **N/A**  
 
-## Example Dante enabled audio mixing console IP addresses
+### Example Dante enabled audio mixing console IP addresses
 
 :::tip
 
@@ -79,19 +79,19 @@ Gateway: **N/A**
 
  :::
 
-### Primary-
+#### Primary-
 Mode: **Static**  
 IP: **192.168.1.50**  
 Subnet: **255.255.255.0** (equivalent to  /24)  
 Gateway: **N/A**  
 
-### Secondary (optional)-
+#### Secondary (optional)-
 Mode: **Static**  
 IP: **192.168.2.50**  
 Subnet: **255.255.255.0** (equivalent to  /24)    
 Gateway: **N/A**  
 
-### Example Personal Computer (wired connection) IP address
+#### Example Personal Computer (wired connection) IP address
 Mode: **Static**  
 IP: **192.168.1.200** (this is for Dante patching and will change when connecting through the **transform**.client)  
 Subnet: **255.255.255.0**  (equivalent to  /24)  
@@ -111,7 +111,7 @@ This will be resolved in a future release.
 
 :::
 
-# Step 4: Dante Patching and Clocking
+## Step 4: Dante Patching and Clocking
 
 ### Patching
 
@@ -147,7 +147,7 @@ Once patching and clocking is done, unplug the **transform**.engine, audio conso
 
 We are now ready for audio, let’s prep **transform**.client! 
 
-# Step 5: Setting up **transform**.client software
+## Step 5: Setting up **transform**.client software
 
 Download **transform**.client from our website [here](../downloads/index.md), and install it to your device. 
 
@@ -187,7 +187,7 @@ Here's Elliot giving you a quick spin through the **transform**.client:
 
 <ReactPlayer controls url="https://www.youtube.com/watch?v=4sT_dBsWTvc" />
 
-# Step 6 (Potentially): Updating your **transform**.engine!
+## Step 6 (Potentially): Updating your **transform**.engine!
 
 If your **transform**.engine is on the correct version already, you can skip straight to Step 7, or we’d recommend a quick tea break, a bike ride, and/ or learn to juggle.
 
@@ -205,7 +205,7 @@ At this point you will see the message ‘Upgrade to ??.??.?? (required)’ and 
 
 If you have any problems when upgrading - please don't hesitate to drop us an email at support@fourieraudio.com and we'll get back to you ASAP.
 
-# Step 7: Installing Plugins
+## Step 7: Installing Plugins
 
 Now it's time to install your plugins!
 
@@ -239,7 +239,7 @@ Once in the Plugin Host, install plugins as you normally would on any Windows 10
 10. Navigate through each menu, and once complete, click ‘Finish’.
 11. Repeat the process if you have further plugins to install.
 
-# Step 8: Showfiles and System
+## Step 8: Showfiles and System
 
 Here's Elliot talking you through showfile management and system status.
 
