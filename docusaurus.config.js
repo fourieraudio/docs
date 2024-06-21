@@ -59,6 +59,13 @@ module.exports = {
           label: "Website",
           href: "https://www.fourieraudio.com",
         },
+        {
+          type: "docsVersionDropdown",
+          position: "right",
+          dropdownItemsAfter: [
+            {to: '/downloads', label: "All versions"},
+          ],
+        },
       ],
     },
     footer: {
@@ -112,6 +119,7 @@ module.exports = {
           routeBasePath: 'manual',
           sidebarPath: "./sidebars-manual.js",
           editUrl: "https://github.com/fourieraudio/docs/blob/main/manual/",
+          includeCurrentVersion: process.env.NODE_ENV === "development",
         },
         blog: false,
         theme: {
