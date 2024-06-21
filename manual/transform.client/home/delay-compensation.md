@@ -14,7 +14,7 @@ Delay compensation is great if you want to align a set of chains - say for a dru
 
 The **transform**.engine offers 16 latency groups, allowing you to group your plugin chains as you wish.
 
-![Delay compensation overview](../../../../static/img/transformclient/delay-compensation-overview.png)
+![Delay compensation overview](@site/static/img/transformclient/delay-compensation-overview.png)
 
 By clicking on the Delay Compensation area on any chain, you will see the reported latency for each
 plugin, with an option to add them to one of your 16 latency groups. The **transform**.engine will

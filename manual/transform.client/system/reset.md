@@ -21,7 +21,7 @@ If you are looking to only delete one showfile, you can do so in the **Showfiles
 
 ### Plugin Host Reset
 
-This one is for special occasions only. Say you've just received a transform.engine that already has some plugins on it... This option will enable you to reset the Windows environment back to the factory default - i.e. it will uninstall **all** plugins from the **transform**.engine.
+This one is for special occasions only. Say you've just received a transform.engine that already has some plugins on it@site. This option will enable you to reset the Windows environment back to the factory default - i.e. it will uninstall **all** plugins from the **transform**.engine.
 
 :::danger
 
@@ -29,4 +29,4 @@ This one is for special occasions only. Say you've just received a transform.eng
 
 :::
 
-![System reset tab.](../../../../static/img/transformclient/system-reset.png)
+![System reset tab.](@site/static/img/transformclient/system-reset.png)

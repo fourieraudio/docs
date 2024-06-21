@@ -1,8 +1,8 @@
 ---
-sidebar_position: 5
+sidebar_position: 0
 ---
 
-# User Manual
+# Transform User Manual
 
 Welcome to the Fourier Audio **transform**.engine manual!
 

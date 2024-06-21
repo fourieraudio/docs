@@ -6,14 +6,14 @@ sidebar_position: 10
 
 ### Front of **transform**.engine
 
-![front-of-te](../../../static/img/transform.engine-hw/front-of-TE.png)
+![front-of-te](@site/static/img/transform.engine-hw/front-of-TE.png)
 
 1. OLED Display - lets you configure the IP addresses of your **transform**.engine.
 2. 2 x USB3 ports.
 
 ### Rear of **transform**.engine
 
-![rear-of-te](../../../static/img/transform.engine-hw/rear-of-TE.png)
+![rear-of-te](@site/static/img/transform.engine-hw/rear-of-TE.png)
 
 3. QR Code - scan for links to help and support.
 4. 4 x USB2 bay (high retention) - Great for license keys.

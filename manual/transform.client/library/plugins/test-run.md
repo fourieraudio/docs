@@ -19,7 +19,7 @@ If you need to test run a plugin in the Windows environment you can do this by n
 Library tab: click 'Add/Remove Plugins', select the plugin you wish to run, and then click the 'Test
 Run' button.
 
-![Windows environment when test running plugins.](../../../../../static/img/transformclient/library-test-run.png)
+![Windows environment when test running plugins.](@site/static/img/transformclient/library-test-run.png)
 
 This will load an instance of the selected plugin in the Windows environment - enabling you to use it a bit like as if it was running in a normal DAW.
 

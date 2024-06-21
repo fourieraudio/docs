@@ -3,7 +3,7 @@ sidebar_position: 1
 sidebar_label: Installing Plugins
 ---
 
-import warningmessage from '../../../../../static/img/transformclient/popup-add-remove.png';
+import warningmessage from '@site/static/img/transformclient/popup-add-remove.png';
 
 # Installing Plugins
 
@@ -23,7 +23,7 @@ To install all plugins on the **transform**.engine, you will need to access the 
 5. Your installed plugins will appear in the list. To add more, select ‘Open plugin host’: this will take you to the plugin host environment.
 6. You are now in a position to install your plugins. For manufacturer specific installation processes, click 'Manufacturers' in the sidebar and select the relevant manufacturer.
 
-![Windows environment when installing plugins.](../../../../../static/img/transformclient/library-plugin-host.png)
+![Windows environment when installing plugins.](@site/static/img/transformclient/library-plugin-host.png)
 
 :::info
 

@@ -15,7 +15,7 @@ To ensure Control and Primary network traffic are kept separate, you will be una
 
 ### Simple Set Up
 
-![simple-te-set-up-configuration](../../../static/img/dante-network-examples/simple-set-up-configuration.png)
+![simple-te-set-up-configuration](@site/static/img/dante-network-examples/simple-set-up-configuration.png)
 
 **Advantages**
 
@@ -31,7 +31,7 @@ To ensure Control and Primary network traffic are kept separate, you will be una
 
 ### Point-to-Point Audio Connection, Distributed Control Network
 
-![p2p-audio-distributed-control](../../../static/img/dante-network-examples/P2P-Audio-Distributed-Control-Configuration.png)
+![p2p-audio-distributed-control](@site/static/img/dante-network-examples/P2P-Audio-Distributed-Control-Configuration.png)
 
 **Advantages**
 
@@ -50,7 +50,7 @@ To ensure Control and Primary network traffic are kept separate, you will be una
 
 ### Distributed Audio and Control Network
 
-![distributed-audio-and-control](../../../static/img/dante-network-examples/Distributed-Audio-and-Control-Sessions.png)
+![distributed-audio-and-control](@site/static/img/dante-network-examples/Distributed-Audio-and-Control-Sessions.png)
 
 **Advantages**
 
