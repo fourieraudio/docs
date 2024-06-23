@@ -54,14 +54,6 @@ Ethernet network to use **transform**.engine; `100BASE-T` (IEEE 802.3u) networks
   `Preferred Leader` setting: the election will pick a device with `Preferred Leader` set over one
   that does not. The **transform**.engine supports being a PTP clock leader if required.
 
-:::warning
-
-Please note that at this time, the Secondary network must be configured to use **Static** or
-**DHCP** addressing for Dante Redundancy support; see [known issue TF-944](../known-issues.md).
-Link-local Dante Secondary will be supported in a future release.
-
-:::
-
 Example system configurations can be found [here!](dante-network-examples.md)
 
 For further information about Dante network settings and support, please visit: https://www.audinate.com/support

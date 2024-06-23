@@ -63,7 +63,7 @@ should be good to go.
 
 ### Why can my plugin not find the internet?
 
-The **transform**.engine is an offline device, and does not provide the internet to any installed plugins.
+The **transform**.engine's plugin host runs offline, and does not provide internet access to any installed plugins.
 
 As a result, any plugins that require the internet for installation and/or licensing (without an offline option) are not compatible.
 

@@ -99,13 +99,6 @@ In order for the audio engine to start (enabling you to install, open and plugin
 
 :::
 
-:::warning
-
-Please note that at this time, the **transform**.client must be connected by either a static or DHCP IP address - **not link-local**; see [known issue TF-1686](known-issues.md).
-This will be resolved in a future release.
-
-:::
-
 ## Step 4: Dante Patching and Clocking
 
 ### Patching
@@ -243,9 +236,9 @@ Here's Elliot talking you through showfile management and system status.
 If you select the System tab, you will see 5 tabs on the right hand side.
 
 * **Showfiles-** **transform**.engine automatically saves every change you make, immediately, but if you want to take your show file elsewhere, or copy it, you can do it here.
-* System Status- an overview of the different components of your system. Key detail here is ‘Audio IO’, this will tell you if the audio engine is ‘Running’ and a spinning cog for visual feedback!
+* **System Status-** an overview of the different components of your system. Key detail here is ‘Audio IO’, this will tell you if the audio engine is ‘Running’ and a spinning cog for visual feedback!
 * **Performance-** a more detailed looked at the DSP load.
 * **Software-** version numbers and log files!
 * **System Reset-** proceed with extreme caution, delete all show files, and return the plugin host to its factory default (removes all installed plugins and  any license files stored in the plugin host environment). Your box will be brand new! Remember: with great power, comes great responsibility.
 
-For more detailed information, please [read the manual for this page](transform.client/system/system-status.md).
+For more detailed information, please see the [System Status section of the manual](transform.client/system/system-status.md).

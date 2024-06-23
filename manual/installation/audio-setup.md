@@ -34,12 +34,17 @@ for transmission on the Dante network, samples are exchanged in one of the follo
 
 The available network latencies are:
 
-| Period Size | Network Latency |
-| ----------- | --------------- |
-| 32          | 1 ms, 2 ms      |
-| 64          | 1 ms, 2 ms, 3 ms, 4 ms, 5 ms, 10 ms |
+* 1 ms
+* 2 ms
+* 3 ms
+* 4 ms
+* 5 ms
+* 10 ms
 
-# Period Size
+Prior to version 1.1 of the **transform**.engine, the available network latencies depended on the
+selected Period Size. This is no longer the case.
+
+## Period Size
 
 The only key audio configuration option not found in Dante Controller is the period size. This
 controls the size of the audio buffers internal to the **transform**.engine, and in turn, the system
@@ -51,7 +56,7 @@ doubling the period size doubles the system latency.
 
 Available period sizes are:
 
-- 32 samples (1 ms internal latency at 96 kHz)
-- 64 samples (2 ms internal latency at 96 kHz)
+- 32 samples (1 ms internal latency at 96 kHz sample rate)
+- 64 samples (2 ms internal latency at 96 kHz sample rate)
 
 The buffer size can be configured in the **transform**.client software, with details available [here](../transform.client/system/system-status.md).
