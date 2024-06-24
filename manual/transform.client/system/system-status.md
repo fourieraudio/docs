@@ -8,8 +8,6 @@ Clicking on **System Status**, will give you useful under-the-hood information, 
 
 ![System status overview tab.](@site/static/img/transformclient/system-status.png)
 
-TODO: Update screenshot
-
 ### System Mode
 
 - **Edit Mode**- Audio is running through the audio engine.

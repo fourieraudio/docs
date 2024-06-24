@@ -29,6 +29,4 @@ This one is for special occasions only. Say you've just received a transform.eng
 
 :::
 
-TODO: Update this screenshot
-
 ![System reset tab.](@site/static/img/transformclient/system-reset.png)

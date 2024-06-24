@@ -6,8 +6,6 @@ sidebar_position: 3
 
 If you navigate to the **Performance** tab you will find the current performance metrics for your **transform**.engine.
 
-TODO: Update this image
-
 ![System status overview tab.](@site/static/img/transformclient/system-performance.png)
 
 The chart shown (plus a smaller one in the top left) shows the load per DSP core.
