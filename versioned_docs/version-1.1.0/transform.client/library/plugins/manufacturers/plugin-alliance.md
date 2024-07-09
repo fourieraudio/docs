@@ -45,8 +45,9 @@ How to install and license **Plugin Alliance** plugins on your **transform**.eng
 9. After following the 'Accessing Windows 10 Environment' (instructions above), you will be in a position to install plugins.
 10. In the search bar, type ‘This PC’, it will find the ‘This PC’ app and hit enter.
 11. Locate your USB stick in the window and install `PA-InstallationManager`. Once installed, launch the program.
-12. Select 'Import/ Install' as Installation Type, and click 'Import'.
-13. Locate the installer file from your USB key (labelled `Installer.pabundle`), and select 'Install'. Once finished, your plugins will be installed.
+12. Type in any random username and password. Click enter and wait a few minutes for the login to fail. You will then be taken to the offline installer mode.
+13. Select 'Import/ Install' as Installation Type, and click 'Import'.
+14. Locate the installer file from your USB key (labelled `Installer.pabundle`), and select 'Install'. Once finished, your plugins will be installed.
 
 ### Licensing
 
