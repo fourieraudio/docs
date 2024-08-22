@@ -10,7 +10,7 @@ How to install **Sound Theory** plugins on your **transform**.engine!
 
 **Plugin Download Link:** [Sound Theory Plugins](https://www.soundtheory.com/support)
 
-**Licensing Method:** iLok ([Licensing Guide](../ilok.md)
+**Licensing Method:** iLok ([Licensing Guide](../ilok.md))
 
 **Plugin Format:** Windows VST3
 

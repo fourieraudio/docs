@@ -95,7 +95,7 @@ Please bear in mind that we will use example IP addresses below, but please conf
 
 :::info
 
-In order for the audio engine to start (enabling you to install, open and plugins), the 'Primary' network socket must be connected to another device, and show a green light on the back of the unit.
+In order for the audio engine to start (enabling you to install, open and plugins), the 'Primary' network socket must be connected to another device, and show a green light on the back of the unit. If you only have the 'Control' network socket connected, you will see a '**Heartbeat Stalled**' error in the **transform***.client software.
 
 :::
 

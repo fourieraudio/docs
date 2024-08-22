@@ -10,7 +10,7 @@ How to install **Slate Digital** plugins on your **transform**.engine!
 
 **Plugin Download Link:** [Slate Digital](https://app.completeaccess.audio/installers)
 
-**Licensing Method:** iLok ([Licensing Guide](../ilok.md)
+**Licensing Method:** iLok ([Licensing Guide](../ilok.md))
 
 **Plugin Format:** Windows VST3
 
