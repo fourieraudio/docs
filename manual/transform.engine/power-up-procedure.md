@@ -1,8 +1,8 @@
 ---
-sidebar_position: 1
-sidebar_label: Powering Procedure
+sidebar_position: 100
+sidebar_label: Powering Off!
 ---
 
-# Powering On and Shutting Down
+# Powering Off
 
-There is no special procedure to power on or shut down your **transform**.engine, it's completely safe to just flick the power buttons on the rear!
+There is no special shut down procedure to power off your **transform**.engine, it is safe to simply flick the power switches to off and away you go! 
