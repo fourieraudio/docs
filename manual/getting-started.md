@@ -203,7 +203,7 @@ Here's Elliot talking you through plugin installation.
 
 To install plugins and licence some plugins on your **transform**.engine, you will need to install them in the Plugin Host (Windows 10 environment).
 
-We will  use a SSL plugin as an example below, we also have a range of walk through guides to installation and licensing on our website from various manufacturers, [here](https://docs.fourieraudio.com/manual/**transform**.client/library/plugins/manufacturers/).
+We will  use a SSL plugin as an example below, we also have a range of walk through guides to installation and licensing on our website from various manufacturers, [here](/manual/transform.client/library/plugins/manufacturers/).
 
 ### Accessing the Plugin Host
 
