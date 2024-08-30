@@ -24,7 +24,7 @@ When scanning for newly installed Waves Plugins, the **transform**.client may in
 
 :::
 
-1. After following the [Accessing Windows steps](../installation.md#accessing-windows-to-install-plugins), you will be in a position to install plugins.
+1. After following the [Accessing Windows steps](../installation.md#accessing-the-plugin-host-to-install-plugins), you will be in a position to install plugins.
 2. On your personal device, download Waves Central using the link above.
 3. Once installed, launch Waves Central and log into your Waves account.
 4. Select 'Offline Installer', and then 'My Products'.

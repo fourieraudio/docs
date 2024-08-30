@@ -79,6 +79,7 @@ sidebar_position: 1
 ### Remote Client (for control / configuration)
 
 * Compatible OS: macOS (11 onwards - M1/Intel),  Windows (10 onwards)
+* Minimum resolution: 1366 x 768 px
 
 ### Warranty
 
