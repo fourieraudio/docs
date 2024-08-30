@@ -12,8 +12,9 @@ Deliberately designed to be simple, we want to get you up and running in next to
 Split into three tabs:
 
 1. Accessible at the top left: [**Home**](home/home.md) - Build your plugin chains.
-2. Next door to Home: [**Library**](library/library.md) - Your toolbox, add and remove plugins.
-3. Top right corner: [**System**](system/showfiles.md) - allows you to set up your show, and get under the hood of your **transform**.engine.
+2. Next is Cuelists: [**Cuelists**](cuelists/cuelists.md) - Control your plugins.
+3. Next door to Home: [**Library**](library/library.md) - Your toolbox, add and remove plugins.
+4. Top right corner: [**System**](system/showfiles.md) - allows you to set up your show, and get under the hood of your **transform**.engine.
 
 ### Connecting to your **transform**.engine.
 

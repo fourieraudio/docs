@@ -45,7 +45,8 @@ This menu lets you configure the IP address for each network interface.
 
 * **Static**: Manually configured by you!
 * **DHCP**: Receives an IP address from a DHCP server on your network.
-* **Link Local**: Automatically configures IP address in the `169.254/16` subnet (Dante not supported on Secondary connection in this mode).
+* **Link Local**: Automatically configures IP address in the `169.254/16` subnet (or the `172.31/16`
+  subnet for the Dante Secondary port).
 * **Unconfigured**: When no IP address is needed.
 
 **IP:** In **Static** addressing mode, the IP address you would like the device to use.

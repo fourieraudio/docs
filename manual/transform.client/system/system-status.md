@@ -33,6 +33,7 @@ Here you can also configure the period size of the **transform**.engine. The ava
 
 - 32 samples
 - 64 samples
+- 512 samples
 
 To change period size, simply select the period size you require.
 **transform**.engine needs to be set to offline mode to change the period size.

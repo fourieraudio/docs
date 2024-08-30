@@ -10,7 +10,7 @@ import pluginfailed from '/static/img/transformclient/plugin-failed.png';
 
 # Plugin Chains
 
-With patent pending technology, the **transform**.engine not only reboots a plugin if it becomes unresponsive but it also leaves all other plugin chains unaffected.
+With patent-pending technology, the **transform**.engine not only reboots a plugin if it crashes but it also leaves all other plugin chains unaffected.
 
 Click add and a plugin chain will appear, with audio passing from top to bottom.
 
@@ -55,3 +55,11 @@ If you want to temporarily route audio around a plugin so that it bypasses the p
 you should select `Bypass`. The plugin will still be loaded, but audio will temporarily skip that
 plugin in the chain. Audio is not interrupted when you bypass/un-bypass a plugin, but the plugin will
 continue to consume DSP resources.
+
+## Copy/Paste Plugin State
+You can use the "Copy" and "Paste" buttons in the detail pane for a Plugin Instance to copy the
+state of that instance to any other instance of the same type.
+
+## Move/Renumber Chains
+
+By selecting a chain, you can either move the chain left/right, or alternatively renumber the chain.
