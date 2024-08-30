@@ -16,7 +16,7 @@ How to install **Slate Digital** plugins on your **transform**.engine!
 
 **Installer File Format:** `.exe`
 
-1. After following the [Accessing Windows steps](../installation.md#accessing-windows-to-install-plugins), you will be in a position to install plugins.
+1. After following the [Accessing Windows steps](../installation.md#accessing-the-plugin-host-to-install-plugins), you will be in a position to install plugins.
 2. On your personal device, download the desired plugin(s) for a Windows OS from the above link, it should be in a `.exe` file format.
 3. Copy this installer file to a USB stick.
 4. Plug it into any of the USB ports on the **transform**.engine.
