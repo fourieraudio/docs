@@ -121,9 +121,13 @@ If you haven’t already, download Dante Controller [here](https://my.audinate.c
 
 Launch Dante Controller, your **transform**.engine and audio console will magically appear!
 
-![Dante controller- Device View](/static/img/dante-network-examples/Dante-controller-devices.png)
+![Dante controller- Device Info](../../static/img/dante-network-examples/Dante-controller-devices.png)
 
 Patch all 64 transmits (_fancy networing term for outputs_) from one device to the other device’s receives (_similarly fancy networking term for inputs_), and vice versa.
+
+![Dante controller- Digico DMI-Dante](../../static/img/dante-network-examples/dante-controller-dmi-view.png)
+
+![Dante controller- Fourier Audio transform.engine](../../static/img/dante-network-examples/dante-controller-transform-view.png)
 
 Your devices will now be patched 1 to 1!
 
@@ -131,7 +135,9 @@ Your devices will now be patched 1 to 1!
 
 Whilst Dante is very clever, ensuring your clock settings are correct are vital for crystal clear audio.
 
-Dante will automatically select a clock leader, but if for example you are using a Digico console, and the console is set to anything other than the DMI-Dante card as the sync primary. You will need to ensure your DMI-Dante card takes it's sync from the console. To do this, in Dante controller, in clock status, you need to tick the box 'Enable Sync to External' on your DMI-Dante card.
+Dante will automatically select a clock leader, but if for example you are using a Digico console, and the console is set to anything other than the DMI-Dante card as the sync primary. You will need to ensure your DMI-Dante card takes it's sync from the console. To do this, in Dante controller, in clock status, you need to tick the 'Preferred Leader' box and 'Enable Sync to External' on your DMI-Dante card.
+
+![Dante controller- Clock Status](../../static/img/dante-network-examples/Dante-controller-clock-settings.png)
 
 This means your Dante network will be clocking from your console sync. If you don't do this, your console and Dante network will be running to different clocks and could lead to potential problems!
 
