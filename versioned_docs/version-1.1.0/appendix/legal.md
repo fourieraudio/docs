@@ -34,6 +34,12 @@ For any further details or information requests, please email support@fourieraud
 
 An EU declaration of conformity is available for download [via this link](https://drive.google.com/file/d/1KddV0AdFshXXMqTaUU10M7p7bTLQPe1h).
 
+## PSTI Statement of Compliance
+
+A statement of compliance pursuant to the UK Product Security and Telecommunications Infrastructure
+Act 2022 and the Product Security and Telecommunications Infrastructure (Security Requirements for
+Relevant Connectable Products) Regulations 2023 is available [via this link](https://drive.google.com/file/d/1TnX6JbgFnin8_rACdmLWf0ZlmvQLxwxC).
+
 ## Other Intellectual Property
 This product includes patented and/or patent-pending material belonging to one or more of the
 Audiotonix group of companies.
