@@ -16,6 +16,7 @@ module.exports = {
   favicon: "img/favicon.ico",
   organizationName: "fourieraudio", // Usually your GitHub org/user name.
   projectName: "docs", // Usually your repo name.
+  plugins: [require.resolve("docusaurus-lunr-search")],
   themes: ["@docusaurus/theme-mermaid"],
   themeConfig: {
     colorMode: {
@@ -39,17 +40,22 @@ module.exports = {
       },
       items: [
         {
-          type: "docSidebar",
-          sidebarId: "sidebars",
+          type: "doc",
+          docId: "support",
           position: "left",
-          label: "Support & Downloads",
-          docsPluginId: "info",
+          label: "Support",
         },
         {
-          type: "docSidebar",
-          sidebarId: "sidebars",
+          type: "doc",
+          docId: "manual/manual",
           position: "left",
           label: "User Manual",
+        },
+        {
+          type: "doc",
+          docId: "downloads/index",
+          position: "left",
+          label: "Downloads",
         },
         {
           label: "Forum",
@@ -58,13 +64,6 @@ module.exports = {
         {
           label: "Website",
           href: "https://www.fourieraudio.com",
-        },
-        {
-          type: "docsVersionDropdown",
-          position: "right",
-          dropdownItemsAfter: [
-            {to: '/downloads', label: "All versions"},
-          ],
         },
       ],
     },
@@ -115,11 +114,9 @@ module.exports = {
       "@docusaurus/preset-classic",
       {
         docs: {
-          path: 'manual',
-          routeBasePath: 'manual',
-          sidebarPath: "./sidebars-manual.js",
-          editUrl: "https://github.com/fourieraudio/docs/blob/main/manual/",
-          includeCurrentVersion: process.env.NODE_ENV === "development",
+          routeBasePath: '/',
+          sidebarPath: require.resolve("./sidebars.js"),
+          editUrl: "https://github.com/fourieraudio/docs/blob/main/",
         },
         blog: false,
         theme: {
@@ -127,15 +124,5 @@ module.exports = {
         },
       },
     ],
-  ],
-  plugins: [
-    require.resolve("docusaurus-lunr-search"),
-    ['@docusaurus/plugin-content-docs', {
-      id: 'info',
-      path: 'info',
-      routeBasePath: '/',
-      sidebarPath: './sidebars-info.js',
-      editUrl: "https://github.com/fourieraudio/docs/blob/main/",
-    }]
   ],
 };
