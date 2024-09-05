@@ -3,6 +3,8 @@ sidebar_position: 0
 ---
 
 import ReactPlayer from 'react-player'
+import SplashScreen from '../../static/img/transformclient/transform.client-connection-screen.png'
+import SplashScreen2 from '../../static/img/transformclient/transform.client-connection-screen-2.png'
 
 # Getting Started
 
@@ -135,14 +137,12 @@ Your devices will now be patched 1 to 1!
 
 Whilst Dante is very clever, ensuring your clock settings are correct are vital for crystal clear audio.
 
-Dante will automatically select a clock leader, but if for example you are using a Digico console, and the console is set to anything other than the DMI-Dante card as the sync primary. You will need to ensure your DMI-Dante card takes it's sync from the console. To do this, in Dante controller, in clock status, you need to tick the 'Preferred Leader' box and 'Enable Sync to External' on your DMI-Dante card.
-
+Dante will automatically select a clock leader, but if for example you are using a Digico console, and the console is set to anything other than the DMI-Dante card as the sync primary. You will need to ensure your DMI-Dante card takes it's sync from the console. To do this, in Dante controller, under clock status, you need to tick the 'Preferred Leader' box and 'Enable Sync to External' on your DMI-Dante card.
 ![Dante controller- Clock Status](../../static/img/dante-network-examples/Dante-controller-clock-settings.png)
 
 This means your Dante network will be clocking from your console sync. If you don't do this, your console and Dante network will be running to different clocks and could lead to potential problems!
 
-Once patching and clocking is done, unplug the **transform**.engine, audio console and personal computer from the network switch. Plug the primary connection directly from **transform**.engine to the primary port of the  audio console (do the same for secondary if in use).
-
+Once patching and clocking is done, unplug the **transform**.engine, audio console and personal computer from the network switch. Plug the primary connection directly from **transform**.engine to the primary connection of the audio console (do the same for secondary if in use).
 We are now ready for audio, let’s prep **transform**.client!
 
 # Step 5: Setting up **transform**.client software
