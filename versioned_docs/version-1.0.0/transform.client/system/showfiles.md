@@ -45,14 +45,3 @@ Want to delete your current showfile? Simply create a new one (either using 'New
 
 :::
 
-![Showfile overview tab.](@site/static/img/transformclient/system-showfiles.png)
-<<<<<<<< HEAD:versioned_docs/version-1.0.0/transform.client/system/showfiles.md
-========
-
-## Backwards-compatibility
-
-Showfiles are usually forwards and backwards compatible between versions, with the following
-exceptions:
-
-* Showfiles created or loaded using software v1.1 onwards cannot be loaded into v1.0.
->>>>>>>> a6319ab (PA updates):manual/transform.client/system/showfiles.md
