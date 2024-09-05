@@ -14,17 +14,11 @@ environment other than the plugin state.
 
 To create a new blank showfile, click 'New Showfile', name it, and you're good to go!
 
-Changes to your current showfile are always autosaved as you go, to make sure that changes you make
-are never lost even if the **transform**.engine is rebooted.
+Want to manage your **transform**.engine showfiles? By clicking on a showfile you place it into context, and in the context menu on the right you will find the following options:
 
-Want to manage the showfiles on your **transform**.engine? Select a showfile in the list, and use
-one of the options in the Action Menu on the right:
-
-- **Save Copy** : Save a copy of the selected showfile. You can optionally also load the created
-  copy. Loading a showfile may briefly interrupt audio. Remember that changes to the current
-  showfile are always automatically saved; you don't need to make a copy to save your changes!
-- **Load Showfile** : Load the selected showfile. Loading a showfile may interrupt audio whilst the
-  show loads.
+- **Save Showfile As** : Like good old Microsoft Word, this will save your current showfile with a new name. You'll then be editing the showfile with the new name.
+- **Copy Showfile** : This creates a duplicate of the current showfile, and invite you to name it. You current showfile will not change name.
+- **Load Showfile** : Load the selected showfile.
 - **Import Showfile** : Got a showfile from another **transform**.engine? Click here and easily import it from your computer.
 - **Export Showfile** : Want to take a copy of your current showfile to another **transform**.engine? This is the place to do it.
 - **Delete**: Delete the currently selected showfile. You cannot delete your current showfile. That
@@ -45,3 +39,4 @@ Want to delete your current showfile? Simply create a new one (either using 'New
 
 :::
 
+![Showfile overview tab.](@site/static/img/transformclient/system-showfiles.png)
