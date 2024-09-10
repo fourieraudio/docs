@@ -33,3 +33,9 @@ You then have two choices:
 * **Discard Changes**: by clicking on the Discard icon, all pending changes will be discarded, and
   the previously-saved Cue data will be restored. If there is no previously-saved Cue data, the
   pending changes are simply discarded, but the Plugin Instances are unchanged.
+
+:::info
+
+If a plugin instance has a Pending Update that's not yet saved/discarded, an asterisk (*) is shown before the name in the Home tab.
+
+:::
