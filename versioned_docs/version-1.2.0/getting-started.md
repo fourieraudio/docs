@@ -46,7 +46,7 @@ From there, you are able to set your desired IP Address configuration.
 
 :::info
 
-Please bear in mind that we will use example IP addresses below, but please configure the IP addresses as you need.
+Please bear in mind, we will use example IP addresses below, but please configure the IP addresses as you need.
 
 :::
 
@@ -93,6 +93,7 @@ Please bear in mind that we will use example IP addresses below, but please conf
 * IP: `192.168.1.200` (this is for Dante patching and will change when connecting through the **transform**.client)
 * Subnet: `255.255.255.0`  (equivalent to `/24`)
 
+
 :::info
 
 In order for the audio engine to start (enabling you to install, open and plugins), the 'Primary' network socket must be connected to another device, and show a green light on the back of the unit.
@@ -115,7 +116,7 @@ Launch Dante Controller. Your **transform**.engine and audio console will magica
 
 Patch all 64 transmit channels (_fancy networking term for outputs_) from one device to the other device’s receive channels (_similarly fancy networking term for inputs_), and vice versa.
 
-![Dante controller- Digico DMI-Dante](@site/static/img/dante-network-examples/dante-controller-dmi-view.png)
+![Dante controller- DiGiCo DMI-Dante](@site/static/img/dante-network-examples/dante-controller-dmi-view.png)
 
 ![Dante controller- Fourier Audio transform.engine](@site/static/img/dante-network-examples/dante-controller-transform-view.png)
 
@@ -133,7 +134,7 @@ This means your Dante network will be clocking from your console sync. If you do
 
 Once patching and clocking is done, unplug the **transform**.engine, audio console and personal computer from the network switch. Plug the primary connection directly from **transform**.engine to the primary connection of the audio console (do the same for secondary if in use).
 
-We are now ready for audio; let’s prep **transform**.client!
+We are now ready for audio, let’s prep **transform**.client!
 
 ## Step 5: Setting up **transform**.client software
 
@@ -167,6 +168,8 @@ Select ‘Connect to new device’ and enter the IP address (in this case `192.1
 
 <img src={SplashScreen2} width="450"/>
 
+Select ‘Connect to new device’ and enter the IP address (in this case 192.168.3.100), hit enter, and voila!
+
 Your **transform**.engine has been found, click the device and you’ll be ready to enter the new world of plugins, live.
 
 Now for the really exciting bit. Getting going!!
@@ -185,13 +188,13 @@ However, if your **transform**.engine is on a different version to your **transf
 
 **Second klaxon** (and friendly reminder): the **transform**.client has the associated **transform**.engine firmware bundled into the software, hence you don’t need an extra file. Wherever your **transform**.client software goes, the relevant firmware will be there too!
 
-:::
-
-When the **transform**.engine and **transform**.client are on incompatible versions, when selecting your **transform**.engine in the  **transform**.client, it will launch directly to the ‘Software’ tab, do not pass go, do not collect £200.
+When the **transform**.engine and **transform**.client are on incompatible versions, when selecting your **transform**.engine in the  **transform**.client, it will launch directly to the ‘Software’ tab, do not pass go, do not collect $200.
 
 At this point you will see the message ‘Upgrade to ??.??.?? (required)’ and you will be unable to do anything else. Select upgrade and it will do its thing. Once finished, you’ll be prompted to restart and your **transform**.engine will be firing on all cylinders in no time. This will ensure maximum performance and compatibility!
 
 If you have any problems when upgrading - please don't hesitate to drop us an email at support@fourieraudio.com and we'll get back to you ASAP.
+
+:::
 
 ## Step 7: Installing Plugins
 
@@ -203,7 +206,7 @@ Here's Elliot talking you through plugin installation.
 
 To install plugins and licence some plugins on your **transform**.engine, you will need to install them in the Plugin Host (Windows 10 environment).
 
-We will  use a SSL plugin as an example below, we also have a range of walk through guides to installation and licensing on our website from various manufacturers, [here](https://docs.fourieraudio.com/manual/**transform**.client/library/plugins/manufacturers/).
+We will use a SSL plugin as an example below, we also have a range of walk through guides to installation and licensing on our website from various manufacturers, [here](https://docs.fourieraudio.com/manual/**transform**.client/library/plugins/manufacturers/).
 
 ### Accessing the Plugin Host
 

@@ -10,7 +10,7 @@ How to install **Softube** plugins on your **transform**.engine.
 
 **Plugin Download Link:** [Softube Plugins](https://www.softube.com/installer-windows)
 
-**Licensing Method:** iLok ([Licensing Guide](../ilok.md)
+**Licensing Method:** iLok ([Licensing Guide](../ilok.md))
 
 **Plugin Format:** Windows VST3
 
