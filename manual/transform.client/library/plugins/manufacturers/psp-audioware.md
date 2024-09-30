@@ -10,7 +10,7 @@ How to install **PSP Audioware** plugins on your **transform**.engine!
 
 **Plugin Download Link:** [PSP Audioware Plugins](https://www.pspaudioware.net/UserArea/demos)
 
-**Licensing Method:** iLok ([Licensing Guide](../ilok.md)
+**Licensing Method:** iLok ([Licensing Guide](../ilok.md))
 
 **Plugin Format:** Windows VST3
 
