@@ -10,7 +10,7 @@ How to install **oeksound** plugins on your **transform**.engine!
 
 **Plugin Download Link:** [oeksound Plugins](https://oeksound.com/downloads/)
 
-**Licensing Method:** iLok ([Licensing Guide](../ilok.md)
+**Licensing Method:** iLok ([Licensing Guide](../ilok.md))
 
 **Plugin Format:** Windows VST3
 

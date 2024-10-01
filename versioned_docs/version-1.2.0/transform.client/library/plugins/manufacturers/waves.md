@@ -6,6 +6,12 @@ sidebar_position: 1
 
 How to install **Waves** plugins on your **transform**.engine!
 
+:::tip
+
+We strongly recommend using '**Method 3**' from [**here**](https://www.waves.com/support/how-to-install-waves-v14) to create your offline installer. '**Method 2**' installs a large number of components that are not required, causing slow operation on your **transform**.engine.
+
+:::
+
 ## Installation
 
 **Software Required:** [Waves Central](https://www.waves.com/downloads/central)

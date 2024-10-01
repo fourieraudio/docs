@@ -13,7 +13,6 @@ We intend on resolving all known issues in a future release, but until then, her
 | TF-1810 | DSP load meter occasionally temporarily jumps to 100% with some plugins, before returning to a much lower, more believable value. Audio processing is not affected. | We are investigating the cause of these jumps but currently believe they are spurious and can be safely ignored; this can be validated by checking that the `DSP Overruns` count is not going up and that output audio is clean. | - |
 | TF-2148 | When **transform**.engine is the PTP clock leader, changing the sample rate from 96 kHz to 48 kHz in Dante Controller can result in the Dante audio transport stalling if **transform**.engine is the PTP clock leader. Restarting the **transform**.engine after changing sample rate resolves the issue. | Restart the engine after changing sample rate if **transform**.engine is the PTP clock leader. |
 
-
 While we strive to support as many plugins as possible on the **transform**.engine, as the engine is
 an open platform running third-party plugins, there may occasionally be compatibility issues between
 the two. We try hard to test as many plugins for issues as possible, and we will always be open with
