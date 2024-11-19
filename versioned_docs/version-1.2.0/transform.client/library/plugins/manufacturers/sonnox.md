@@ -10,7 +10,7 @@ How to install **Sonnox** plugins on your **transform**.engine!
 
 **Plugin Download Link:** [Sonnox Plugins](https://www.sonnox.com/installers)
 
-**Licensing Method:** iLok ([Licensing Guide](../ilok.md)
+**Licensing Method:** iLok ([Licensing Guide](../ilok.md))
 
 **Plugin Format:** Windows VST3
 
