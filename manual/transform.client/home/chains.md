@@ -7,6 +7,7 @@ import pluginspinning from '/static/img/transformclient/plugin-spinning-up.png';
 import pluginnotinstalled from '/static/img/transformclient/plugin-not-installed-in-showfile.png';
 import pluginsmite from '/static/img/transformclient/plugin-smite.png';
 import pluginfailed from '/static/img/transformclient/plugin-failed.png';
+import pluginbypass from '/static/img/transformclient/plugin-bypass.png';
 
 # Plugin Chains
 
@@ -34,7 +35,9 @@ Five different states of your plugins:
 
 4. <img src={pluginsmite} alt="Plugin status - target mark" width="100" /> **Smite**- this plugin is smitten: it is doing nothing (see below).
 
-5. <img src={pluginfailed} alt="Plugin status - failed icon" width="100" /> **Failed**- The system has tried to get this plugin to start but has failed. Try using the 'Test Run' feature in Add/Remove plugins.
+5. <img src={pluginbypass} alt="Plugin status - bypass" width="100" /> **Bypass**- this plugin is bypassed, audio will skip the plugin. A quick way to A/B your processing without loss of audio!
+
+6. <img src={pluginfailed} alt="Plugin status - failed icon" width="100" /> **Failed**- The system has tried to get this plugin to start but has failed. Try using the 'Test Run' feature in Add/Remove plugins.
 
 Whilst in the top tool bar, you'll see a 'DSP load' bar, to give you a live indication of how much processing power is being used by your plugins. For a more detailed look, click on it and you will be taken to the [Performance](../system/performance.md) tab.
 
