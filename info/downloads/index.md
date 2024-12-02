@@ -35,7 +35,7 @@ compatibility ranges at any time.</small>
 
 | Engine Version | Client Version            | Release Date | Latest  |                      |
 | -------------- | ------------------------- | ------------ | ------- | -------------------- |
-| 1.2.5          |                           | 25/11/2024   |         | [Release notes](v1-2-5.md) |
+| 1.2.5          |                           | 25/11/2024   |         | [Release notes](v1-2-1.md) |
 | **1.2.1**      | **1.2.1**                 | 04/09/2024   | **Yes** | [Release notes](v1-2-1.md) |
 | 1.2.0          | 1.2.0                     | 30/08/2024   |         | [Release notes](v1-2-0.md) |
 |                | 1.1.1                     | 04/07/2024   |         | [Release notes](v1-1-1.md) |
