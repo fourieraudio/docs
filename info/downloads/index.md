@@ -35,6 +35,7 @@ compatibility ranges at any time.</small>
 
 | Engine Version | Client Version            | Release Date | Latest  |                      |
 | -------------- | ------------------------- | ------------ | ------- | -------------------- |
+| 1.2.5          |                           | 25/11/2024   |         | [Release notes](v1-2-1.md) |
 | **1.2.1**      | **1.2.1**                 | 04/09/2024   | **Yes** | [Release notes](v1-2-1.md) |
 | 1.2.0          | 1.2.0                     | 30/08/2024   |         | [Release notes](v1-2-0.md) |
 |                | 1.1.1                     | 04/07/2024   |         | [Release notes](v1-1-1.md) |
@@ -42,7 +43,13 @@ compatibility ranges at any time.</small>
 |                | 1.0.1                     | 22/04/2024   |         | [Release notes](v1-0-1.md) |
 | 1.0.0          | 1.0.0                     | 22/04/2024   |         | [Release notes](v1-0-0.md) |
 
-:::note
+:::note 
+
+The latest **transform**.engine's will ship from the factory with Engine Version, 1.2.5. these are purely manufacturing changes, and Engine Version 1.2.1 is still the latest version to download.
+
+:::
+
+:::warning
 
 Pre-release beta versions of **transform**.client are not compatible with v1.0.0 engine software and
 will not connect.
