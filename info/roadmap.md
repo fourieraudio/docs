@@ -15,7 +15,7 @@ feedback we receive from our ~~adoring fans~~ users.
 | TF-157       | Chain Groups - ways to slice and dice your chains | March 2025 |
 | TF-1094      | Support side-chains | March 2025 |
 | TF-444, TF-445  | Wide chains - larger than mono and stereo | March 2025 |
-| TF-1109     | Teleport multiple plugins at same time | March 2025 |
+| TF-1109     | Display multiple plugins at same time on one screen | March 2025 |
 | TF-2454     | High Density/ Overview Chain view | March 2025 |
 | TF-112, TF-137, TF-2204 | Ability to identify DSP core assigned to chain, as well source of DSP overruns. | March 2025 |
 | TF-133      | Tap Tempo synchronisation | March 2025 |
