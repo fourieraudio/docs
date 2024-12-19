@@ -11,7 +11,7 @@ feedback we receive from our ~~adoring fans~~ users.
 
 | Feature Ref. | Feature Details                                                                                                                           | Planned For   |
 | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------- | ------------- |
-| FA-598       | Initial console integration - control your plugins from a console! | March 2025 |
+| FA-598       | Initial console integration - control your plugins from a Digico Quantum console! | March 2025 |
 | TF-157       | Chain Groups - ways to slice and dice your chains. | March 2025 |
 | TF-1094      | Support side-chains | March 2025 |
 | TF-444, TF-445  | Support larger than mono and stereo channel widths. | March 2025 |
