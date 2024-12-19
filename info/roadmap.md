@@ -17,7 +17,7 @@ feedback we receive from our ~~adoring fans~~ users.
 | TF-444, TF-445  | Wide chains - larger than mono and stereo | March 2025 |
 | TF-1109     | Display multiple plugins at same time on one screen | March 2025 |
 | TF-2454     | High Density/ Overview Chain view | March 2025 |
-| TF-112, TF-137, TF-2204 | Ability to identify DSP core assigned to chain, as well source of DSP overruns. | March 2025 |
+| TF-112, TF-137, TF-2204 | Ability to identify DSP core assigned to chain, as well source of DSP overruns | March 2025 |
 | TF-133      | Tap Tempo synchronisation | March 2025 |
 | TF-1659      | Network Redundancy - mirror two **transform**.engines so that they can be used in a redundant configuration.                              | Q4 2025          |
 
