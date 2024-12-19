@@ -11,16 +11,15 @@ feedback we receive from our ~~adoring fans~~ users.
 
 | Feature Ref. | Feature Details                                                                                                                           | Planned For   |
 | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------- | ------------- |
-|       | V1.3 - **transform**.suite - info to follow. | Q1 2025 |
-| FA-598       | V1.4 - Initial console integration - control your plugins from a console! | Q1 2025 |
-| TF-157       | V1.4 - Chain Groups - ways to slice and dice your chains. | Q1 2025 |
-| TF-1094      | V1.4 - Support side-chains | Q1 2025 |
-| TF-444, TF-445  | V1.4 - Support larger than mono and stereo channel widths. | Q1 2025 |
-| TF-1109     | V1.4 - Teleport multiple plugins at same time | Q1 2025 |
-| TF-2454     | V1.4 - High Density/ Overview Chain view | Q1 2025 |
-| TF-112, TF-137, TF-2204 | V1.4 - Ability to identify DSP core assigned to chain, as well source of DSP overruns. | Q1 2025 |
-| TF-133      | V1.4 - Tap Tempo synchronisation | Q1 2025 |
-| TF-1659      | Network Redundancy - mirror two **transform**.engines so that they can be used in a redundant configuration.                              | Q3 2025          |
+| FA-598       | Initial console integration - control your plugins from a console! | March 2025 |
+| TF-157       | Chain Groups - ways to slice and dice your chains. | March 2025 |
+| TF-1094      | Support side-chains | March 2025 |
+| TF-444, TF-445  | Support larger than mono and stereo channel widths. | March 2025 |
+| TF-1109     | Teleport multiple plugins at same time | March 2025 |
+| TF-2454     | High Density/ Overview Chain view | March 2025 |
+| TF-112, TF-137, TF-2204 | Ability to identify DSP core assigned to chain, as well source of DSP overruns. | March 2025 |
+| TF-133      | V1.4 - Tap Tempo synchronisation | March 2025 |
+| TF-1659      | Network Redundancy - mirror two **transform**.engines so that they can be used in a redundant configuration.                              | Q4 2025          |
 
 Can't see a feature you'd love to add? Be sure to request it on our [Discourse
 site](https://discourse.fourieraudio.com) where you are able to vote for your favourite feature
