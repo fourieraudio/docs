@@ -11,6 +11,7 @@ feedback we receive from our ~~adoring fans~~ users.
 
 | Feature Ref. | Feature Details                                                                                                                           | Planned For   |
 | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------- | ------------- |
+| TF-2311 | Super-exciting secret feature | NAMM 2025 |
 | FA-598       | Initial console integration - control your plugins from a DiGiCo Quantum console! | March 2025 |
 | TF-157       | Chain Groups - ways to slice and dice your chains | March 2025 |
 | TF-1094      | Support side-chains | March 2025 |
