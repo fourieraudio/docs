@@ -14,7 +14,7 @@ feedback we receive from our ~~adoring fans~~ users.
 | FA-598       | Initial console integration - control your plugins from a DiGiCo Quantum console! | March 2025 |
 | TF-157       | Chain Groups - ways to slice and dice your chains. | March 2025 |
 | TF-1094      | Support side-chains | March 2025 |
-| TF-444, TF-445  | Support larger than mono and stereo channel widths. | March 2025 |
+| TF-444, TF-445  | Wide chains - larger than mono and stereo | March 2025 |
 | TF-1109     | Teleport multiple plugins at same time | March 2025 |
 | TF-2454     | High Density/ Overview Chain view | March 2025 |
 | TF-112, TF-137, TF-2204 | Ability to identify DSP core assigned to chain, as well source of DSP overruns. | March 2025 |
