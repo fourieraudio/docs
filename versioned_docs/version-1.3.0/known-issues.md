@@ -10,8 +10,7 @@ We intend on resolving all known issues in a future release, but until then, her
 
 | Issue Ref. | Issue Details | Workaround |
 | ---------- | ------------- | ---------- |
-| TF-2148 | When **transform**.engine is the PTP clock leader, changing the sample rate from 96 kHz to 48 kHz in Dante Controller can result in the Dante audio transport stalling if **transform**.engine is the PTP clock leader. Restarting the **transform**.engine after changing sample rate resolves the issue. | Restart the engine after changing sample rate if **transform**.engine is the PTP clock leader. |
-| TF-2698 | When bx\_limiter or AMEK EQ 200 are used in a chain, recalling cues can cause a momentary increase in DSP load. | Manage system load on affected chains when making heavy use of cuelists. |
+| TF-2148 | When **transform**.engine is the PTP clock leader, changing the sample rate from 96 kHz to 48 kHz in Dante Controller can result in the Dante audio transport stalling if **transform**.engine is the PTP clock leader. Restarting the **transform**.engine after changing sample rate resolves the issue. | Restart the engine after changing sample rate if **transform**.engine is the PTP clock leader. | - |
 
 
 While we strive to support as many plugins as possible on the **transform**.engine, as the engine is
