@@ -10,7 +10,7 @@ How to install **McDSP** plugins on your **transform**.engine!
 
 **Plugin Download Link:** [McDSP Plugins](https://mcdsp.com/downloads/plugin-downloads/#Plug-ins)
 
-**Licensing Method:** iLok ([Licensing Guide](../ilok.md)
+**Licensing Method:** iLok ([Licensing Guide](../ilok.md))
 
 **Plugin Format:** Windows VST3
 
