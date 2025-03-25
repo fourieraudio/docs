@@ -1,0 +1,59 @@
+name: Deploy Docs
+
+on:
+  push:
+    branches:
+      - main
+
+  workflow_dispatch:
+
+jobs:
+  BuildAndMakeLive:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+    - name: Fetch repo
+      uses: actions/checkout@v2
+
+    - name: Install docusaurus
+      run: yarn install
+
+    - name: Build docusaurus
+      run: yarn build
+
+    - name: Get repo base name
+      run: echo "FA_REPO=$(basename ${{ github.repository }})" >> $GITHUB_ENV
+      shell: bash
+
+    - name: Target Staging
+      run: echo "FA_TARGET_SITE=docusaurus_staging" >> $GITHUB_ENV
+      shell: bash
+      if: env.FA_REPO != 'docs'
+
+    - name: Target Live
+      run: echo "FA_TARGET_SITE=docusaurus" >> $GITHUB_ENV
+      shell: bash
+      if: env.FA_REPO == 'docs'
+
+    - name: Send build to server
+      uses: appleboy/scp-action@3d59448764c0f94f80ffcfea943710c44b75cb43
+      with:
+        host: doc.net.fourieraudio.com
+        username: fourier
+        port: 22
+        key: ${{ secrets.SSH_DOC_FOURIER }}
+        source: "/home/runner/work/${{ env.FA_REPO }}/${{ env.FA_REPO }}/build"
+        target: "/home/fourier/deploy-docs"
+
+    - name: Copy to public directory
+      uses: appleboy/ssh-action@52a1840ca6cafe7e0e1e15e8649b935ba4e33077
+      with:
+        host: doc.net.fourieraudio.com
+        username: fourier
+        key: ${{ secrets.SSH_DOC_FOURIER }}
+        port: 22
+        script: |
+          sudo chown -R root: /home/fourier/deploy-docs/github/workspace/build
+          sudo rm -rf /var/www/${{ env.FA_TARGET_SITE}}/live.old
+          sudo mv /var/www/${{ env.FA_TARGET_SITE }}/live{,.old}
+          sudo mv /home/fourier/deploy-docs/github/workspace/build /var/www/${{ env.FA_TARGET_SITE }}/live
