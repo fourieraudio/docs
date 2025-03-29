@@ -1,5 +1,6 @@
 ---
 sidebar_position: 0
+sidebar_label: Transform User Manual
 ---
 
 # Transform User Manual
@@ -15,6 +16,6 @@ Don't worry - nothing will update until we've checked it out.
 
 ## Plugin Installation
 
-Go directly to our handy guides for installing plugins. Do not pass 'go', do not collect $200!
+Go directly to our handy guides for installing plugins. Do not pass 'go', do not collect £200!
 
 <a class="button button--lg button--primary" href="/manual/transform.client/library/plugins/manufacturers">Plugin Installation</a>

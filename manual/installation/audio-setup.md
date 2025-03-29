@@ -58,5 +58,6 @@ Available period sizes are:
 
 - 32 samples (1 ms internal latency at 96 kHz sample rate)
 - 64 samples (2 ms internal latency at 96 kHz sample rate)
+- 512 samples (16 ms internal latency at 96 kHz sample rate)
 
 The buffer size can be configured in the **transform**.client software, with details available [here](../transform.client/system/system-status.md).
