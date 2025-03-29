@@ -32,9 +32,9 @@ Click on a Cue to select it. Once selected, the Action Menu on the right hand si
 presents various exciting possibilities:
 
 * **Fire Cue** - fire the selected Cue.
-* **Set As Pending** - set the selected Cue as the Pending Cue (i.e. the Cue fired when you push
+* **Set Pending** - set the selected Cue as the Pending Cue (i.e. the Cue fired when you push
   "Fire")
 * **Rename Cue** - rename the currently selected Cue with a text string.
 * **Renumber Cue** - change the number of the currently selected Cue with format #.#
+* **Copy Cue To** - Copy the currently selected cue to another cue, either in this cuelist or a different one.
 * **Delete** - delete the currently selected Cue.
-

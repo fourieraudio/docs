@@ -14,4 +14,11 @@ If there's a plugin you're interested in we haven't tested yet, feel free to sub
 
 You can find the database of test results at:
 
-<a class="button button--lg button--primary" href="https://plugins.fourieraudio.com">plugins.fourieraudio.com</a>
+<a class="button button--lg button--primary" href="https://plugins.fourieraudio.com">plugins.fourieraudio.com</a> 
+<br/><br/>
+
+:::info
+
+To search the **transform**.engine's Plugin Database, select the filter icon next to the column name to search through the column's contents.
+
+:::

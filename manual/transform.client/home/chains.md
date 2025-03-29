@@ -7,6 +7,7 @@ import pluginspinning from '/static/img/transformclient/plugin-spinning-up.png';
 import pluginnotinstalled from '/static/img/transformclient/plugin-not-installed-in-showfile.png';
 import pluginsmite from '/static/img/transformclient/plugin-smite.png';
 import pluginfailed from '/static/img/transformclient/plugin-failed.png';
+import ungroup from '/static/img/transformclient/ungroup-button.png';
 
 # Plugin Chains
 
@@ -42,24 +43,68 @@ Whilst in the top tool bar, you'll see a 'DSP load' bar, to give you a live indi
 
 It's as simple as it looks, leaving you to build the perfect chain as soon as possible.
 
-## Smite
+## Detail Pane
+With a chain selected, the detail pane at the bottom of the UI shows configuration relating to the chain.
 
-If a plugin is misbehaving, or you just decide that you wish to terminate its continued existence
-for the hell of it without removing it from the chain and losing its configuration, you can `Smite`
-a plugin. This will kill the plugin and unload it from the chain. Audio will be interrupted when
-this happens, but once smitten, the plugin will consume zero DSP resources.
+![Detail pane for a chain](/img/transformclient/chain-detail-pane.png)
 
-## Bypass
+### Input / Output
+Here you can configure the channels patched to the chain's inputs and outputs, as well as the "width" of the chain (how many channels of audio it contains). The options are **Mono**, **Stereo**, and **Multi**. The first two are hopefully self-explanatory, whilst **Multi** allows you to set up chains containing up to 64 audio channels (wow!), useful for surround-sound plugins.
 
-If you want to temporarily route audio around a plugin so that it bypasses the plugin's processing,
-you should select `Bypass`. The plugin will still be loaded, but audio will temporarily skip that
-plugin in the chain. Audio is not interrupted when you bypass/un-bypass a plugin, but the plugin will
-continue to consume DSP resources.
+Click the patch indicator to enter the patch selection view:
 
-## Copy/Paste Plugin State
-You can use the "Copy" and "Paste" buttons in the detail pane for a Plugin Instance to copy the
-state of that instance to any other instance of the same type.
+![Chain Patch View](/img/transformclient/patch-view.png)
 
-## Move/Renumber Chains
+This allows you to select which channels are used. By default, the patched channels are always grouped together in one contiguous block, but if you want to select arbitrary channels, you can toggle the "group channels" button:
 
-By selecting a chain, you can either move the chain left/right, or alternatively renumber the chain.
+<img src={ungroup} alt="Channel patch group toggle" width="100" />
+
+### Chain Groups
+
+In this section, you can assign a chain to one or more chain groups.
+You can filter the displayed chains to only display the chains in a given group; see [chain groups](chain-groups.md) for more details.
+
+### Latency Group
+
+In this section, you can assign the chain to a single latency group to enable latency compensation for that chain. See [Delay Compensation](delay-compensation.md) for more info.
+
+## View Controls
+On the left hand side of the screen is the view controls menu.
+
+### Chain Groups
+By default, all chains are shown. If you have placed chains into [chain groups](chain-groups.md), you can select a chain group here to filter the display to only show the chains in that group:
+
+![Chain Group Selected](/img/transformclient/chains-filtered.png)
+
+### Plugin Grids
+A [plugin grid](plugin-grids.md) is a saved layout of specific plugins in your show, allowing you to quickly access the plugins you need. To open a plugin grid, select it here:
+
+![Selected Plugin Grid](/img/transformclient/grids-selected.png)
+
+### View Density Control
+By default, all chain information is shown in a low-density view. The density control lets you see less information about each chain, allowing you to see more chains at once:
+
+![Density Control](/img/transformclient/density-control.png)
+
+The other options available are medium density:
+![Medium Density View](/img/transformclient/chains-medium-density.png)
+And high density:
+![High Density View](/img/transformclient/chains-high-density.png)
+In each case, output meters are shown for each chain.
+
+## Action Menu
+With a chain selected, there are various actions available in the action menu on the right hand side of the screen.
+
+### Move/Renumber Chains
+
+Chains are displayed in numerical order. With these actions, you can either
+move the chain left/right, or alternatively renumber the chain to an arbitrary number.
+
+### Restart Chain
+
+Selecting this option asks the **transform**.engine to stop all audio
+processing for a chain, unload the plugins, and then restart the chain. This can be useful if a
+plugin is misbehaving.
+
+### Delete
+If you don't like a chain, this option allows you to eliminate it. It's quite satisfying, really.

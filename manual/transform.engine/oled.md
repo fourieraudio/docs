@@ -36,6 +36,7 @@ flowchart LR
     Primary-->Mode
     Primary-->IP
     Primary-->Subnet
+    Primary-->GW["Net Gateway"]
 ```
 
 ### IP Configuration
@@ -54,6 +55,10 @@ This menu lets you configure the IP address for each network interface.
 **Subnet Prefix:** In **Static** addressing mode, the subnet you would like the device to be on.
 Common values are `/24` (equivalent to a mask of `255.255.255.0`) or `/16` (equivalent to a mask of
 `255.255.0.0`).
+
+**Net Gateway:** In **Static** addressing mode, optionally, the IP address of a
+gateway host to use to reach other subnets. This is not usually needed and can
+be set to `No` (default) to communicate only on the configured subnet.
 
 ### Version Info
 What version of the **transform**.engine software this hardware is running.
