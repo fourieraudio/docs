@@ -7,4 +7,4 @@ AES67 is a standard for audio over IP interoperability. **transform**.engines ru
 
 ![simple-te-set-up-configuration](@site/static/img/AES67/AES67.png)
 
-For more details on AES67 operation in Dante Controller, please consult the [Dante Controller User Guide.]([https://](https://dev.audinate.com/GA/dante-controller/userguide/webhelp/content/aes67_config.htm))
+For more details on AES67 operation in Dante Controller, please consult the [Dante Controller User Guide.](https://dev.audinate.com/GA/dante-controller/userguide/webhelp/content/aes67_config.htm)

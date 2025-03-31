@@ -29,7 +29,7 @@ change between e.g. Stereo, Stereo with sidechain, or Surround modes.
 
 :::note
 If there are no bus configurations shown, you may need to re-scan your plugins: you will be
-prompted to do this in the [Library Tab](../library) if this is the case.
+prompted to do this in the [Library Tab](../library/library.md) if this is the case.
 :::
 
 The sidechain patch selector allows you to select the source for the sidechain
