@@ -6,6 +6,12 @@ sidebar_position: 1
 
 How to install and license **Plugin Alliance** plugins on your **transform**.engine.
 
+:::warning
+
+Please be aware that Plugin Alliance do not support SanDisk USB drives for licensing plugins. For more info, click [here](https://support.plugin-alliance.com/hc/en-us/articles/9760037618589-Why-does-the-machine-ID-of-my-USB-drive-keep-changing)!
+
+:::
+
 ## Installation
 
 **Method 1-** Individual Plugin Installation: [Individual Plugin Alliance Plugins](https://www.plugin-alliance.com/en/products.html)

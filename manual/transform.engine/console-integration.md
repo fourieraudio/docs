@@ -12,7 +12,7 @@ As of **transform**.engine v1.4.0, you can synchronise your DiGiCo console runni
 
 There is no configuration on the **transform**.engine itself to configure the
 integration. For details on how to configure the integration on the console,
-please refer to the [DiGiCo documentation](https://support.digico.biz/hc/en-gb/article_attachments/33956359034129).
+please refer to the [DiGiCo documentation](https://support.digico.biz/hc/en-gb/article_attachments/33956359034129). 
 
 ## Gotchas
 
