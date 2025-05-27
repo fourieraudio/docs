@@ -6,7 +6,7 @@ to have more information about the protocols that it uses.
 For more information on anything listed here, please reach out to us at
 support@fourieraudio.com.
 
-## transform.engine - System
+## transform.engine - General System
 
 On all network interfaces, **transform**.engine may use the following network protocols:
 
@@ -22,6 +22,8 @@ On all network interfaces, **transform**.engine may use the following network pr
 | TCP      | `5900`-`5901`              |                                    |
 | TCP      | `24601`-`24611`            |                                    |
 | UDP      | client-selected >= `49142` |                                    |
+
+Traffic may be both inbound and outbound on the indicated ports.
 
 ## transform.engine - Dante
 
@@ -44,8 +46,10 @@ If the device is enrolled in Dante Director, it may connect to the following end
 * `devices.director.dante.cloud`, UDP port `8000`
 
 ## transform.client
+
 On startup, **transform**.client may connect to the following endpoint to check for available updates:
-* `appdata.fourieraudio.com`, HTTPS port `443`.
+
+* `appdata.fourieraudio.com`, HTTPS port `443`
 
 When activating or deactivating **transform**.suite, **trandsform**.client may connect to the following endpoints:
 
