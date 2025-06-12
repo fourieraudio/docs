@@ -3,7 +3,7 @@ sidebar_position: 31
 sidebar_label: Redundancy
 ---
 
-# Redundancy
+# Mirroring
 
 The **transform**.engine currently doesn't support mirroring between two units just yet, but we definitely have plans to. 
 

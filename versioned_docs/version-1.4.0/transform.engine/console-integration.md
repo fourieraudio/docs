@@ -18,7 +18,7 @@ please refer to the [DiGiCo documentation](https://digico.biz/support-files/).
 
 :::info
 
-We currently do not support redundancy between two or more **transform**.engines. However, this feature is on our roadmap for future development. To stay updated, please check out our [roadmap](https://docs.fourieraudio.com/roadmap/)!
+We currently do not support mirroring between two or more **transform**.engines. However, this feature is on our roadmap for future development. To stay updated, please check out our [roadmap](https://docs.fourieraudio.com/roadmap/)!
 
 :::
 
