@@ -2,7 +2,7 @@ import addgrid from '/static/img/transformclient/add-grid.png';
 
 # Plugin Grids
 
-Plugin grids let you get quick akjccess to a pre-configured layout of specific
+Plugin grids let you get quick access to a pre-configured layout of specific
 plugins from your show.
 
 You can have as many plugin grids as you like, to allow you to configure your
