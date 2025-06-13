@@ -1,6 +1,6 @@
 ---
 sidebar_position: 31
-sidebar_label: Redundancy
+sidebar_label: Mirroring
 ---
 
 # Mirroring
