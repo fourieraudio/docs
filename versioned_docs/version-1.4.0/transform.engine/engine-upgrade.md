@@ -38,7 +38,7 @@ Download the latest client before continuing.
 | 4 | Run the updated client, and connect to your **transform**.engine.  | |
 | 5 | The **transform**.engine will be feeling left out! Navigate to the system tab to update.  | See detailed steps below... |
 | 6 | Walk away, get your tech to make you a cup of tea. | |
-| 7 | Reconnect to your client, and you are good to go! | Test all the shiny new features. |
+| 7 | Reconnect to your engine, and you are good to go! | Test all the shiny new features. |
 
 ## Step-by-Step Upgrade Instructions
 
