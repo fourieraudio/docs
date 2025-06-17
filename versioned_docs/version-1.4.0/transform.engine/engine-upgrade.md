@@ -59,7 +59,7 @@ This is the **only step that requires internet access**. You can complete the re
    Make sure **transform**.client is not running while updating.
 
 2. **Run the installer**  
-   You will obtain a .zip file consisting of a bundle with both **transform**.client software and **transform**.engine updates inside. Extract and run the installer.
+   You will obtain a .zip file containing an installer for the updated **transform**.client. Extract and run the installer.
 
 3. **Follow on-screen prompts**  
    The update tool will guide you through **transform**.client installation.
