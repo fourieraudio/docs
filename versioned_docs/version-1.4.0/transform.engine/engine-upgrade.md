@@ -73,7 +73,7 @@ This is the **only step that requires internet access**. You can complete the re
    Now, let's get the **transform**.engine up to speed.
 
 5. **Navigate to the System tab**  
-   Once you have connected to your **transform**.engine, you will see the system tab in the top right appear as the following:
+   Once you have connected to your **transform**.engine, you will see the System tab in the top right:
       <div style={{ textAlign: "center" }}>
       <img src="/img/update/SystemNotif.png" alt="Upgrade Warning" style={{ width: "20%", border: "2px solid #AAA" }} />
       </div>  
