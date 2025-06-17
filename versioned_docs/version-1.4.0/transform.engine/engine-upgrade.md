@@ -17,7 +17,7 @@ Schedule upgrades during planned maintenance windows rather than *immediately* b
 
 ## Before You Begin
 
-If you are running on an older edition of **transform**.client, you will see the following warning:
+If you are running an old edition of **transform**.client, and your computer is online, you will see the following warning when you start the software:
 <div style={{ textAlign: "center" }}>
   <img src="/img/update/UpdateWarningv1-4-0.png" alt="Upgrade Warning" style={{ width: "50%" }} />
 </div>
