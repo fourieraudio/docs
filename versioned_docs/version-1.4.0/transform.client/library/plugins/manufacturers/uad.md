@@ -27,7 +27,7 @@ How to install **Universial Audio (UAD)** plugins on your **transform**.engine!
    - `C:\Program Files\Common Files\Universal Audio`  
    - `C:\Program Files\Common Files\VST3` (copy only the `.vst3` files related to UAD)
 6. Plug the USB stick into any USB port on the **transform.engine**.
-7. Locate your USB drive and copy the UAD folders to the same directory paths on the **transform.engine**.
+7. Locate your USB drive and copy the files to the same directory paths on the **transform.engine** that they were taken from on your Windows device.
 8. Confirm that files are copied successfully. No installer run is required, but UA Connect must have been used to prepare the plugin files.
 9. Repeat the process if you have additional plugins to transfer.
 
