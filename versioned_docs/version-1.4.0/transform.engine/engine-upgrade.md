@@ -5,7 +5,9 @@ sidebar_position: 5
 # Upgrade Instructions
 
 Keep your **transform**.engine up to date with the latest improvements, features, and bug fixes!
-To download any installers, navigate to the [Software Downloads](https://docs.fourieraudio.com/downloads/) page.
+Use the latest **transform**.client to update your engine. 
+
+To download the latest client, navigate to the [Software Downloads](https://docs.fourieraudio.com/downloads/) page.
 
 :::tip
 
