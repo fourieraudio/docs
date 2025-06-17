@@ -21,6 +21,7 @@ If you are running an old edition of **transform**.client, and your computer is 
 <div style={{ textAlign: "center" }}>
   <img src="/img/update/UpdateWarningv1-4-0.png" alt="Upgrade Warning" style={{ width: "50%" }} />
 </div>
+Download the latest client before continuing.
 
 
 - Ensure your showfile is saved and backed up (*always* good to do!)
