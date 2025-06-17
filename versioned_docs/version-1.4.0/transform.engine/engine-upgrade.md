@@ -85,7 +85,7 @@ This is the **only step that requires internet access**. You can complete the re
 
 
 8. **Begin the update**  
-   Within the **transform**.engine software version number box, a button will have appeared, this will begin the update:
+   Within the **transform**.engine software version number box, an Upgrade button will have appeared. Click it to begin the update:
       <div style={{ textAlign: "center" }}>
       <img src="/img/update/BeginUpdate.png" style={{ width: "50%"}} />
       </div>  
