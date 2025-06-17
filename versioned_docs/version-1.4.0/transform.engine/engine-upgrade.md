@@ -106,7 +106,7 @@ This is the **only step that requires internet access**. You can complete the re
  
 Since your plugins were initially scanned by your previous version of **transform**.engine, to ensure full compatibility with newly-added features and improvements, these plugins must be rescanned.
 
-In the library tab, you will see the following warning:
+If a rescan is needed, in the library tab, you will see the following warning:
 
 <div style={{ textAlign: "center" }}>
 <img src="/img/update/Rescan.png" style={{ borderRadius: "12px" }} />
