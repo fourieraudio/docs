@@ -104,7 +104,7 @@ This is the **only step that requires internet access**. You can complete the re
 
 ## **Licensing Considerations**
  
-Since your plugins were initially scanned by your previous version of **transform**.engine, to ensure full compatibility with newly-added features and improvements, these plugins must be rescanned.
+Since your plugins were initially scanned by the previous version of **transform**.engine, after some upgrades you may need to rescan your plugins to ensure full compatibility with newly-added features.
 
 If a rescan is needed, in the library tab, you will see the following warning:
 
