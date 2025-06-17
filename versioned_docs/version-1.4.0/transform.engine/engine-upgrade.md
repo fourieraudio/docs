@@ -100,7 +100,7 @@ This is the **only step that requires internet access**. You can complete the re
    <div style={{ textAlign: "center" }}>
    <img src="/img/update/UpdateComplete.png" style={{ width: "50%", clipPath: "inset(0 2px 0 0)", position: "relative" }} />
    </div>  
-   Following this, the application will quit, please wait a minute before reconnecting just to allow the **transform**.engine get its affairs in order!
+   Following this, the application will return you to the connection page. Wait for the engine to complete the reboot, and then select it to connect and enjoy the exciting new features.
 
 ## **Licensing Considerations**
  
