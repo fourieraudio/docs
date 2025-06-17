@@ -78,7 +78,7 @@ This is the **only step that requires internet access**. You can complete the re
       </div>  
 
 6. **Navigate to the software section**  
-      On the left-hand side of your screen, you will see the settings menu. Select the software section as highlighted below:
+      On the left-hand side of your screen, you will see the settings menu. Select the Software section:
       <div style={{ textAlign: "center" }}>
       <img src="/img/update/Menu.png" style={{ width: "50%", borderRadius: "12px"}} />
       </div>  
