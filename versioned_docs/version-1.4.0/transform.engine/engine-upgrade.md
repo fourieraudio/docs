@@ -24,7 +24,7 @@ If you are running an old edition of **transform**.client, and your computer is 
 
 
 - Ensure your showfile is saved and backed up (*always* good to do!)
-- The system must remain powered on during the upgrade
+- The **transform**.engine must remain powered on during the upgrade
 - The **transform**.client updater comes with compatible **transform**.engine software bundled so you can upgrade the **transform**.engine offline
 
 ## Quick Steps
