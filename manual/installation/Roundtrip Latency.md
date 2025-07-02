@@ -5,11 +5,11 @@ sidebar_label: Roundtrip Latency
 
 ## Roundtrip Latency
 
-Using **1ms** as the lowest Dante device latency for this example. Other Dante device latency values are available as described [here](../installation/audio-setup.md). You can use the table below to calculate your roundtrip latency. 
-
 :::info
 Audinate defines Dante device latency as **one trip**, as the **transform**.engine is usually used as an insert, you have a send and a return. A 1ms Dante device latency, results in 2ms of Dante latency, 1ms for the network send + 1ms for the network return).
 :::
+
+Using **1ms** as the lowest Dante device latency for this example. Other Dante device latency values are available as described [here](../installation/audio-setup.md). You can use the table below to calculate your roundtrip latency. 
 
 | Dante Device Latency Setting | Sample Rate | Period Size  | Dante Send  | DSP internal Latency | Dante Return | TOTAL ROUND TRIP   |
 | ------    | -------- | -------------- | ----------- | ----------------------- | ------- | ------   |
@@ -24,7 +24,7 @@ Audinate defines Dante device latency as **one trip**, as the **transform**.engi
 :::tip 
 If you change the Dante device latency setting, remember to adjust your calculations for the send and return. 
 
-2ms Dante device latency = 4ms roundtrip (2ms network send + 2ms network return)
+For example- 2ms Dante device latency = 4ms roundtrip (2ms network send + 2ms network return)
 :::
 
 ## Period Size
