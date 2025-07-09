@@ -10,7 +10,7 @@ How to install **Kazrog** plugins on your **transform**.engine!
 
 **Plugin Download Link:** [Kazrog Plugins](https://kazrog.com/collections/audio-plugins)
 
-**Licensing Method:** iLok ([Licensing Guide](../ilok.md)
+**Licensing Method:** iLok ([Licensing Guide](../ilok.md))
 
 **Plugin Format:** Windows VST3
 

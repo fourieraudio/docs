@@ -7,7 +7,12 @@ import pluginspinning from '/static/img/transformclient/plugin-spinning-up.png';
 import pluginnotinstalled from '/static/img/transformclient/plugin-not-installed-in-showfile.png';
 import pluginsmite from '/static/img/transformclient/plugin-smite.png';
 import pluginfailed from '/static/img/transformclient/plugin-failed.png';
+import pluginbypass from '/static/img/transformclient/plugin-bypass.png';
+import pluginsidechain from '/static/img/transformclient/plugin-sidechain.png';
+import pluginsafe from '/static/img/transformclient/plugin-safe.png';
+import pluginreload from '/static/img/transformclient/plugin-reload.png';
 import ungroup from '/static/img/transformclient/ungroup-button.png';
+import filtered from '/static/img/transformclient/chains-filtered.png';
 
 # Plugin Chains
 
@@ -21,21 +26,33 @@ Click add and a plugin chain will appear, with audio passing from top to bottom.
 - Delay Compensation - Auto-align your outputs, more info [here](delay-compensation.md).
 - Output - Select Audio output
 
-Five different states of your plugins:
+There are various different states of your plugins:
 
 1. <img src={pluginhealthy} alt="Plugin status - healthy - no icon" width="100" /> **Healthy, happy and ready to go.** Plugin is processing audio.
 
 2. <img src={pluginspinning} alt="Plugin status - lightning bolt" width="100" /> **Lightning bolt**- your plugin/chain is not ready yet, but it is spinning up and will be ready shortly.
 
-3. <img src={pluginnotinstalled} alt="Plugin status - exclamation mark" width="100" /> **Exclamation
+3. <img src={pluginbypass} alt="Plugin status - bypass mark" width="100" /> **Bypass**- Your plugin is bypassed, exactly what it says on the tin. The audio is going around the outside of the plugin, the DSP is still running, but it's a great way to A/B the effects of your plugin from the dry signal.
+
+6. <img src={pluginsmite} alt="Plugin status - smite mark" width="100" /> **Smite**- this plugin is smitten: it is doing nothing. The plugin is shut down, no DSP, just an empty placeholder, gone forever... until you unsmite it (or is it 'smote it'? or are both correct? Answers on the back of a postcode, we've spent too long pondering, help).
+
+4. <img src={pluginsidechain} alt="Plugin status - sidechain icon" width="100" /> **Sidechain**- if your plugin supports sidechains, select the 'Bus Config'.
+
+5. <img src={pluginsafe} alt="Plugin status - safe icon" width="100" /> **Recall Safe**- your plugin is recall safe and will be removed from your cuelist recall.
+
+7. <img src={pluginfailed} alt="Plugin status - failed icon" width="100" /> **Failed**- the system has tried to get this plugin to start but has failed. Try using the 'Test Run' feature in Add/Remove plugins.
+
+8. <img src={pluginnotinstalled} alt="Plugin status - exclamation mark" width="100" /> **Exclamation
    mark**- your plugin is in the showfile but it is not installed in plugin host environment. No
    audio will pass. For handy guides on installing plugins, see
-   [here!](../library/plugins/plugins.md) If you don't want to install the plugin, smite or delete
+   [here](../library/plugins/plugins.md)! If you don't want to install the plugin, smite or delete
    it (see below).
 
-4. <img src={pluginsmite} alt="Plugin status - target mark" width="100" /> **Smite**- this plugin is smitten: it is doing nothing (see below).
+9. <img src={pluginreload} alt="Plugin status - reload icon" width="100" /> **Reload**- the system has detected a problem with the plugin and is automatically reloading it for you. No user interaction needed! 
 
-5. <img src={pluginfailed} alt="Plugin status - failed icon" width="100" /> **Failed**- The system has tried to get this plugin to start but has failed. Try using the 'Test Run' feature in Add/Remove plugins.
+:::info
+If a plugin fails to reload 5 times, it will give up and display a failed icon. If it has failed 5 times, we assume there is a larger issue and don't want to keep using your precious DSP resources trying to fix a problem that can't be fixed!
+::: 
 
 Whilst in the top tool bar, you'll see a 'DSP load' bar, to give you a live indication of how much processing power is being used by your plugins. For a more detailed look, click on it and you will be taken to the [Performance](../system/performance.md) tab.
 
@@ -74,7 +91,7 @@ On the left hand side of the screen is the view controls menu.
 ### Chain Groups
 By default, all chains are shown. If you have placed chains into [chain groups](chain-groups.md), you can select a chain group here to filter the display to only show the chains in that group:
 
-![Chain Group Selected](/img/transformclient/chains-filtered.png)
+!<img src={filtered} alt="Channel patch group toggle" width="400" />
 
 ### Plugin Grids
 A [plugin grid](plugin-grids.md) is a saved layout of specific plugins in your show, allowing you to quickly access the plugins you need. To open a plugin grid, select it here:
