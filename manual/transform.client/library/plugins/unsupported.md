@@ -9,23 +9,12 @@ The **transform**.engine aims to support any Windows 10 compatible plugin that c
 activated offline. The Windows plugin hosting environment has no internet access to ensure it
 remains pristine, reliable, and show-ready.
 
-Unfortunately, a small number of manufacturers currently do not support a fully-offline installation
-process. Whilst we're working hard to find solutions for these, at the moment plugins from these
-manufacturers cannot be installed on the **transform**.engine.
+Unfortunately, a small number of manufacturers currently do not support offline licensing. Whilst we're working hard to find solutions for these, at the moment, the plugins from these manufacturers cannot be installed on the **transform**.engine:
 
-Plugin manufacturers that require online installation:
-
-- Universal Audio
-
-Plugin Manufacturers that require online activation/licensing:
-
-- Baby Audio
-- Antares
+- Baby Audio- however 'Spaced Out', 'Parallel Aggressor' and 'Crystalline' plugins are available through the **transform**.suite, for more info click [here](https://fourieraudio.com/suite)!
 - Cradle
 - GS DSP
 
-:::info
-
-Instruments and multi-channel only (i.e. plugins that require 3+ inputs/outputs) are not supported at this time. Stay tuned!
-
+:::tip
+If you find any more manufacturers that do not support offline licensing, or experience problems with installing plugins, please do reach out to our support team on [support@fourieraudio.com](mailto:support@fourieraudio.com)
 :::

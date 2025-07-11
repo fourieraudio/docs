@@ -10,7 +10,7 @@ How to install **Krotos Audio** plugins on your **transform**.engine!
 
 **Plugin Download Link:** [Krotos Audio Plugins](https://www.krotosaudio.com/)
 
-**Licensing Method:** iLok ([Licensing Guide](../ilok.md)
+**Licensing Method:** iLok ([Licensing Guide](../ilok.md))
 
 **Plugin Format:** Windows VST3
 

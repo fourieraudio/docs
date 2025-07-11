@@ -10,7 +10,7 @@ How to install **TC Electronic** plugins on your **transform**.engine!
 
 **Plugin Download Link:** [TC Electronic](https://store.tcelectronic.com/)
 
-**Licensing Method:** iLok ([Licensing Guide](../ilok.md)
+**Licensing Method:** iLok ([Licensing Guide](../ilok.md))
 
 **Plugin Format:** Windows VST3
 

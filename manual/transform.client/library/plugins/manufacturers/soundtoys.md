@@ -10,7 +10,7 @@ How to install **Soundtoys** plugins on your **transform**.engine.
 
 **Plugin Download Link:** [Soundtoys](https://storage.googleapis.com/soundtoys-download/download.html)
 
-**Licensing Method:** iLok ([Licensing Guide](../ilok.md)
+**Licensing Method:** iLok ([Licensing Guide](../ilok.md))
 
 **Plugin Format:** Windows VST3
 

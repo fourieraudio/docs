@@ -51,7 +51,7 @@ On startup, **transform**.client may connect to the following endpoint to check 
 
 * `appdata.fourieraudio.com`, HTTPS port `443`
 
-When activating or deactivating **transform**.suite, **trandsform**.client may connect to the following endpoints:
+When activating or deactivating **transform**.suite, **transform**.client may connect to the following endpoints:
 
 * `verona.api.fourieraudio.com`, HTTPS port `443`
 * `activation.paceap.com`, HTTPS port `443`
