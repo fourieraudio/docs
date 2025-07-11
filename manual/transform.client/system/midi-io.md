@@ -99,7 +99,7 @@ Consider using [per-Cuelist personalities](../cuelists/midi.md) instead.
 | CC 98 = 4 | Select NRPN 4 [Fire Selected Cue] |
 | CC 38 = 127 | NRPN Data Entry 127 |
 
-# MIDI Tap Tempo Assignments
+## MIDI Tap Tempo Assignments
 
 Global Tap Tempo can be controlled through either Note or Controller Change messages. To ensure the relevant message, make sure you select the correct note.
 

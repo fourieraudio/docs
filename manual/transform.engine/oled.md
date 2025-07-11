@@ -60,6 +60,10 @@ Common values are `/24` (equivalent to a mask of `255.255.255.0`) or `/16` (equi
 gateway host to use to reach other subnets. This is not usually needed and can
 be set to `No` (default) to communicate only on the configured subnet.
 
+:::warning
+When configuring static IP addresses, overlapping subnets are not permitted to ensure reliable network operation. The only exception is for subnets within the `0.0.0.0/8` range, which are allowed to overlap. This enables initial setup using the front panel default (`0.0.0.0/24`). Once configuration is complete, ensure all interfaces use unique subnets outside this range.
+:::
+
 ### Version Info
 What version of the **transform**.engine software this hardware is running.
 
