@@ -36,7 +36,7 @@ There are various different states of your plugins:
 
 6. <img src={pluginsmite} alt="Plugin status - smite mark" width="100" /> **Smite**- this plugin is smitten: it is doing nothing. The plugin is shut down, no DSP, just an empty placeholder, gone forever... until you unsmite it (or is it 'smote it'? or are both correct? Answers on the back of a postcode, we've spent too long pondering, help).
 
-4. <img src={pluginsidechain} alt="Plugin status - sidechain icon" width="100" /> **Sidechain**- if your plugin supports sidechains, select the 'Bus Config'.
+4. <img src={pluginsidechain} alt="Plugin status - sidechain icon" width="100" /> **Sidechain**- this plugin has a sidechain input. If your plugin supports sidechains, select the 'Bus Config' with a sidechain, then select your input for the sidechain.
 
 5. <img src={pluginsafe} alt="Plugin status - safe icon" width="100" /> **Recall Safe**- your plugin is recall safe and will be removed from your cuelist recall.
 
