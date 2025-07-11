@@ -3,21 +3,61 @@ sidebar_position: 3
 ---
 
 # Performance
-
-If you navigate to the **Performance** tab you will find the current performance metrics for your **transform**.engine.
+You may have noticed in your navigation bar, an overview of the DSP load on your **transform**.engine, selecting this will take you to the **Performance** tab.
+Here, you will find the current performance metrics for your **transform**.engine!
 
 ![System status overview tab.](@site/static/img/transformclient/system-performance.png)
 
-The chart shown (plus a smaller one in the top left) shows the load per DSP core.
+## DSP Load Breakdown
 
-Here you will also find other metrics such as:
+The **Performance** tab provides enhanced visibility into DSP usage, each chain in your Showfile now displays its individual DSP usage, allowing you to see exactly how your processing budget is distributed. 
 
-- Average DSP Core Load - the average CPU % used across all active cores.
-- DSP cores in use - the number of DSP cores currently available in the session, and their maximum
-  utilisation.
-- DSP Deadline - the time per period available to the system to process audio.
-- Sample Rate - configured in Dante Controller, this is the audio sample rate that your **transform**.engine is running at.
-- Period Samples - configured in the 'System Status' tab, this is the buffer size your showfile is configured to.
+The DSP load graph shows how each chain contributes to the overall DSP core usage, helping you optimise plugin performance!
+Each core has a breakdown of the system time being utilised by each chain, and hovering over a chain will report the time.
+
+More information on system time can be found by selecting the inline 
+<img src={require('@site/static/img/transformclient/DSPInfoIcon.png').default} alt="DSP Info Icon" style={{ height: '2.5em', verticalAlign: 'middle' }} />. This will display the following information box:
+
+<img 
+  src={require('@site/static/img/transformclient/DSPInfoBox.png').default} 
+  alt="System status overview tab." 
+  style={{ 
+    width: '75%', 
+    borderRadius: '16px', 
+    display: 'block', 
+    margin: '24px auto' 
+  }} 
+/>
+
+## Resettable Peak Holds
+
+DSP meters now feature a peak hold that can be reset, making it easier to monitor and manage peak loads. There are two controls for this:
+
+<div style={{ display: 'flex', justifyContent: 'center' }}>
+  
+| Navigation Bar Reset | Performance Tab Reset |
+|:-------------------:|:--------------------:|
+| <img src="/img/transformclient/NavBarResetButton.png" alt="Navigation Bar Reset Button" height="40" /> | <img src="/img/transformclient/PerformanceTabResetButton.png" alt="Performance Tab Reset Button" height="40" /> |
+
+</div>
+
+## Overrun Counts Per Core
+
+You can now view overrun counts for each DSP core directly in transform.client. This allows you to monitor the stability and performance of your DSP processing in real time.
+
+If a DSP core is actively overrunning, the following warning will show next to the graph  to alert you to immediate performance issues. In this state, you may hear constant audio artifacts until the issue is resolved or the overrun counters are reset:
+
+**TODO:** add image
+<!-- ![Active DSP Overrun Warning](/img/transformclient/DSPOverrunActiveWarning.png) -->
+
+If a chain has previously overrun, the system will display a muted warning to indicate that an overrun took place and further investigation may be required:
+
+**TODO:** add image
+<!-- ![Previous DSP Overrun Warning](/img/transformclient/DSPOverrunPreviousWarning.png) -->
+
+These improvements help you fully understand and manage the performance of your Showfile, ensuring reliable operation and efficient use
+
+
 
 :::tip
 
@@ -26,15 +66,14 @@ also increase the amount of time available (and therefore system capacity) to th
 processing.
 
 :::
-
 ## Audio Renderer Info
 
+
 Below the whole-system information, information about the performance of each Audio Renderer in the
-system is displayed. A summary table shows the uptime of each Audio Renderer in the session,
+system is displayed. A summary table shows the **uptime** of each Audio Renderer in the session,
 followed by detailed statistics for each renderer, mainly useful for support:
 
 * **Engine Time**: The amount of time, per period, spent on internal engine audio processing tasks.
 * **Period Time**: The inter-period time as measured from the Dante network.
 * **Engine Xruns**: The count of occasions where time-skew was detected.
-* **DSP Overruns**: The count of occasions where the requested audio processing took longer than the
-  amount of time available (i.e. a DSP core was overloaded).
+
