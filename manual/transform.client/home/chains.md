@@ -37,7 +37,7 @@ Five different states of your plugins:
 
 5. <img src={pluginfailed} alt="Plugin status - failed icon" width="100" /> **Failed**- The system has tried to get this plugin to start but has failed. Try using the 'Test Run' feature in Add/Remove plugins.
 
-Whilst in the top tool bar, you'll see a 'DSP load' bar, to give you a live indication of how much processing power is being used by your plugins. For a more detailed look, click on it and you will be taken to the [Performance](../system/performance.md) tab.
+Whilst in the top navigation bar, you'll see the **global tap tempo** control, the **showfile name**, the **DSP load indicator**, and the **transform**.engines **current mode** to give you rapid access to control your **transform**.engine.
 
 ![Home tab with 6 chains](/img/transformclient/home-chains.png)
 
@@ -67,6 +67,10 @@ You can filter the displayed chains to only display the chains in a given group;
 ### Latency Group
 
 In this section, you can assign the chain to a single latency group to enable latency compensation for that chain. See [Delay Compensation](delay-compensation.md) for more info.
+
+### DSP Load
+
+This section discerns the DSP Load of each chain on a DSP core. They identify the core number and any peaks, which can be reset in the Navigation Bar or the [Performance Tab.](../system/performance.md)
 
 ## View Controls
 On the left hand side of the screen is the view controls menu.
