@@ -38,8 +38,6 @@ Here you can find the **transform**.suite '25 collection file:
 compatibility ranges at any time.</small>
 <br /><br />
 
-Please note that macOS 15.2 or later is currently subject to known issue TF-2749; see the [v1.4 release notes](v1-4-0.md) for more details.
-
 # Releases
 
 | Engine Version | Client Version            | Release Date | Latest  |                      |
