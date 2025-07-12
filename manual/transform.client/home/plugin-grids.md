@@ -9,7 +9,7 @@ You can have as many plugin grids as you like, to allow you to configure your
 showfile to match your workflow. Plugin grids can contain up to 6 plugins in
 any layout you desire.
 
-![Plugin Grid Example](/img/transformclient/grids-overview.png)
+![Plugin Grid Example](/img/transformclient/v1.5/grids-overview.png)
 
 ## Creating a plugin grid
 To create a new plugin grid, hit <img src={addgrid} alt="Add plugin grid button" />

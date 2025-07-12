@@ -6,7 +6,7 @@ sidebar_position: 3
 
 You can assign a MIDI Channel to control a specific Cuelist using the detail pane for the relevant Cuelist.
 
-![Cuelist MIDI Configuration](@site/static/img/transformclient/cuelists-nofilter.png)
+![Cuelist MIDI Configuration](@site/static/img/transformclient/v1.5/cuelists-nofilter.png)
 
 :::tip
 

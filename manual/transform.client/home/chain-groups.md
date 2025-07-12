@@ -31,6 +31,6 @@ Selecting `Change` allows you to change the group assignment:
 
 To quickly view the chains assigned to a group, select that group in the view controls menu:
 
-![Filtered Chain View](/img/transformclient/chains-filtered-big.png)
+![Filtered Chain View](/img/transformclient/v1.5/chains-filtered-big.png)
 
 To return to seeing all chains, select <img src={allChains} alt="All Chains button" /> or hit the <img src={homeTab} alt="Home Tab" /> tab.

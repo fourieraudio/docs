@@ -6,7 +6,7 @@ sidebar_position: 2
 
 Welcome **home**! Leave your shoes at the door, grab a coffee, and let's take your **transform**.engine for a spin.
 
-![Home tab with no chains initiated](/img/transformclient/home-blank.png)
+![Home tab with no chains initiated](/img/transformclient/v1.5/home-blank.png)
 
 An uncluttered, minimalist approach. We know you have a million and one pieces of equipment to configure these days, and we don't want to add another complex set up to your never ending to-do list.
 
