@@ -36,7 +36,7 @@ There are various different states of your plugins:
 
 6. <img src={pluginsmite} alt="Plugin status - smite mark" width="100" /> **Smite**- this plugin is smitten: it is doing nothing. The plugin is shut down, no DSP, just an empty placeholder, gone forever... until you unsmite it (or is it 'smote it'? or are both correct? Answers on the back of a postcode, we've spent too long pondering, help).
 
-4. <img src={pluginsidechain} alt="Plugin status - sidechain icon" width="100" /> **Sidechain**- if your plugin supports sidechains, select the 'Bus Config'.
+4. <img src={pluginsidechain} alt="Plugin status - sidechain icon" width="100" /> **Sidechain**- this plugin has a sidechain input. If your plugin supports sidechains, select the 'Bus Config' with a sidechain, then select your input for the sidechain.
 
 5. <img src={pluginsafe} alt="Plugin status - safe icon" width="100" /> **Recall Safe**- your plugin is recall safe and will be removed from your cuelist recall.
 
@@ -51,7 +51,7 @@ There are various different states of your plugins:
 9. <img src={pluginreload} alt="Plugin status - reload icon" width="100" /> **Reload**- the system has detected a problem with the plugin and is automatically reloading it for you. No user interaction needed! 
 
 :::info
-If a plugin fails to reload 5 times, it will give up and display a failed icon. If it has failed 5 times, we assume there is a larger issue and don't want to keep using your precious DSP resources trying to fix a problem that can't be fixed!
+If a plugin fails to reload 5 times, it will give up and display a failed icon. If it has failed 5 times, we assume there is a larger issue and we don't want to keep using your precious DSP resources trying to fix a problem that can't be fixed!
 ::: 
 
 Whilst in the top tool bar, you'll see a 'DSP load' bar, to give you a live indication of how much processing power is being used by your plugins. For a more detailed look, click on it and you will be taken to the [Performance](../system/performance.md) tab.
@@ -64,6 +64,7 @@ It's as simple as it looks, leaving you to build the perfect chain as soon as po
 With a chain selected, the detail pane at the bottom of the UI shows configuration relating to the chain.
 
 ![Detail pane for a chain](/img/transformclient/chain-detail-pane.png)
+
 
 ### Input / Output
 Here you can configure the channels patched to the chain's inputs and outputs, as well as the "width" of the chain (how many channels of audio it contains). The options are **Mono**, **Stereo**, and **Multi**. The first two are hopefully self-explanatory, whilst **Multi** allows you to set up chains containing up to 64 audio channels (wow!), useful for surround-sound plugins.
