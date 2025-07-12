@@ -65,7 +65,6 @@ With a chain selected, the detail pane at the bottom of the UI shows configurati
 
 ![Detail pane for a chain](/img/transformclient/chain-detail-pane.png)
 
-You'll see a variety of information here, including the DSP core of the selecting plugin chain is assigned to. If you go to the [performance](/manual/transform.client/system/performance.md) tab, you can see detailed DSP anaylsis for your whole system
 
 ### Input / Output
 Here you can configure the channels patched to the chain's inputs and outputs, as well as the "width" of the chain (how many channels of audio it contains). The options are **Mono**, **Stereo**, and **Multi**. The first two are hopefully self-explanatory, whilst **Multi** allows you to set up chains containing up to 64 audio channels (wow!), useful for surround-sound plugins.
