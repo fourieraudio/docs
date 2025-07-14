@@ -111,7 +111,7 @@ Ensuring that you are all set up with your **transform**.engine and **transform*
 
 Head to the **System** tab, and then **Plugin Collections**
 
-![transform.client - Plugin Collections tab](@site/static/img/transformclient/system-plugin-collection.png)
+![transform.client - Plugin Collections tab](@site/static/img/transformclient/v1.5/system-plugin-collection.png)
 
 Click **Upload & Activate Plugin Collection** and select the .collection file you downloaded in Step Four above.
 

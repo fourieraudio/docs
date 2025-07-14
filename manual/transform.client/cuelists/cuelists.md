@@ -5,7 +5,7 @@ sidebar_position: 3
 # Cuelists
 
 Cuelists each contain multiple Cues, and can be found in the Cuelists tab at the top left of the **transform**.client.
-![Cuelist MIDI Configuration](@site/static/img/transformclient/cuelists-nofilter.png)
+![Cuelist MIDI Configuration](@site/static/img/transformclient/v1.5/cuelists-nofilter.png)
 
 Cuelists have the following key features:
 * It is possible to have multiple Cuelists, all containing multiple Cues.
