@@ -35,7 +35,7 @@ If your plugin has been successfully scanned before, the plugin scanner won't at
 However, we know with some plugins, they may not appear after being scanned and you may want to force the plugin scanner to vigorously check for plugins again.
 This is where you'll find two modes to rescan for plugins:
 
-![plugin-scanner](@site/static/img/transformclient/quick-scan-full-rescan.png)
+![plugin-scanner](@site/static/img/transformclient/v1.5/quick-scan-full-rescan.png)
 
 - **User Plugins - Quick Scan (New and Updated Only)** - This will quickly check for any new plugins, but not interrogating the existing ones. It will not scan any plugins which have been installed as part of a [Plugin Collection](../../transform.suite/transform.suite.md).
 - **User Plugins - Force Full Rescan** - This mode will brute force the plugin scanner to meticulously check every plugin meets the entry requirements. It will not scan any plugins which have been installed as part of a [Plugin Collection](../../transform.suite/transform.suite.md).

@@ -9,8 +9,7 @@ This page features examples of different network designs depending on user requi
 
 :::tip
 
-To ensure Control and Primary network traffic are kept separate, you will be unable to make Dante cross points over the Control port. For point to point audio connections, you will need to break the connection, plug your Dante devices and personal device running Dante Controller.
-
+To ensure Control and Primary network traffic are kept separate, you will be unable to make Dante cross points over the Control port. For point to point audio connections, you will need to break the connection, plug the primary ports of your Dante devices and personal device into a switch, and then run Dante Controller on your computer to make subscriptions.
 :::
 
 ### Simple Set Up

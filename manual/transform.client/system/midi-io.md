@@ -16,7 +16,7 @@ Cuelist, consider using the [per-Cuelist MIDI personalities](../cuelists/midi.md
 
 :::
 
-![Cuelist MIDI Configuration](@site/static/img/transformclient/system-midi-io.png)
+![Cuelist MIDI Configuration](@site/static/img/transformclient/v1.5/system-midi-io.png)
 
 Various features of **transform**.engine can be controlled via the MIDI NRPN Controllers. If your MIDI
 transmitter has native support for sending NRPN data, you should use that, as it will make your life

@@ -45,7 +45,7 @@ Want to delete your current showfile? Simply create a new one (either using 'New
 
 :::
 
-![Showfile overview tab.](@site/static/img/transformclient/system-showfiles.png)
+![Showfile overview tab.](@site/static/img/transformclient/v1.5/system-showfiles.png)
 
 ## Backwards-compatibility
 
