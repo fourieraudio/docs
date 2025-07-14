@@ -23,7 +23,7 @@ It is approximately 4GB so may take a few minutes depending on your internet con
 
 :::
 
-![transform.client - Plugin Collections tab](@site/static/img/transformclient/system-plugin-collection.png)
+![transform.client - Plugin Collections tab](@site/static/img/transformclient/v1.5/system-plugin-collection.png)
 
 If you haven't already, log in to the [Management Platform](../management-platform) and assign a licence to your **transform**.engine.
 

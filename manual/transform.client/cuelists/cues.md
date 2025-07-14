@@ -18,7 +18,7 @@ Cues do not store anything about the "structure" of the Showfile: the configured
 Plugin Instances are loaded into which Chain.
 
 By selecting a Cuelist in the left-hand pane, you will be presented with all of the Cues in that Cuelist.
-![Cuelist MIDI Configuration](@site/static/img/transformclient/cuelists-nofilter.png)
+![Cuelist MIDI Configuration](@site/static/img/transformclient/v1.5/cuelists-nofilter.png)
 
 You can add a new Cue after the currently active Cue (or the first in the Cuelist) by clicking on the Record Cue button:
 

@@ -6,7 +6,7 @@ sidebar_position: 3
 You may have noticed in your navigation bar, an overview of the DSP load on your **transform**.engine, selecting this will take you to the **Performance** tab.
 Here, you will find the current performance metrics for your **transform**.engine!
 
-![System status overview tab.](@site/static/img/transformclient/system-performance.png)
+![System status overview tab.](@site/static/img/transformclient/v1.5/system-performance.png)
 
 ## DSP Load Breakdown
 

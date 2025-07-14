@@ -6,7 +6,7 @@ sidebar_position: 12
 
 With a plugin instance selected, you have a number of different options at your disposal in the detail pane at the bottom of the window.
 
-![Density Control](/img/transformclient/plugin-instance-detail-pane.png)
+![Density Control](/img/transformclient/v1.5/plugin-instance-detail-pane.png)
 
 ## Copy/Paste Plugin State
 You can use the "Copy" and "Paste" buttons to copy the state of that instance

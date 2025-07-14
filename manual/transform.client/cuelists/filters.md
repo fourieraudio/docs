@@ -6,7 +6,7 @@ sidebar_position: 3
 
 Cuelist Recall Filters can be set in the Detail Pane of a Cuelist:
 
-![Cuelist with Filter](@site/static/img/transformclient/cuelists-filter.png)
+![Cuelist with Filter](@site/static/img/transformclient/v1.5/cuelists-filter.png)
 
 You can add a Recall Filter to any Cuelist by picking a filter mode and selecting zero or more
 Chains. The filter mode options are:

@@ -2,14 +2,14 @@ import addgrid from '/static/img/transformclient/add-grid.png';
 
 # Plugin Grids
 
-Plugin grids let you get quick akjccess to a pre-configured layout of specific
+Plugin grids let you get quick access to a pre-configured layout of specific
 plugins from your show.
 
 You can have as many plugin grids as you like, to allow you to configure your
 showfile to match your workflow. Plugin grids can contain up to 6 plugins in
 any layout you desire.
 
-![Plugin Grid Example](/img/transformclient/grids-overview.png)
+![Plugin Grid Example](/img/transformclient/v1.5/grids-overview.png)
 
 ## Creating a plugin grid
 To create a new plugin grid, hit <img src={addgrid} alt="Add plugin grid button" />
