@@ -25,6 +25,7 @@ Click add and a plugin chain will appear, with audio passing from top to bottom.
 - Plus - Add plugins
 - Delay Compensation - Auto-align your outputs, more info [here](delay-compensation.md).
 - Output - Select Audio output
+- DSP Load - Shows the processing load of a chain, and its core allocation.
 
 There are various different states of your plugins:
 
@@ -96,7 +97,7 @@ On the left hand side of the screen is the view controls menu.
 ### Chain Groups
 By default, all chains are shown. If you have placed chains into [chain groups](chain-groups.md), you can select a chain group here to filter the display to only show the chains in that group:
 
-!<img src={filtered} alt="Channel patch group toggle" width="400" />
+<img src={filtered} alt="Channel patch group toggle" width="400" />
 
 ### Plugin Grids
 A [plugin grid](plugin-grids.md) is a saved layout of specific plugins in your show, allowing you to quickly access the plugins you need. To open a plugin grid, select it here:
