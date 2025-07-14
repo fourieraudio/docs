@@ -29,10 +29,10 @@ By clicking the following button to download the **transform**.suite '25 collect
 
 
 ## Release Notes
-transform.suite '25 version: `1.1.0`
+### transform.suite '25 version: `1.1.0`
 
 **Eventide**
-- H3000 Factory MkII v1.2.XX
+- H3000 Factory MkII v1.2.2
 
 **Oeksound**
 - soothe:live v1.0.3
@@ -41,7 +41,7 @@ transform.suite '25 version: `1.1.0`
 - true:level v1.0.4
 - true:balance v1.0.5
 
-transform.suite '25 version: `1.0.1`
+### transform.suite '25 version: `1.0.1`
 
 We're very excited to release **transform**.suite '25, featuring:
 

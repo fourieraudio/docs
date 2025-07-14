@@ -44,7 +44,8 @@ Please note that macOS 15.2 or later is currently subject to known issue TF-2749
 
 | Engine Version | Client Version            | Release Date | Latest  |                      |
 | -------------- | ------------------------- | ------------ | ------- | -------------------- |
-|**1.4.0**       | **1.4.0**                 | 31/03/2025   |**Yes**  | [Release notes](v1-4-0.md) |
+|**1.5.0**       | **1.5.0**                 | 15/07/2025   |**Yes**  | [Release notes](v1-5-0.md) |
+|1.4.0           | 1.4.0                 | 31/03/2025   |  | [Release notes](v1-4-0.md) |
 |                | 1.3.1                     | 14/02/2025   |         | [Release notes](v1-3-1.md) |
 | 1.3.0          | 1.3.0                     | 11/02/2025   |         | [Release notes](v1-3-0.md) |
 | 1.2.5          |                           | 25/11/2024   |         | [Release notes](v1-2-1.md) |

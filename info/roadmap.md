@@ -11,8 +11,6 @@ feedback we receive from our ~~adoring fans~~ users.
 
 | Feature Ref. | Feature Details                                                                                                                           | Planned For   |
 | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------- | ------------- |
-| TF-137        | Detailed Performance Info - understand which chains and plugins are consuming DSP resources | Summer 2025 |
-| TF-133        | Tap Tempo Synchronisation | Summer 2025 |
 | TF-78        | Network Redundancy - mirror two **transform**.engines so that they can be used in a redundant configuration                              | 2026 |
 
 Can't see a feature you'd love to add? Be sure to request it on our [Discourse
