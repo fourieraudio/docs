@@ -13,6 +13,7 @@ Cues store the state of every Instance in the system at the point at which they 
 
 * **Plugin Data** - the configuration of all of the Plugin Instance's parameters.
 * **Bypass** - the state of the Bypass toggle for the Plugin Instance.
+* **Tempo** - the current global tempo in the Showfile.
 
 Cues do not store anything about the "structure" of the Showfile: the configured Chains, or which
 Plugin Instances are loaded into which Chain.

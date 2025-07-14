@@ -14,6 +14,11 @@ Chains. The filter mode options are:
 * **No Filter**: The Cuelist will apply to all Chains when a cue is fired.
 * **Include Targets**: The Cuelist will **only** apply to the selected Chains when a Cue is fired.
 * **Exclude Targets**: The Cuelist will **not** apply to the selected Chains when a Cue is fired.
+
+# Tempo Filters
+
+Global tap tempo data is stored in cues, to exclude tempo recall, select the *exclude tempo* button.
+
 :::tip
 
 The filters are **recall filters**: in *exclude targets* mode, they act similarly to "recall safe"
