@@ -2,13 +2,17 @@
 sidebar_position: 4
 ---
 
-# Software
+# Support & Software
 
-Selecting the Software tab, you'll find the **transform**.engine and **transform**.client version numbers of your system.
+Selecting the Support & Software tab, you'll find the **transform**.engine and **transform**.client version numbers of your system.
 
 The **transform**.client software package very handily also contains the matching software for your
 **transform**.engine. If your client has a new version of software for your **transform**.engine, it
 will prompt you to upgrade your system to ensure maximum performance and compatibility!
+
+
+There is also links to this manual, the email address to support, and an emergency help section for if you ever run into trouble
+
 
 
 ### Log Files

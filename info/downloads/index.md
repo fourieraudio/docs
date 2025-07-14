@@ -32,7 +32,7 @@ Here you can find the **transform**.suite '25 collection file:
 | OS      | Supported Architectures              | Minimum Supported Version |
 | ------- | ------------------------------------ | ------------------------- |
 | Windows | x86-64                               | 10 21H2                   |
-| macOS   | x86-64 (Intel) & ARM (Apple Silicon) | 10.13 High Sierra         |
+| macOS   | x86-64 (Intel) & ARM (Apple Silicon) | 11.7.10 Big Sur         |
 
 <small>OS compatibility is a world of ever-shifting goalposts, and we may have to revise our
 compatibility ranges at any time.</small>
