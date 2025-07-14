@@ -12,7 +12,7 @@ import pluginsidechain from '/static/img/transformclient/plugin-sidechain.png';
 import pluginsafe from '/static/img/transformclient/plugin-safe.png';
 import pluginreload from '/static/img/transformclient/plugin-reload.png';
 import ungroup from '/static/img/transformclient/ungroup-button.png';
-import filtered from '/static/img/transformclient/chains-filtered.png';
+import filtered from '/static/img/transformclient/v1.5/chains-filtered.png';
 
 # Plugin Chains
 
@@ -56,14 +56,14 @@ If a plugin fails to reload 5 times, it will give up and display a failed icon. 
 
 Whilst in the top tool bar, you'll see a 'DSP load' bar, to give you a live indication of how much processing power is being used by your plugins. For a more detailed look, click on it and you will be taken to the [Performance](../system/performance.md) tab.
 
-![Home tab with 6 chains](/img/transformclient/home-chains.png)
+![Home tab with 6 chains](/img/transformclient/v1.5/home-chains.png)
 
 It's as simple as it looks, leaving you to build the perfect chain as soon as possible.
 
 ## Detail Pane
 With a chain selected, the detail pane at the bottom of the UI shows configuration relating to the chain.
 
-![Detail pane for a chain](/img/transformclient/chain-detail-pane.png)
+![Detail pane for a chain](/img/transformclient/v1.5/chain-detail-pane.png)
 
 
 ### Input / Output
@@ -71,7 +71,7 @@ Here you can configure the channels patched to the chain's inputs and outputs, a
 
 Click the patch indicator to enter the patch selection view:
 
-![Chain Patch View](/img/transformclient/patch-view.png)
+![Chain Patch View](/img/transformclient/v1.5/patch-view.png)
 
 This allows you to select which channels are used. By default, the patched channels are always grouped together in one contiguous block, but if you want to select arbitrary channels, you can toggle the "group channels" button:
 
@@ -105,9 +105,9 @@ By default, all chain information is shown in a low-density view. The density co
 ![Density Control](/img/transformclient/density-control.png)
 
 The other options available are medium density:
-![Medium Density View](/img/transformclient/chains-medium-density.png)
+![Medium Density View](/img/transformclient/v1.5/chains-medium-density.png)
 And high density:
-![High Density View](/img/transformclient/chains-high-density.png)
+![High Density View](/img/transformclient/v1.5/chains-high-density.png)
 In each case, output meters are shown for each chain.
 
 ## Action Menu

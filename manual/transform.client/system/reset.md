@@ -29,4 +29,4 @@ This one is for special occasions only. Say you've just received a transform.eng
 
 :::
 
-![System reset tab.](@site/static/img/transformclient/system-reset.png)
+![System reset tab.](@site/static/img/transformclient/v1.5/system-reset.png)
