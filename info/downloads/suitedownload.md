@@ -15,10 +15,33 @@ First, please be sure to read the following EULAs from all third parties include
 :::info
 By clicking the following button to download the **transform**.suite '25 collection file, you are agreeing to all terms as laid out in the above EULA.
 :::
-<a class="button button--lg button--primary" href="https://downloads.fourieraudio.com/transform/suite/25/fa-plugin-collection-transform.suite-25-bundle_1.0.1.collection">download **transform**.suite '25 collection file</a>
+<a class="button button--lg button--primary" href="https://downloads.fourieraudio.com/transform/suite/25/fa-plugin-collection-transform.suite-25-bundle_1.1.0.collection">download **transform**.suite '25 collection file</a>
+
+## Releases
+
+| Suite Version | Engine Version | Client Version            | Release Date | Latest  |                      |
+| ------------- | -------------- | ------------------------- | ------------ | ------- | -------------------- |
+| **1.1.0**     | **1.5.0**      | **1.5.0**                 | 15/07/2025   | **Yes** | [Release notes](v1-5-0.md) |
+| **1.0.1**     | **1.4.0**      | **1.4.0**                 | 31/03/2025   |         | [Release notes](v1-4-0.md) |
+| **1.0.1**     |                | 1.3.1                     | 14/02/2025   |         | [Release notes](v1-3-1.md) |
+| **1.0.1**     | 1.3.0          | 1.3.0                     | 11/02/2025   |         | [Release notes](v1-3-0.md) |
+
+
 
 ## Release Notes
-transform.suite '25 version: `1.0.1`
+### transform.suite '25 version: `1.1.0`
+
+**Eventide**
+- H3000 Factory MkII v1.2.2
+
+**Oeksound**
+- soothe:live v1.0.3
+
+**sonible**
+- true:level v1.0.4
+- true:balance v1.0.5
+
+### transform.suite '25 version: `1.0.1`
 
 We're very excited to release **transform**.suite '25, featuring:
 
