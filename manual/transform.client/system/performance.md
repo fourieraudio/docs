@@ -45,17 +45,15 @@ DSP meters now feature a peak hold that can be reset, making it easier to monito
 
 You can now view overrun counts for each DSP core directly in transform.client. This allows you to monitor the stability and performance of your DSP processing in real time.
 
-If a DSP core is actively overrunning, the following warning will show next to the graph  to alert you to immediate performance issues. In this state, you may hear constant audio artifacts until the issue is resolved or the overrun counters are reset:
+If a DSP core is actively overrunning, the following warning will show next to the graph  to alert you to immediate performance issues. In this state, you may hear constant audio artifacts until the issue is resolved or the overrun counters are reset.
 
-**TODO:** add image
 <!-- ![Active DSP Overrun Warning](/img/transformclient/DSPOverrunActiveWarning.png) -->
 
-If a chain has previously overrun, the system will display a muted warning to indicate that an overrun took place and further investigation may be required:
+If a chain has previously overrun, the system will display a muted warning to indicate that an overrun took place and further investigation may be required.
 
-**TODO:** add image
 <!-- ![Previous DSP Overrun Warning](/img/transformclient/DSPOverrunPreviousWarning.png) -->
 
-These improvements help you fully understand and manage the performance of your Showfile, ensuring reliable operation and efficient use
+These help you fully understand and manage the performance of your Showfile, ensuring reliable operation and efficient use
 
 
 
