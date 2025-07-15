@@ -23,7 +23,7 @@ Click add and a plugin chain will appear, with audio passing from top to bottom.
 - Name - Definable text and colour
 - Input - Select Audio input
 - Plus - Add plugins
-- Delay Compensation - Auto-align your outputs, more info [here](delay-compensation.md).
+- Delay Compensation - Auto-align your outputs, more info [here](latency-compensation.md).
 - Output - Select Audio output
 - DSP Load - Shows the processing load of a chain, and its core allocation.
 
@@ -85,7 +85,7 @@ You can filter the displayed chains to only display the chains in a given group;
 
 ### Latency Group
 
-In this section, you can assign the chain to a single latency group to enable latency compensation for that chain. See [Delay Compensation](delay-compensation.md) for more info.
+In this section, you can assign the chain to a single latency group to enable latency compensation for that chain. See [Delay Compensation](latency-compensation.md) for more info.
 
 ### DSP Load
 

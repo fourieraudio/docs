@@ -14,7 +14,7 @@ to any other instance of the same type.
 
 ## Reported Latency
 Plugins report the amount of latency that they add to the chain. This value is updated when
-the chain starts and is used for [latency compensation](delay-compensation.md).
+the chain starts and is used for [latency compensation](latency-compensation.md).
 
 ## Connect Tempo
 Enables the Global Tap Tempo to pass to the selected plugin instance. By default, a plugin instance is not connected to the Tap Tempo.
