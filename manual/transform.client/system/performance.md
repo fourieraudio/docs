@@ -37,7 +37,7 @@ DSP meters now feature a peak hold that can be reset, making it easier to monito
 
 | Navigation Bar Reset | Performance Tab Reset |
 |:-------------------:|:--------------------:|
-| <img src="/img/transformclient/NavBarResetButton.png" alt="Navigation Bar Reset Button" height="40" /> | <img src="/img/transformclient/PerformanceTabResetButton.png" alt="Performance Tab Reset Button" height="40" /> |
+| ![Nav Bar Reset Button.](@site/static/img/transformclient/v1.5/NavBarResetButton.png) | ![Performance Tab Reset Button.](@site/static/img/transformclient/v1.5/PerformanceTabResetButton.png)|
 
 </div>
 
