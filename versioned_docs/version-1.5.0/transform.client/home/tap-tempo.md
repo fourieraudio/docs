@@ -3,11 +3,14 @@ sidebar_position: 15
 ---
 
 import taptempo from '/static/img/transformclient/v1.5/tap-tempo-menu.png';
+import detailpane from '/static/img/transformclient/v1.5/plugin-instance-detail-pane.png';
 
 # Tap Tempo
 
 :::tip
 By default, your plugin is disconnected from the global tap tempo, use the **Connect** button in the plugin detail pane to connect your plugin to the global tap tempo.
+
+<img src={detailpane} alt="Plugin Detail Pane" width="800" />
 :::
 
 For tap tempo, you can use the conveniently named 'Tap' button in the top bar! (Who'd have **thunk** it?). 
@@ -19,5 +22,5 @@ Alternatively you can click the numerical value and type in your **favourite** B
 For more information about Recall Tempo Filters, click [here](../cuelists/filters.md)!
 
 :::info
-Shhhh, you found the secret message, click [here](https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1) to redeem your prize! 
+Shhhh, you found the secret prize, click [here](https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1) to redeem! 
 
