@@ -15,7 +15,7 @@ First, please be sure to read the following EULAs from all third parties include
 :::info
 By clicking the following button to download the **transform**.suite '25 collection file, you are agreeing to all terms as laid out in the above EULA.
 :::
-<a class="button button--lg button--primary" href="https://downloads.fourieraudio.com/transform/suite/25/fa-plugin-collection-transform.suite-25-bundle_1.0.1.collection">download **transform**.suite '25 collection file</a>
+<a class="button button--lg button--primary" href="https://downloads.fourieraudio.com/transform/suite/25/fa-plugin-collection-transform.suite-25-bundle_1.1.0.collection">download **transform**.suite '25 collection file</a>
 
 ## Releases
 

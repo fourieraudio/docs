@@ -6,11 +6,11 @@ sidebar_position: 4
 
 Here you can find the latest **transform**.client:
 
-<a class="button button--lg button--primary" href="https://downloads.fourieraudio.com/transform/latest/FourierTransform-Release-1.4.0-win32.exe">Windows v1.4.0</a>
+<a class="button button--lg button--primary" href="https://downloads.fourieraudio.com/transform/latest/FourierTransform-Release-1.5.0-win32.exe">Windows v1.5.0</a>
 <br/><br/>
-<a class="button button--lg button--primary" href="https://downloads.fourieraudio.com/transform/latest/FourierTransform-Release-1.4.0-arm64.zip">macOS (ARM) v1.4.0</a>
+<a class="button button--lg button--primary" href="https://downloads.fourieraudio.com/transform/latest/FourierTransform-Release-1.5.0-arm64.zip">macOS (ARM) v1.5.0</a>
 <br/><br/>
-<a class="button button--lg button--primary" href="https://downloads.fourieraudio.com/transform/latest/FourierTransform-Release-1.4.0-x64.zip">macOS (x86-64) v1.4.0</a>
+<a class="button button--lg button--primary" href="https://downloads.fourieraudio.com/transform/latest/FourierTransform-Release-1.5.0-x64.zip">macOS (x86-64) v1.5.0</a>
 <br/><br/>
 
 :::info
