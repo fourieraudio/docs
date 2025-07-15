@@ -101,12 +101,20 @@ Consider using [per-Cuelist personalities](../cuelists/midi.md) instead.
 
 ## MIDI Tap Tempo Assignments
 
-Global Tap Tempo can be controlled through either Note or Controller Change messages. To ensure the relevant message, make sure you select the correct note.
-
-TODO: add screenshot of global tap tempo
-
-TODO: Add table of variables
+Global Tap Tempo can be controlled through either Note or Control Change messages. To ensure the relevant message is received, make sure you select the correct MIDI channel and input type.
 
 :::tip
-Most digital mixing consoles with custom conditional macro triggers can be programmed to send send MIDI information when a chanel exceeds a certain level. This could be useful on a kick drum channel!
+Most digital mixing consoles with custom conditional macro triggers can be programmed to send MIDI information when a channel exceeds a certain level. This could be useful on a kick drum channel!
 :::
+
+### Tap Tempo Parameter Table
+
+When configuring a Tap Tempo assignment, you must define the input characteristics:
+
+| Parameter         | Description                                                                 |
+|------------------|-----------------------------------------------------------------------------|
+| **Personality**   | Defines the MIDI trigger function. Currently only `Tap Tempo` is available. |
+| **MIDI Channel**  | Select the MIDI channel (1–16) on which the message will be received.       |
+| **Input Type**    | Choose the type of MIDI message: `Note` or `Control Change`.                |
+| **Note**          | If `Note` is selected, specify the MIDI note (e.g., `C#1`).                 |
+| **Control Change**| If `Control Change` is selected, specify the CC number (not shown above).   |
