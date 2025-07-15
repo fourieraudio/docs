@@ -14,8 +14,8 @@ Schedule upgrades during planned maintenance windows rather than *immediately* b
 
 ## Before You Begin
 
-- The system must remain powered on during the upgrade
-- The upgrade process takes around 10-15 minuets
+- The system must remain powered on during the upgrade.
+- The upgrade process takes around 10-15 minuets.
 
 ## Step-by-Step Upgrade Instructions
 
