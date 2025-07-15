@@ -6,7 +6,11 @@ import ReactPlayer from 'react-player'
 
 # Plugin View
 
-When you select a plugin by either double-clicking on it, or selecting it and clicking 'Open Plugin View', the plugin UI will open for you to work your magic!
+When you select a plugin by either double-clicking on it, or selecting it and clicking 'Open Plugin View', the plugin UI will open for you to work your magic! Plugin status is represented in the top bar of the plugin view. This includes:
+- Smite
+- Bypass
+- Side Chain
+- Plugin Instance Recall Safe
 
 ![Plugin UI open in teleporter view](@site/static/img/transformclient/v1.5/home-teleport.png)
 

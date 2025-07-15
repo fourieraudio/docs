@@ -38,7 +38,7 @@ The correct Windows VST3 files will only be generated on a windows device. Runni
 2. Locate your USB drive and copy the files to the same directory paths on the **transform**.engine that they were taken from on your Windows device.
    - `Universal Audio` folder to `C:\Program Files\Common Files\`  
    - All `.vst3` files to `C:\Program Files\Common Files\VST3`
-![USB with files.](@site/static/img/UAD/pluginhost.png)
+![USB with files.](@site/static/img/UAD/PluginHost.png)
 1. Exit the plugin host and rescan to confirm that files are copied successfully.
 ![USB with files.](@site/static/img/UAD/Finished.png)
 2.  Repeat the process if you have additional plugins to transfer.

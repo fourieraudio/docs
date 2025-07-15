@@ -6,11 +6,11 @@ sidebar_position: 4
 
 Here you can find the latest **transform**.client:
 
-<a class="button button--lg button--primary" href="https://downloads.fourieraudio.com/transform/latest/FourierTransform-Release-1.4.0-win32.exe">Windows v1.4.0</a>
+<a class="button button--lg button--primary" href="https://downloads.fourieraudio.com/transform/latest/FourierTransform-Release-1.5.0-win32.exe">Windows v1.5.0</a>
 <br/><br/>
-<a class="button button--lg button--primary" href="https://downloads.fourieraudio.com/transform/latest/FourierTransform-Release-1.4.0-arm64.zip">macOS (ARM) v1.4.0</a>
+<a class="button button--lg button--primary" href="https://downloads.fourieraudio.com/transform/latest/FourierTransform-Release-1.5.0-arm64.zip">macOS (ARM) v1.5.0</a>
 <br/><br/>
-<a class="button button--lg button--primary" href="https://downloads.fourieraudio.com/transform/latest/FourierTransform-Release-1.4.0-x64.zip">macOS (x86-64) v1.4.0</a>
+<a class="button button--lg button--primary" href="https://downloads.fourieraudio.com/transform/latest/FourierTransform-Release-1.5.0-x64.zip">macOS (x86-64) v1.5.0</a>
 <br/><br/>
 
 :::info
@@ -32,7 +32,7 @@ Here you can find the **transform**.suite '25 collection file:
 | OS      | Supported Architectures              | Minimum Supported Version |
 | ------- | ------------------------------------ | ------------------------- |
 | Windows | x86-64                               | 10 21H2                   |
-| macOS   | x86-64 (Intel) & ARM (Apple Silicon) | 10.13 High Sierra         |
+| macOS   | x86-64 (Intel) & ARM (Apple Silicon) | 11.7.10 Big Sur         |
 
 <small>OS compatibility is a world of ever-shifting goalposts, and we may have to revise our
 compatibility ranges at any time.</small>
@@ -42,7 +42,8 @@ compatibility ranges at any time.</small>
 
 | Engine Version | Client Version            | Release Date | Latest  |                      |
 | -------------- | ------------------------- | ------------ | ------- | -------------------- |
-|**1.4.0**       | **1.4.0**                 | 31/03/2025   |**Yes**  | [Release notes](v1-4-0.md) |
+|**1.5.0**       | **1.5.0**                 | 15/07/2025   |**Yes**  | [Release notes](v1-5-0.md) |
+|1.4.0           | 1.4.0                 | 31/03/2025   |  | [Release notes](v1-4-0.md) |
 |                | 1.3.1                     | 14/02/2025   |         | [Release notes](v1-3-1.md) |
 | 1.3.0          | 1.3.0                     | 11/02/2025   |         | [Release notes](v1-3-0.md) |
 | 1.2.5          |                           | 25/11/2024   |         | [Release notes](v1-2-1.md) |

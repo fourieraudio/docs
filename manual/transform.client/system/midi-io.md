@@ -4,7 +4,9 @@ sidebar_position: 5
 
 # MIDI IO
 
-In the MIDI IO tab of the System Pane, you are able to configure the global MIDI configuration for the **transform**.engine.
+In the MIDI IO tab of the System Pane, you are able to configure the global MIDI configuration, and MIDI Tap Tempo control for the **transform**.engine.
+
+## Engine MIDI Remote Control
 
 :::tip
 
@@ -28,7 +30,7 @@ To enable MIDI NRPN control, select the "Enable" button, or select a desired MID
 Ensure that you have connected your MIDI cable to the **OUT** port of your console/MIDI device, and the **IN** port of the **transform**.engine.
 :::
 
-## NRPN Parameter Map
+### NRPN Parameter Map
 
 NRPN Parameters are as follows:
 <table>
@@ -64,7 +66,7 @@ NRPN Parameters are as follows:
 </tr>
 </table>
 
-## Example: Firing a Cue (QL42 Q100) by NRPN
+### Example: Firing a Cue (QL42 Q100) by NRPN
 
 | MIDI Action | Description |
 |-|-|
@@ -72,7 +74,7 @@ NRPN Parameters are as follows:
 | Set NRPN 2 = 100 | Select Cue 100 |
 | Set NRPN 4 = 127 | Fire Selected Cue |
 
-## Example: Firing a Cue (QL42 Q300.3) by NRPN
+### Example: Firing a Cue (QL42 Q300.3) by NRPN
 
 | MIDI Action | Description |
 |-|-|
@@ -81,7 +83,7 @@ NRPN Parameters are as follows:
 | Set NRPN 3 = 3 | Select Cue Decimal 3 |
 | Set NRPN 4 = 127 | Fire Selected Cue |
 
-## Example: Firing a Cue (QL42 Q100) via low-level Control Change (CC) messages
+### Example: Firing a Cue (QL42 Q100) via low-level Control Change (CC) messages
 
 In this example, we achieve the exact same outcome as the first example, but this time manually
 setting the NRPN values via the appropriate Control Change (CC) messages. You could do this if you
@@ -96,3 +98,23 @@ Consider using [per-Cuelist personalities](../cuelists/midi.md) instead.
 | CC 38 = 100 | NRPN Data Entry 100 | 
 | CC 98 = 4 | Select NRPN 4 [Fire Selected Cue] |
 | CC 38 = 127 | NRPN Data Entry 127 |
+
+## MIDI Tap Tempo Assignments
+
+Global Tap Tempo can be controlled through either Note or Control Change messages. To ensure the relevant message is received, make sure you select the correct MIDI channel and input type.
+
+:::tip
+Most digital mixing consoles with custom conditional macro triggers can be programmed to send MIDI information when a channel exceeds a certain level. This could be useful on a kick drum channel!
+:::
+
+### Tap Tempo Parameter Table
+
+When configuring a Tap Tempo assignment, you must define the input characteristics:
+
+| Parameter         | Description                                                                 |
+|------------------|-----------------------------------------------------------------------------|
+| **Personality**   | Defines the MIDI trigger function. Currently only `Tap Tempo` is available. |
+| **MIDI Channel**  | Select the MIDI channel (1–16) on which the message will be received.       |
+| **Input Type**    | Choose the type of MIDI message: `Note` or `Control Change`.                |
+| **Note**          | If `Note` is selected, specify the MIDI note (e.g., `C#1`).                 |
+| **Control Change**| If `Control Change` is selected, specify the CC number (not shown above).   |

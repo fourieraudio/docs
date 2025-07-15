@@ -25,6 +25,7 @@ Click add and a plugin chain will appear, with audio passing from top to bottom.
 - Plus - Add plugins
 - Delay Compensation - Auto-align your outputs, more info [here](delay-compensation.md).
 - Output - Select Audio output
+- DSP Load - Shows the processing load of a chain, and its core allocation.
 
 There are various different states of your plugins:
 
@@ -54,7 +55,7 @@ There are various different states of your plugins:
 If a plugin fails to reload 5 times, it will give up and display a failed icon. If it has failed 5 times, we assume there is a larger issue and we don't want to keep using your precious DSP resources trying to fix a problem that can't be fixed!
 ::: 
 
-Whilst in the top tool bar, you'll see a 'DSP load' bar, to give you a live indication of how much processing power is being used by your plugins. For a more detailed look, click on it and you will be taken to the [Performance](../system/performance.md) tab.
+Whilst in the top navigation bar, you'll see the **global tap tempo** control, the **showfile name**, the **DSP load indicator**, and the **transform**.engines **current mode** to give you rapid access to control your **transform**.engine.
 
 ![Home tab with 6 chains](/img/transformclient/v1.5/home-chains.png)
 
@@ -86,13 +87,17 @@ You can filter the displayed chains to only display the chains in a given group;
 
 In this section, you can assign the chain to a single latency group to enable latency compensation for that chain. See [Delay Compensation](delay-compensation.md) for more info.
 
+### DSP Load
+
+This section discerns the DSP Load of each chain on a DSP core. They identify the core number and any peaks, which can be reset in the Navigation Bar or the [Performance Tab.](../system/performance.md)
+
 ## View Controls
 On the left hand side of the screen is the view controls menu.
 
 ### Chain Groups
 By default, all chains are shown. If you have placed chains into [chain groups](chain-groups.md), you can select a chain group here to filter the display to only show the chains in that group:
 
-!<img src={filtered} alt="Channel patch group toggle" width="400" />
+<img src={filtered} alt="Channel patch group toggle" width="400" />
 
 ### Plugin Grids
 A [plugin grid](plugin-grids.md) is a saved layout of specific plugins in your show, allowing you to quickly access the plugins you need. To open a plugin grid, select it here:
