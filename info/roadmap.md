@@ -12,7 +12,6 @@ feedback we receive from our ~~adoring fans~~ users.
 | Feature Ref. | Feature Details                                                                                                                           | Planned For   |
 | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------- | ------------- |
 | TF-78        | Network Redundancy - mirror two **transform**.engines so that they can be used in a redundant configuration                              | 2026 |
-| TID-2         | Global Tap Tempo Integration with DiGiCo Consoles                     | 2026 |
 
 Can't see a feature you'd love to add? Be sure to request it on our [Discourse
 site](https://discourse.fourieraudio.com) where you are able to vote for your favourite feature
