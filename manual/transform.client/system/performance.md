@@ -10,23 +10,23 @@ Here, you will find the current performance metrics for your **transform**.engin
 
 ## DSP Load Breakdown
 
-The **Performance** tab provides enhanced visibility into DSP usage, each chain in your Showfile now displays its individual DSP usage, allowing you to see exactly how your processing budget is distributed. 
+The **Performance** tab provides enhanced visibility into DSP usage, each chain in your Showfile now displays its individual DSP usage, allowing you to see exactly how your processing budget is distributed.
 
 The DSP load graph shows how each chain contributes to the overall DSP core usage, helping you optimise plugin performance!
 Each core has a breakdown of the system time being utilised by each chain, and hovering over a chain will report the time.
 
-More information on system time can be found by selecting the inline 
-<img src={require('@site/static/img/transformclient/DSPInfoIcon.png').default} alt="DSP Info Icon" style={{ height: '2.5em', verticalAlign: 'middle' }} />. This will display the following information box:
+More information on system time can be found by selecting the inline
+<img src={require('@site/static/img/transformclient/v1.5/DSPInfoIcon.png').default} alt="DSP Info Icon" style={{ height: '2.5em', verticalAlign: 'middle' }} />. This will display the following information box:
 
-<img 
-  src={require('@site/static/img/transformclient/DSPInfoBox.png').default} 
-  alt="System status overview tab." 
-  style={{ 
-    width: '75%', 
-    borderRadius: '16px', 
-    display: 'block', 
-    margin: '24px auto' 
-  }} 
+<img
+  src={require('@site/static/img/transformclient/v1.5/DSPInfoBox.png').default}
+  alt="System status overview tab."
+  style={{
+    width: '75%',
+    borderRadius: '16px',
+    display: 'block',
+    margin: '24px auto'
+  }}
 />
 
 ## Resettable Peak Holds
@@ -34,7 +34,7 @@ More information on system time can be found by selecting the inline
 DSP meters now feature a peak hold that can be reset, making it easier to monitor and manage peak loads. There are two controls for this:
 
 <div style={{ display: 'flex', justifyContent: 'center' }}>
-  
+
 | Navigation Bar Reset | Performance Tab Reset |
 |:-------------------:|:--------------------:|
 | <img src="/img/transformclient/NavBarResetButton.png" alt="Navigation Bar Reset Button" height="40" /> | <img src="/img/transformclient/PerformanceTabResetButton.png" alt="Performance Tab Reset Button" height="40" /> |
