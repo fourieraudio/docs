@@ -24,22 +24,28 @@ The correct Windows VST3 files will only be generated on a windows device. Runni
 
 :::
 
-1. After following the [Accessing Windows steps](../installation.md#accessing-the-plugin-host-to-install-plugins), you will be in a position to install plugins.
-2. On a personal device with internet access, download and install **UA Connect** from the link above.
-3. Launch UA Connect and log into your Universal Audio account.
+1. On a personal device with internet access, download and install **UA Connect** from the link above.
+2. Launch UA Connect and log into your Universal Audio account.
 ![USB with files.](@site/static/img/UAD/Login.png)
-4. Download the plugins you own using UA Connect to the personal device.
+
+:::info
+
+Ensure you have an iLok plugged into your personal device with the correct UAD licenses on.
+
+:::
+
+3. Download the plugins you own using UA Connect to the personal device.
 ![USB with files.](@site/static/img/UAD/installed.png)
-5. Manually copy the following folders from your device to a USB stick:
+4. Once installed, manually copy the following folders from your device to a USB stick:
    - `C:\Program Files\Common Files\Universal Audio`  
-   - `C:\Program Files\Common Files\VST3` (copy only the `.vst3` files related to UAD)
+   - `C:\Program Files\Common Files\VST3` (copy only the `.vst3` folders related to UAD)
 ![USB with files.](@site/static/img/UAD/fullUSB.png)
-1. Plug the USB stick into any USB port on the **transform**.engine and return to your plugin host as seen in *step 1*.
-2. Locate your USB drive and copy the files to the same directory paths on the **transform**.engine that they were taken from on your Windows device.
+5. Plug the USB stick (as well as the iLok with your UAD licenses) into any USB ports on the **transform**.engine and after following the [Accessing Windows steps](../installation.md#accessing-the-plugin-host-to-install-plugins), you will be in a position to install the plugins.
+6. Locate your USB drive and copy the files to the same directory paths on the **transform**.engine that they were taken from on your Windows device.
    - `Universal Audio` folder to `C:\Program Files\Common Files\`  
-   - All `.vst3` files to `C:\Program Files\Common Files\VST3`
+   - All `.vst3` folders to `C:\Program Files\Common Files\VST3`
 ![USB with files.](@site/static/img/UAD/PluginHost.png)
-1. Exit the plugin host and rescan to confirm that files are copied successfully.
+7. Exit the plugin host and rescan to confirm that files are copied successfully.
 ![USB with files.](@site/static/img/UAD/Finished.png)
-2.  Repeat the process if you have additional plugins to transfer.
+8.  Repeat the process if you have additional plugins to transfer.
 
