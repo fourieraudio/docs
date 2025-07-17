@@ -20,7 +20,7 @@ How to install **Universial Audio (UAD)** plugins on your **transform**.engine!
 
 :::warning
 
-The correct Windows VST3 files will only be generated on a windows device. Running UA Connect on A Mac device will not create the correct VST3 files and will not work correctly on a **transform**.engine.
+The correct Windows VST3 files will only be generated on a windows device. Running UA Connect on a Mac device will not create the correct VST3 files and will not work correctly on a **transform**.engine.
 
 :::
 
