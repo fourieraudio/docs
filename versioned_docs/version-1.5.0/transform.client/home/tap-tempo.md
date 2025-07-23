@@ -19,8 +19,10 @@ For tap tempo, you can use the conveniently named 'Tap' button in the top bar! (
 
 Alternatively you can click the numerical value and type in your **favourite** BPM/ whatever BPM the drummer is going for today, or use the space bar on your keyboard to *tappy tap tap* your beat in.
 
-For more information about Recall Tempo Filters, click [here](../cuelists/filters.md)!
+For external tap tempo control, you can use MIDI, see [here](../system/midi-io.md) for more information!
 
-:::info
-Shhhh, you found the secret prize, click [here](https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1) to redeem! 
+:::tip
+You can also assign cuelist filters to tap tempo, for more information about Recall Tempo Filters, click [here](../cuelists/filters.md)!
+:::
+
 
