@@ -21,10 +21,11 @@ By clicking the following button to download the **transform**.suite '25 collect
 
 | Suite Version | Engine Version | Client Version            | Release Date | Latest  |                      |
 | ------------- | -------------- | ------------------------- | ------------ | ------- | -------------------- |
-| **1.1.0**     | **1.5.0**      | **1.5.0**                 | 15/07/2025   | **Yes** | [Release notes](v1-5-0.md) |
-| **1.0.1**     | **1.4.0**      | **1.4.0**                 | 31/03/2025   |         | [Release notes](v1-4-0.md) |
-| **1.0.1**     |                | 1.3.1                     | 14/02/2025   |         | [Release notes](v1-3-1.md) |
-| **1.0.1**     | 1.3.0          | 1.3.0                     | 11/02/2025   |         | [Release notes](v1-3-0.md) |
+| **1.1.0**     |       | **1.5.1**                 | 15/07/2025   | **Yes** | [Release notes](v1-5-1.md) |
+| **1.1.0**     | **1.5.0**      | 1.5.0                 | 15/07/2025   |         | [Release notes](v1-5-0.md) |
+| 1.0.1     | 1.4.0      | 1.4.0                 | 31/03/2025   |         | [Release notes](v1-4-0.md) |
+| 1.0.1     |                | 1.3.1                     | 14/02/2025   |         | [Release notes](v1-3-1.md) |
+| 1.0.1     | 1.3.0          | 1.3.0                     | 11/02/2025   |         | [Release notes](v1-3-0.md) |
 
 
 
