@@ -17,6 +17,8 @@ By clicking the following button to download the **transform**.suite '25 collect
 :::
 <a class="button button--lg button--primary" href="https://downloads.fourieraudio.com/transform/suite/25/fa-plugin-collection-transform.suite-25-bundle_1.1.0.collection">download **transform**.suite '25 collection file</a>
 
+
+
 ## Releases
 
 | Suite Version | Engine Version | Client Version            | Release Date | Latest  |                      |
@@ -27,8 +29,11 @@ By clicking the following button to download the **transform**.suite '25 collect
 | 1.0.1     |                | 1.3.1                     | 14/02/2025   |         | [Release notes](v1-3-1.md) |
 | 1.0.1     | 1.3.0          | 1.3.0                     | 11/02/2025   |         | [Release notes](v1-3-0.md) |
 
+:::tip
 
+To upgrade the **transform**.suite, Download the transform.suite collection file above, and follow the instructions listed in the [upgrade guide](/manual/transform.suite/upgrade-suite/).
 
+:::
 ## Release Notes
 ### transform.suite '25 version: `1.1.0`
 
