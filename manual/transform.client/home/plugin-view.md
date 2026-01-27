@@ -18,11 +18,6 @@ It is also possible to expand the Plugin View by selecting the Maximise button i
 
 ![Larger Plugin UI open in teleporter view](@site/static/img/transformclient/v1.5/home-teleport-large.png)
 
-### Duplicate Teleporter
-
-As the **transform**.engine is multi-client, multiple users on different computers can be editing different plugins at the same time! If you see this message, it means another instance of the **transform**.client has this plugin open. You'll need to wait until they've finished with the plugin before you can open it for editing.
-
-![duplicate-teleporter](@site/static/img/transformclient/duplicate-teleporter-session.png)
 
 ### Teleporter Resting
 
