@@ -13,7 +13,6 @@ Examples include:
 
 - Open a file dialogue to import presets or licence keys
 - Open separate windows that are prohibited by the **transform**.engine while it is processing audio (such as browser windows).
-- To use a keyboard with the plugin for text entry.
 
 If you need to test run a plugin in the Windows environment you can do this by navigating to the
 Library tab: click 'Add/Remove Plugins', select the plugin you wish to run, and then click the 'Test
