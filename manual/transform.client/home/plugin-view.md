@@ -18,6 +18,9 @@ It is also possible to expand the Plugin View by selecting the Maximise button i
 
 ![Larger Plugin UI open in teleporter view](@site/static/img/transformclient/v1.5/home-teleport-large.png)
 
+### Typing & Modifier Keys
+
+Text entry works directly inside Plugin View. Click into a text field in the plugin UI and type as you would in a DAW; common modifier keys (Ctrl/Cmd, Shift, Alt/Option) are passed through, so shortcuts and capitalisation behave as expected. This feature requires the teleporting client to be the transform.client application.
 
 ### Teleporter Resting
 
