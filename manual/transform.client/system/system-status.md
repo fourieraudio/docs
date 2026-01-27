@@ -6,7 +6,7 @@ sidebar_position: 4
 
 Clicking on **System Status**, will give you useful under-the-hood information, to check your engine is running on all cylinders!
 
-![System status overview tab.](@site/static/img/transformclient/v1.5/system-status.png)
+![System status overview tab.](@site/static/img/transformclient/v1.6/system-status.png)
 
 ## System Mode
 

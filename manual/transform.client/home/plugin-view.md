@@ -12,11 +12,11 @@ When you select a plugin by either double-clicking on it, or selecting it and cl
 - Side Chain
 - Plugin Instance Recall Safe
 
-![Plugin UI open in teleporter view](@site/static/img/transformclient/v1.5/home-teleport.png)
+![Plugin UI open in teleporter view](@site/static/img/transformclient/v1.6/home-teleport.png)
 
 It is also possible to expand the Plugin View by selecting the Maximise button in the top right of the Plugin View:
 
-![Larger Plugin UI open in teleporter view](@site/static/img/transformclient/v1.5/home-teleport-large.png)
+![Larger Plugin UI open in teleporter view](@site/static/img/transformclient/v1.6/home-teleport-large.png)
 
 ### Typing & Modifier Keys
 
