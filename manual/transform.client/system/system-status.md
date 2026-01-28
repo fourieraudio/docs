@@ -108,15 +108,26 @@ The renderer is shown with:
 
 - Network interfaces status (Primary, Secondary, Control)
 
-- Temperature indicator
-  - **Normal**  < 85°C	Standard operating range. No action required.
-  - **Warning**	> 85°C	The system is running warm. Ensure airflow is not blocked. A warning indicator will appear in the status bar.
-  - **Danger**	> 90°C	The unit is operating at the upper thermal limit. Continued operation at this temperature may reduce performance. A danger indicator will appear in the status bar.
+- Temperature indicator:
 
-:::info
-The temperature value shown reflects the highest detected CPU core temperature inside the **transform**.engine, not the ambient internal temperature.
-This means it may appear higher than expected if you are used to monitoring external temperatures.
+  
+:::note Normal 
+< 85°C - Standard operating range. No action required.
 :::
+
+:::warning Warning
+\> 85°C - The system is running warm. Ensure airflow is not blocked. A warning indicator will appear in the status bar.
+:::
+
+:::danger Danger
+\> 90°C - The unit is operating at the upper thermal limit. Continued operation at this temperature may reduce performance. A danger indicator will appear in the status bar.
+:::
+
+> **Why are these ranges so high?**
+
+The temperature value shown in this section reflects the **highest detected CPU core** temperature inside the Audio Renderer, not the ambient internal temperature.
+This means it may appear higher than expected if you are used to monitoring external temperatures.
+
 
 ## Components
 
