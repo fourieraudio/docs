@@ -28,11 +28,11 @@ The Audio IO status shows the current state of your audio pipeline using a simpl
 
 | State | Icon | Description |
 |-------|------|-------------|
-| Running | <!-- ![running-icon](@site/static/img/transformclient/v1.6/status-running.png) --> | Audio is flowing as expected. The cog spins to indicate active processing. |
-| Disconnected | <!-- ![disconnected-icon](@site/static/img/transformclient/v1.6/status-disconnected.png) --> | No connection to primary or secondary ports. Check network connection and connected device power. |
-| Muted | <!-- ![muted-icon](@site/static/img/transformclient/v1.6/status-muted.png) --> | Indicates the system is in **Setup Mode**. Audio pipeline is active but outputs muted and plugins in lightning mode. |
-| Offline | <!-- ![offline-icon](@site/static/img/transformclient/v1.6/status-offline.png) --> |Indicates the system is in **Offline Mode**, audio engine completely stopped. |
-|Heartbeat Stalled | <!-- ![stalled-icon](@site/static/img/transformclient/v1.6/status-stalled.png) --> | Audio pipeline exists but processing has paused. Often due to buffer overruns or network issues. Switching to **Edit Mode** will normally bring the audio engine back online. |
+| Running |![running-icon](@site/static/img/transformclient/v1.6/status-running.png) | Audio is flowing as expected. The cog spins to indicate active processing. |
+| Disconnected |  ![disconnected-icon](@site/static/img/transformclient/v1.6/status-disconnected.png)| No connection to primary or secondary ports. Check network connection and connected device power. |
+| Muted | ![muted-icon](@site/static/img/transformclient/v1.6/status-muted.png) | Indicates the system is in **Setup Mode**. Audio pipeline is active but outputs muted and plugins in lightning mode. |
+| Offline | ![offline-icon](@site/static/img/transformclient/v1.6/status-offline.png)  |Indicates the system is in **Offline Mode**, audio engine completely stopped. |
+|Heartbeat Stalled | ![stalled-icon-white](@site/static/img/transformclient/v1.6/status-stalled-white.png) ![stalled-icon-orange](@site/static/img/transformclient/v1.6/status-stalled-orange.png) | Audio pipeline exists but processing has paused. **White** - The audio renderer is starting up, standby! **Orange** - The audio renderer has gone offline. Often due to buffer overruns or network issues. Switching to **Edit Mode** will normally bring the audio engine back online. |
 
 ### Period Size
 
@@ -63,7 +63,7 @@ The Latency Breakdown panel displays the DSP (internal) processing latency and t
 
 :::note Sample Rate, Period Size, and Latency Calculations
 
-Lets break down some of these numbers, to understand latency, you only need three inputs:
+Lets break down some of these numbers. To understand latency, you only need three inputs:
 
 1) Sample rate (Hz)
 2) Period size (samples)
@@ -92,8 +92,6 @@ Step 4: Total round-trip = internal latency + transport latency
 
 - Internal latency is two blocks because audio is processed on the way in and on the way out.
 - Transport latency depends on the selected transport and may vary with period size.
-- Values are rounded for readability.
-
 :::
 
 
