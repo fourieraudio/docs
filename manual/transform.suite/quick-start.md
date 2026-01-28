@@ -9,7 +9,7 @@ import ReactPlayer from 'react-player'
 Want to get started with 70+ of the very best plugins for live? Let's get you up and running in a matter of minutes.
 
 :::info
-Prior to starting, please ensure that you are running v1.3 or newer (both client and engine firmware). You can download the latest version [here](../../../../downloads)
+Prior to starting, please ensure that you are running v1.6 or newer (both client and engine firmware). You can download the latest version [here](../../../../downloads)
 :::
 
 Here's a video running you through it:
