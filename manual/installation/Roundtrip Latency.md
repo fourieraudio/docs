@@ -13,12 +13,17 @@ Using **1ms** as the lowest Dante device latency for this example. Other Dante d
 
 | Dante Device Latency Setting | Sample Rate | Period Size  | Dante Send  | DSP internal Latency | Dante Return | TOTAL ROUND TRIP   |
 | ------    | -------- | -------------- | ----------- | ----------------------- | ------- | ------   |
+| 1ms    | 96kHz    | 32            | 1ms         | 1ms                     | 1ms       | **3ms** (lowest)|
+| 1ms    | 96kHz    | 64            | 1ms         | 2ms                     | 1ms       | **4ms** |
+| 1ms    | 96kHz    | 128           | 1ms         | 4ms                     | 1ms       | **6ms** |
+| 1ms    | 96kHz    | 256           | 1ms         | 8ms                     | 1ms       | **10ms** |
+| 1ms    | 96kHz    | 512           | 1ms         | 16ms                    | 1ms       | **18ms** |
 | 1ms    | 48kHz    | 32            | 1ms         | 2ms                     | 1ms       | **4ms** |
-| 1ms    | 48kHz    | 64            | 1ms          | 4ms                    | 1ms      | **6ms** |
-| 1ms    | 48kHz    | 512           | 1ms         | 32ms                    | 1ms      | **34ms** |
-| 1ms     | 96kHz    | 32            | 1ms         | 1ms                     | 1ms      | **3ms** |
-| 1ms     | 96kHz    | 64            | 1ms         | 2ms                     | 1ms      | **4ms** |
-| 1ms     | 96kHz    | 512           | 1ms         | 16ms                    | 1ms      | **18ms** |
+| 1ms    | 48kHz    | 64            | 1ms         | 4ms                     | 1ms       | **6ms** |
+| 1ms    | 48kHz    | 128           | 1ms         | 8ms                     | 1ms       | **10ms** |
+| 1ms    | 48kHz    | 256           | 1ms         | 16ms                    | 1ms       | **18ms** |
+| 1ms    | 48kHz    | 512           | 1ms         | 32ms                    | 1ms       | **34ms**(slowest) |
+
 
 
 :::tip 
