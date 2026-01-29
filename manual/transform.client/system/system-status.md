@@ -54,12 +54,7 @@ After changing the period size, switch back to **Edit Mode** to resume audio.
 ### Latency Breakdown
 
 The Latency Breakdown panel displays the DSP (internal) processing latency and the Audio Transport latency, giving you a total round-trip value based on your current configuration. This makes it easy to compare processing headroom vs. latency impact when adjusting period size or transport type.
- 
-| Component | Example Calculation (HYPERPORT, 64 samples @ 96kHz) |
-|----------|--------------------------------|
-| DSP Internal | 128 samples (64 in and 64 out) • 1.33 ms |
-| Audio Transport | 86 samples (value dependant on period size and audio transport) • 0.89 ms |
-| **Total Roundtrip** | **214 samples • 2.22 ms** |
+
 
 :::note Sample Rate, Period Size, and Latency Calculations
 
@@ -86,7 +81,7 @@ Step 4: Total round-trip = internal latency + transport latency
 
 | Configuration      | Block latency | Internal (×2) | Transport | Total round-trip      |
 |-------------------|---------------|---------------|-----------|-----------------------|
-| Dante, 48 kHz, 256 samples| 5.333 ms    |  10.67 ms      | 2ms    | 12.67ms  |
+| Dante, 96 kHz, 32 samples| 0.333 ms    |  0.667 ms      | 2.33ms    | 3ms  |
 
 **Notes:**
 
