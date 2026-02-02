@@ -27,13 +27,17 @@ the following columns:
 
 - **Name:** As suggests!
 - **Vendor:** Creator of great plugin
-- **Plugin Type:** VST3
-- **Touch and Turn:** Whilst this is less important for now, when console integration is available (**hold tight**), this column lets you know if 'Touch and Turn' will be supported on the console. This feature is implemented by the manufacturer of the plugin!
+- **Plugin Type:** VST3, CLAP or TSPL
+- **Touch & Turn** Whether the plugin supports the ability to tap a parameter in the UI to select it for modification, used with console integrations.
+
+:::info For Plugin Developers
+If you'd like your plugin to support Touch & Turn, discuss implementing [iParameterFinder](https://steinbergmedia.github.io/vst3_dev_portal/pages/Technical+Documentation/Change+History/3.0.2/IParameterFinder.html) with your development team.
+:::
 
 If your plugin has been successfully scanned before, the plugin scanner won't attempt to scan it again for all its requirements, it will give it a fast track entry to the showfile.
 
 However, we know with some plugins, they may not appear after being scanned and you may want to force the plugin scanner to vigorously check for plugins again.
-This is where you'll find two modes to rescan for plugins:
+This is where you'll find some modes to rescan for plugins:
 
 ![plugin-scanner](@site/static/img/transformclient/v1.5/quick-scan-full-rescan.png)
 
