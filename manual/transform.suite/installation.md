@@ -14,12 +14,12 @@ Please ensure that you are running v1.3 or newer (both client and engine firmwar
 
 First, download the **transform**.suite collection file here:
 
-<a class="button button--lg button--primary" href="../../../../../downloads/suitedownload">download transform.suite '25 collection file</a>
+<a class="button button--lg button--primary" href="../../../../../downloads/suitedownload">download transform.suite '26 collection file</a>
 &nbsp;
 
 :::info
 
-It is approximately 4GB so may take a few minutes depending on your internet connection, but the good news is that you can keep this offline for whenever you may need it again!
+It is approximately 4.7GB so may take a few minutes depending on your internet connection, but the good news is that you can keep this offline for whenever you may need it again!
 
 :::
 

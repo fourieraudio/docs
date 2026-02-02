@@ -6,11 +6,11 @@ sidebar_position: 12
 
 With a plugin instance selected, you have a number of different options at your disposal in the detail pane at the bottom of the window.
 
-![Density Control](/img/transformclient/v1.5/plugin-instance-detail-pane.png)
+![Density Control](/img/transformclient/v1.6/plugin-instance-detail-pane.png)
 
-## Copy/Paste Plugin State
-You can use the "Copy" and "Paste" buttons to copy the state of that instance
-to any other instance of the same type.
+
+## Presets
+You can load or save a favourite plugin state. Create a preset from your current settings and it becomes a reusable starting point... that ripples everywhere! Any changes to a preset impact cues and chains across your showfile! Use it to jump in fast, then tweak locally. For management tasks like renaming, importing/exporting, or renumbering, go to the [Presets section of the Library](../library/presets.md).
 
 ## Reported Latency
 Plugins report the amount of latency that they add to the chain. This value is updated when

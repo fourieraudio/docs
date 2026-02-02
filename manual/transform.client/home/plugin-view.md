@@ -12,17 +12,15 @@ When you select a plugin by either double-clicking on it, or selecting it and cl
 - Side Chain
 - Plugin Instance Recall Safe
 
-![Plugin UI open in teleporter view](@site/static/img/transformclient/v1.5/home-teleport.png)
+![Plugin UI open in teleporter view](@site/static/img/transformclient/v1.6/home-teleport.png)
 
 It is also possible to expand the Plugin View by selecting the Maximise button in the top right of the Plugin View:
 
-![Larger Plugin UI open in teleporter view](@site/static/img/transformclient/v1.5/home-teleport-large.png)
+![Larger Plugin UI open in teleporter view](@site/static/img/transformclient/v1.6/home-teleport-large.png)
 
-### Duplicate Teleporter
+### Typing & Modifier Keys
 
-As the **transform**.engine is multi-client, multiple users on different computers can be editing different plugins at the same time! If you see this message, it means another instance of the **transform**.client has this plugin open. You'll need to wait until they've finished with the plugin before you can open it for editing.
-
-![duplicate-teleporter](@site/static/img/transformclient/duplicate-teleporter-session.png)
+Text entry works directly inside Plugin View. Click into a text field in the plugin UI and type as you would in a DAW; common modifier keys (Ctrl/Cmd, Shift, Alt/Option) are passed through, so shortcuts and capitalisation behave as expected. This feature requires the teleporting client to be the transform.client application.
 
 ### Teleporter Resting
 
