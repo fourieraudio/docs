@@ -15,24 +15,19 @@ First, please be sure to read the following EULAs from all third parties include
 :::info
 By clicking the following button to download the **transform**.suite '26 collection file, you are agreeing to all terms as laid out in the above EULA.
 :::
-<a class="button button--lg button--primary" href="https://downloads.fourieraudio.com/transform/suite/25/fa-plugin-collection-transform.suite-26-bundle_26.0.0.collection">download **transform**.suite '26 collection file</a>
-
-
+<a class="button button--lg button--primary" href="https://downloads.fourieraudio.com/transform/suite/26/fa-plugin-collection-transform.suite-26-bundle_26.0.0.collection">download **transform**.suite '26 collection file</a>
 
 ## Releases
 
-| Suite Version | Engine Version | Client Version            | Release Date | Latest  |                      |
-| ------------- | -------------- | ------------------------- | ------------ | ------- | -------------------- |
-| **26.0.0**     |**1.6.0**       | **1.6.0**                 | 02/02/2026   | **Yes** | [Release notes](v1-6-0.md) |
-| 1.1.0 (suite '25)    |       | 1.5.1                 | 15/07/2025   |  | [Release notes](v1-5-1.md) |
-| 1.1.0     | 1.5.0      | 1.5.0                 | 15/07/2025   |         | [Release notes](v1-5-0.md) |
-| 1.0.1     | 1.4.0      | 1.4.0                 | 31/03/2025   |         | [Release notes](v1-4-0.md) |
-| 1.0.1     |                | 1.3.1                     | 14/02/2025   |         | [Release notes](v1-3-1.md) |
-| 1.0.1     | 1.3.0          | 1.3.0                     | 11/02/2025   |         | [Release notes](v1-3-0.md) |
+| Suite Version | Release    | Minimum Engine Version | Release Date | Latest  |
+| ------------- | ---------- | ---------------------- | ------------ | ------- |
+| **'26**       | **26.0.0** | **1.6.0**              | 02/02/2026   | **Yes** |
+| '25           | 1.1.0      | 1.5.0                  | 15/07/2025   |         |
+| '25           | 1.0.1      | 1.3.0                  | 11/02/2025   |         |
 
 :::tip
 
-To upgrade the **transform**.suite, Download the transform.suite collection file above, and follow the instructions listed in the [upgrade guide](/manual/transform.suite/upgrade-suite/).
+To upgrade the **transform**.suite, download the transform.suite collection file above, and follow the instructions listed in the [upgrade guide](/manual/transform.suite/upgrade-suite/).
 
 :::
 ## Release Notes

@@ -10,10 +10,10 @@ We intend on resolving all known issues in a future release, but until then, her
 
 | Issue Ref. | Issue Details | Workaround |
 | ---------- | ------------- | ---------- |
+| TF-4396    | A recent update to Waves 16 plugins has caused a compatibility issue with the graphics drivers used by all versions of **transform**.engine. We are working with Waves to understand the cause. | We temporarily recommend that users either use Waves 16 installers from prior to the December update, or use Waves 15 installers. We expect to release a fix for this issue in the coming weeks. |
+| TF-2749 | A bug in macOS 15.2-15.4.1 causes macOS to block “Local Network” access for apps after reboot until manually enabled again in Settings. | Upgrade to macOS 15.6.1 or higher. |
 | TF-2698 | When bx\_limiter and AMEK EQ 200 are used in a chain, recalling cues can cause a momentary increase in DSP load. | Monitor DSP load for systems using these plugins. |
-| TF-1778 | It is possible to configure both the Primary and Control networks to be Link Local, causing IP network issues. | Do not configure both interfaces to Link Local simultaneously. |
-| TF-1779 | It is possible to configure multiple network interfaces with overlapping subnets via DHCP, causing IP network issues. | Do not configure multiple interfaces to have overlapping subnets. |
-|TF-2389 | Importing or exporting a preset can cause transform.client to disconnect and reconnect. | Ensure your network connection to transform.engine is reliable.|
+| TF-3434 | It is possible to configure multiple network interfaces with overlapping subnets via DHCP, causing IP network issues. | Do not configure multiple interfaces to have overlapping subnets. |
 
 
 While we strive to support as many plugins as possible on the **transform**.engine, as the engine is

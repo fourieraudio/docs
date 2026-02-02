@@ -28,10 +28,10 @@ the following columns:
 - **Name:** As suggests!
 - **Vendor:** Creator of great plugin
 - **Plugin Type:** VST3, CLAP or TSPL
-- **Touch & Turn** Can use a consoles direct integration to change previously selected parameter
+- **Touch & Turn** Whether the plugin supports the ability to tap a parameter in the UI to select it for modification, used with console integrations.
 
 :::info For Plugin Developers
-If you'd like your plugin to support this feature, discuss implementing [iParameterFinder](https://steinbergmedia.github.io/vst3_dev_portal/pages/Technical+Documentation/Change+History/3.0.2/IParameterFinder.html) with your development team.
+If you'd like your plugin to support Touch & Turn, discuss implementing [iParameterFinder](https://steinbergmedia.github.io/vst3_dev_portal/pages/Technical+Documentation/Change+History/3.0.2/IParameterFinder.html) with your development team.
 :::
 
 If your plugin has been successfully scanned before, the plugin scanner won't attempt to scan it again for all its requirements, it will give it a fast track entry to the showfile.
