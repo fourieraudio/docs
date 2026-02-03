@@ -14,7 +14,7 @@ To help you get going, you'll find handy guides on how to install and license a 
 Whilst we've sought to include a large and varied list of manufacturers, if you think we have missed someone, let us know on [hello@fourieraudio.com](mailto:hello@fourieraudio.com)!
 
 :::info
-Or alternatively, if you'd like access to 70+ of the world's best plugins for live - all installed in a single click - check out [**transform**.suite '25](https://fourieraudio.com/suite), including the [quick start guide](../../../transform.suite/quick-start).
+Or alternatively, if you'd like access to 70+ of the world's best plugins for live - all installed in a single click - check out [**transform**.suite '26](https://fourieraudio.com/suite), including the [quick start guide](../../../transform.suite/quick-start).
 :::
 
 ## House Recommendations
