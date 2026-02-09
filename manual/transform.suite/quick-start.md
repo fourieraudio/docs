@@ -93,7 +93,7 @@ We're very nearly there now!
 
 The next step is to download the **transform**.suite collection file.
 
-<a class="button button--lg button--primary" href="../../../../../downloads/suitedownload">download transform.suite '25 collection file</a>
+<a class="button button--lg button--primary" href="../../../../../downloads/suitedownload">download transform.suite '26 collection file</a>
 &nbsp;
 
 :::info
