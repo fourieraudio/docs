@@ -18,6 +18,7 @@ If you do not schedule maintenance, your equipment will do it for you...
 
 - The system must remain powered on during the upgrade.
 - The upgrade process takes around 10–15 minutes.
+- Connect the client via the primary port if the unit has no other connections.
 
 ## Step-by-Step Upgrade Instructions
 
