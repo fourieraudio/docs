@@ -38,7 +38,7 @@ To upgrade the **transform**.suite, download the transform.suite collection file
 
 **NEW IN THIS RELEASE**
 - Eventide Blackhole Immersive v1.4.4
-- Sound Theory Gullfoss Live v1.11.6
+- SoundTheory Gullfoss Live v1.11.6
 - Slate Digital VMR independent modules:
   - Custom Opto
   - FG-36A
