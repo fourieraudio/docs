@@ -2,14 +2,13 @@
 sidebar_position: 4
 ---
 
-# Updating transform.suite
+# Upgrading transform.suite
 
 
-Suite '26 welcomes Sound Theory's Gullfoss Live, Eventide's Blackhole Immersive, standalone Slate Digital VMR modules, and expanded support for Touch & Turn. 
+Suite '26 welcomes SoundTheory's Gullfoss Live, Eventide's Blackhole Immersive, standalone Slate Digital VMR modules, and expanded support for Touch & Turn. 
 Plugin manufacturers regularly update their plugins to introduce new features and address compatibility with the latest host environments. Occasional updates from manufacturers may require a **transform**.suite update. If you encounter any issues after a plugin update, please reach out to our support team. We work closely with plugin manufacturers to implement new features and resolve any issues as quickly as possible. 
 
 :::tip
-
 Schedule upgrades during planned maintenance windows rather than *immediately* before a show!  
 If you do not schedule maintenance, your equipment will do it for you...
 :::
@@ -46,3 +45,9 @@ If you do not schedule maintenance, your equipment will do it for you...
 6. **Confirm and enjoy**
    - Verify the installed plugins are appearing correctly, and enjoy your updated bundle!
 
+
+## Accidental Upgrades
+Accidentally upgraded the packages to suite '26 when you still only have a suite '25 licence? No need to reset your plugin host!
+Simply select "Upload & Activate Plugin Collections" and upload the suite '25 `.collection` file.
+
+<a class="button button--lg button--primary" href="https://downloads.fourieraudio.com/transform/suite/25/fa-plugin-collection-transform.suite-25-bundle_1.1.0.collection">download **transform**.suite '25 collection file</a>  

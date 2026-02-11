@@ -98,7 +98,7 @@ The next step is to download the **transform**.suite collection file.
 
 :::info
 
-It is approximately 4GB so may take a few minutes depending on your internet connection, but the good news is that you can keep this offline for whenever you may need it again!
+It is approximately 4.7GB so may take a few minutes depending on your internet connection, but the good news is that you can keep this offline for whenever you may need it again!
 
 
 :::
