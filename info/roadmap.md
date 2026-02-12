@@ -13,7 +13,7 @@ feedback we receive from our ~~adoring fans~~ users.
 | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------- | ------------- |
 | TF-3658      | HYPERPORT - a new 1.2ms, point-to-point audio protocol designed for plug and play audio.                                        | March 2026          |
 | TF-4474, TF-4109 | Allen & Heath native console connectivity - gigaACE, DX, and TCP/MIDI capability to the full **transform** range of products!                                | March 2026          |
-| TF-4293 |AlphaLabs De-Feedback AI optimisations - The first installment in a series of optimisations targeting Defeedback.                               | March 2026          |
+| TF-4293 | Alpha Labs De-Feedback performance optimisations - Allowing more instances of this plugin to run at lower period sizes                               | March 2026          |
 | TF-78        | Network Redundancy - mirror two **transform**.engines so that they can be used in a redundant configuration.                               | 2026          |
 
 Can't see a feature you'd love to add? Be sure to request it on our [Discourse
