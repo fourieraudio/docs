@@ -22,11 +22,11 @@ The first stage is to ensure that you have purchased at least one licence for **
 <a class="button button--lg button--primary" href="https://go.fourieraudio.com/suite.purchase">buy transform.suite</a>
 &nbsp;
 
-![Online management platform login screen](@site/static/img/transformsuite/management-login.png)
+![Online management platform login screen](@site/static/img/transformsuite/transformsuite26/management-login.png)
 
 You will first be invited to log in or sign up. This is the same login as other Complete Access sites (such as Solid State Logic or Slate Digital) so if you have registered previously, please feel free to use your existing account details.
 
-![Online management platform - seat purchase](@site/static/img/transformsuite/management-seat-purchase.png)
+![Online management platform - seat purchase](@site/static/img/transformsuite/transformsuite26/management-seat-purchase.png)
 
 The next page will invite you to choose how many **transform**.suite licences you would like to buy.
 
@@ -93,12 +93,12 @@ We're very nearly there now!
 
 The next step is to download the **transform**.suite collection file.
 
-<a class="button button--lg button--primary" href="../../../../../downloads/suitedownload">download transform.suite '25 collection file</a>
+<a class="button button--lg button--primary" href="../../../../../downloads/suitedownload">download transform.suite '26 collection file</a>
 &nbsp;
 
 :::info
 
-It is approximately 4GB so may take a few minutes depending on your internet connection, but the good news is that you can keep this offline for whenever you may need it again!
+It is approximately 4.7GB so may take a few minutes depending on your internet connection, but the good news is that you can keep this offline for whenever you may need it again!
 
 
 :::
@@ -111,7 +111,7 @@ Ensuring that you are all set up with your **transform**.engine and **transform*
 
 Head to the **System** tab, and then **Plugin Collections**
 
-![transform.client - Plugin Collections tab](@site/static/img/transformclient/v1.5/system-plugin-collection.png)
+![transform.client - Plugin Collections tab](@site/static/img/transformclient/v1.6/system-plugin-collection.png)
 
 Click **Upload & Activate Plugin Collection** and select the .collection file you downloaded in Step Four above.
 

@@ -2,14 +2,13 @@
 sidebar_position: 4
 ---
 
-# Updating transform.suite
+# Upgrading transform.suite
 
 
-Suite '26 welcomes Sound Theory's Gullfoss Live, Eventide's Blackhole Immersive, standalone Slate Digital VMR modules, and expanded support for Touch & Turn. 
+Suite '26 welcomes Soundtheory's Gullfoss Live, Eventide's Blackhole Immersive, standalone Slate Digital VMR modules, and expanded support for Touch & Turn. 
 Plugin manufacturers regularly update their plugins to introduce new features and address compatibility with the latest host environments. Occasional updates from manufacturers may require a **transform**.suite update. If you encounter any issues after a plugin update, please reach out to our support team. We work closely with plugin manufacturers to implement new features and resolve any issues as quickly as possible. 
 
 :::tip
-
 Schedule upgrades during planned maintenance windows rather than *immediately* before a show!  
 :::
 
@@ -18,6 +17,7 @@ Schedule upgrades during planned maintenance windows rather than *immediately* b
 
 - The system must remain powered on during the upgrade.
 - The upgrade process takes around 10–15 minutes.
+- Connect the client via the primary port if the unit has no other connections.
 
 ## Step-by-Step Upgrade Instructions
 
@@ -36,12 +36,19 @@ Schedule upgrades during planned maintenance windows rather than *immediately* b
 4. **Download, install and activate Suite 26** (internet-connected computer)
    - In **transform**.client → Settings → **Plugin Collections** select and download the Suite 26 bundle, then install and activate it (one-click).  
 
-<a class="button button--lg button--primary" href="./suitedownload">**transform**.suite '26 collection file download</a>
+<a class="button button--lg button--primary" href="https://docs.fourieraudio.com/downloads/suitedownload">**transform**.suite '26 collection file download</a>
 <br/><br/>
 
-5. **Follow on-screen prompts and wait for the installation**
+1. **Follow on-screen prompts and wait for the installation**
    - Installation typically takes around 5–10 minutes. The plugin scanner will pass through the collection twice.
 
-6. **Confirm and enjoy**
+2. **Confirm and enjoy**
    - Verify the installed plugins are appearing correctly, and enjoy your updated bundle!
+
+
+## Accidental Upgrades
+Accidentally upgraded the packages to suite '26 when you still only have a suite '25 licence? No need to reset your plugin host!
+Simply select "Upload & Activate Plugin Collections" and upload the suite '25 `.collection` file.
+[Download v1.1.0 here](https://docs.fourieraudio.com/downloads/suitedownload/#transformsuite-25-version-110)
+
 
