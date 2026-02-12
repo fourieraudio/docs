@@ -15,7 +15,14 @@ First, please be sure to read the following EULAs from all third parties include
 :::info
 By clicking the following button to download the **transform**.suite '26 collection file, you are agreeing to all terms as laid out in the above EULA.
 :::
-<a class="button button--lg button--primary" href="https://downloads.fourieraudio.com/transform/suite/26/fa-plugin-collection-transform.suite-26-bundle_26.0.0.collection">download **transform**.suite '26 collection file</a>
+<a class="button button--lg button--primary" href="https://downloads.fourieraudio.com/transform/suite/25/fa-plugin-collection-transform.suite-26-bundle_26.0.0.collection">
+  download <strong>transform</strong>.suite '26 collection file
+</a>
+<br />
+<br />
+Not upgraded yet? You can still download <a href="#transformsuite-25-version-110">transform.suite '25 (v1.1.0)</a>
+
+
 
 ## Releases
 
@@ -35,7 +42,7 @@ To upgrade the **transform**.suite, download the transform.suite collection file
 
 **NEW IN THIS RELEASE**
 - Eventide Blackhole Immersive v1.4.4
-- Sound Theory Gullfoss Live v1.11.6
+- Soundtheory Gullfoss Live v1.11.6
 - Slate Digital VMR independent modules:
   - Custom Opto
   - FG-36A
@@ -149,6 +156,7 @@ All plugins from **transform.suite ’25** remain included in **’26**, with th
 ---
 
 ### transform.suite '25 version: `1.1.0`
+<a class="button button--lg button--primary" href="https://downloads.fourieraudio.com/transform/suite/25/fa-plugin-collection-transform.suite-25-bundle_1.1.0.collection">download **transform**.suite '25 collection file</a>
 
 **Eventide**
 - H3000 Factory MkII v1.2.2
