@@ -5,7 +5,7 @@ sidebar_position: 4
 # Upgrading transform.suite
 
 
-Suite '26 welcomes SoundTheory's Gullfoss Live, Eventide's Blackhole Immersive, standalone Slate Digital VMR modules, and expanded support for Touch & Turn. 
+Suite '26 welcomes Soundtheory's Gullfoss Live, Eventide's Blackhole Immersive, standalone Slate Digital VMR modules, and expanded support for Touch & Turn. 
 Plugin manufacturers regularly update their plugins to introduce new features and address compatibility with the latest host environments. Occasional updates from manufacturers may require a **transform**.suite update. If you encounter any issues after a plugin update, please reach out to our support team. We work closely with plugin manufacturers to implement new features and resolve any issues as quickly as possible. 
 
 :::tip
