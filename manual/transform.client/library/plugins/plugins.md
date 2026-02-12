@@ -29,4 +29,4 @@ Whilst we support VST3s and CLAP, your VSTis won't get past our plugin scanner, 
 
 ### Multi-channel
 
-We support up to 64 channels of multichannel audio, and plugin bus configurations up to 9.1.6! If greater/ alternative configurations are required, let us know on our [Discourse forum](https://discourse.fourieraudio.com/)!
+We support up to 64 channels of multichannel audio, and plugin bus configurations up to 9.1.6! If greater/alternative configurations are required, let us know on our [Discourse forum](https://discourse.fourieraudio.com/)!
