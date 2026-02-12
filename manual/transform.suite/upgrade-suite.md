@@ -49,5 +49,6 @@ Schedule upgrades during planned maintenance windows rather than *immediately* b
 ## Accidental Upgrades
 Accidentally upgraded the packages to suite '26 when you still only have a suite '25 licence? No need to reset your plugin host!
 Simply select "Upload & Activate Plugin Collections" and upload the suite '25 `.collection` file.
+[Download v1.1.0 here](https://docs.fourieraudio.com/downloads/suitedownload/#transformsuite-25-version-110)
 
-<a class="button button--lg button--primary" href="https://downloads.fourieraudio.com/transform/suite/25/fa-plugin-collection-transform.suite-25-bundle_1.1.0.collection">download **transform**.suite '25 collection file</a>  
+
