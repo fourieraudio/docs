@@ -23,6 +23,17 @@ It is approximately 4.7GB so may take a few minutes depending on your internet c
 
 :::
 
+### Legacy Version
+
+<a class="button button--lg button--primary" href="https://downloads.fourieraudio.com/transform/suite/25/fa-plugin-collection-transform.suite-25-bundle_1.1.0.collection">download **transform**.suite '25 collection file</a> 
+<br /> 
+<br /> 
+:::note
+
+**transform**.suite '25 is now a legacy version and unavailable for purchase.
+
+:::
+
 ![transform.client - Plugin Collections tab](@site/static/img/transformclient/v1.5/system-plugin-collection.png)
 
 If you haven't already, log in to the [Management Platform](../management-platform) and assign a licence to your **transform**.engine.
