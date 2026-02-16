@@ -18,8 +18,7 @@ By clicking the following button to download the **transform**.suite '26 collect
 <a class="button button--lg button--primary" href="https://downloads.fourieraudio.com/transform/suite/26/fa-plugin-collection-transform.suite-26-bundle_26.0.0.collection">download transform.suite '26 collection file</a>
 <br />
 <br />
-Not upgraded yet? You can still download <a href="/info/downloads/suite25download.md">transform.suite '25 (v1.1.0)</a>
-
+Not upgraded yet? You can still download **transform**.suite '25 (v1.1.0), [here](/info/downloads/suite25download.md)!
 
 
 ## Releases

@@ -17,22 +17,15 @@ First, download the **transform**.suite collection file here:
 <a class="button button--lg button--primary" href="../../../../../downloads/suitedownload">download transform.suite '26 collection file</a>
 &nbsp;
 
+
+Not upgraded yet? You can still download **transform**.suite '25 (v1.1.0), [here](/info/downloads/suite25download.md)!
+
 :::info
 
 It is approximately 4.7GB so may take a few minutes depending on your internet connection, but the good news is that you can keep this offline for whenever you may need it again!
 
 :::
 
-### Legacy Version
-
-<a class="button button--lg button--primary" href="https://downloads.fourieraudio.com/transform/suite/25/fa-plugin-collection-transform.suite-25-bundle_1.1.0.collection">download **transform**.suite '25 collection file</a> 
-<br /> 
-<br /> 
-:::note
-
-**transform**.suite '25 is now a legacy version and unavailable for purchase.
-
-:::
 
 ![transform.client - Plugin Collections tab](@site/static/img/transformclient/v1.5/system-plugin-collection.png)
 
