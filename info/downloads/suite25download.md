@@ -28,7 +28,6 @@ By clicking the following button to download the **transform**.suite '25 collect
 
 | Suite Version | Release    | Minimum Engine Version | Release Date | Latest  |
 | ------------- | ---------- | ---------------------- | ------------ | ------- |
-| **'26**       | **26.0.0** | **1.6.0**              | 02/02/2026   | **Yes** |
 | '25           | 1.1.0      | 1.5.0                  | 15/07/2025   |         |
 | '25           | 1.0.1      | 1.3.0                  | 11/02/2025   |         |
 
