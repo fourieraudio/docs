@@ -9,8 +9,8 @@ With a plugin instance selected, you have a number of different options at your 
 ![Density Control](/img/transformclient/v1.6/plugin-instance-detail-pane.png)
 
 
-## Presets
-Presets allow you to save a plugin instance's state for later reuse, either in
+## Live Presets
+Live Presets allow you to save a plugin instance's state for later reuse, either in
 other cues, or in other plugin instances of the same type in any other chain.
 
 What's more, when you **update** a preset, every place that references that
