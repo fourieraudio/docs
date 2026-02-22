@@ -2,14 +2,14 @@
 sidebar_position: 4
 ---
 
-# Presets
+# Live Presets
 
 Presets are a powerful tool that allow you to save and recall specific plugin configurations across your showfile.
 
 Whilst you can create and update presets directly from the [detail pane](../home/plugin-instances.md)
 when you have a plugin instance selected, managing presets once created happens within the **Library** tab.
 
-## Using Presets
+## Using Live Presets
 
 A single preset can be used across multiple chains, across multiple cues, or both!
 
