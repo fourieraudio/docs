@@ -18,7 +18,7 @@ First, download the **transform**.suite collection file here:
 &nbsp;
 
 
-Not upgraded yet? You can still download **transform**.suite '25 (v1.1.0), [here](/info/downloads/suite25download.md)!
+Not upgraded yet? You can still download **transform**.suite '25 (v1.1.0), [here](../../../../../downloads/suite25download)!
 
 :::info
 
