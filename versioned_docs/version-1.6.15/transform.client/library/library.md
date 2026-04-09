@@ -1,0 +1,46 @@
+---
+sidebar_position: 3
+---
+
+# Library
+
+A simple overview of plugins in this showfile. The library tab shows the plugins that are currently
+available, or have been available to this showfile at some point in the past. Your showfile may
+reference plugins which are currently not installed, and they will be indicated in this view if so.
+
+If it is your first time using your **transform**.engine, we have created a handy guide for manufacturer specific plugin installation and licensing, see the side bar!
+
+If we have missed any manufacturers, please don't hesitate to get in touch on [hello@fourieraudio.com](mailto:hello@fouieraudio.com) and we will be more than happy to add them.
+
+## Plugin Scanner
+
+Clicking the `Add/Remove Plugins` button in the library view shows you the installed plugins view,
+showing only those plugins present on the current engine. From here, you can open the plugin host
+view to install new plugins, and kick off the plugin scanner.
+
+The plugin scanner is the bouncer allowing your plugins into the host environment. It will check the
+plugins are good to go, right format, ticks all the relevant requirements, and ready for you to spin
+them up!
+
+Once your plugins are installed and scanned, you'll see them all handily arranged in a table with
+the following columns:
+
+- **Name:** As suggests!
+- **Vendor:** Creator of great plugin
+- **Plugin Type:** VST3, CLAP or TSPL
+- **Touch & Turn** Whether the plugin supports the ability to tap a parameter in the UI to select it for modification, used with console integrations.
+
+:::info For Plugin Developers
+If you'd like your plugin to support Touch & Turn, discuss implementing [iParameterFinder](https://steinbergmedia.github.io/vst3_dev_portal/pages/Technical+Documentation/Change+History/3.0.2/IParameterFinder.html) with your development team.
+:::
+
+If your plugin has been successfully scanned before, the plugin scanner won't attempt to scan it again for all its requirements, it will give it a fast track entry to the showfile.
+
+However, we know with some plugins, they may not appear after being scanned and you may want to force the plugin scanner to vigorously check for plugins again.
+This is where you'll find some modes to rescan for plugins:
+
+![plugin-scanner](@site/static/img/transformclient/v1.5/quick-scan-full-rescan.png)
+
+- **User Plugins - Quick Scan (New and Updated Only)** - This will quickly check for any new plugins, but not interrogating the existing ones. It will not scan any plugins which have been installed as part of a [Plugin Collection](../../transform.suite/transform.suite.md).
+- **User Plugins - Force Full Rescan** - This mode will brute force the plugin scanner to meticulously check every plugin meets the entry requirements. It will not scan any plugins which have been installed as part of a [Plugin Collection](../../transform.suite/transform.suite.md).
+- **Plugin Collections - Full Rescan** - This will scan any plugins which have been installed as part of a [Plugin Collection](../../transform.suite/transform.suite.md). It will not scan any User Plugins that have been installed manually.
