@@ -59,7 +59,7 @@ latency through **transform**.engine based on your current configuration.
 
 This makes it easy to compare processing headroom vs. latency impact when adjusting period size or transport type.
 
-The [roundtrip latency](../../installation/Roundtrip Latency.md) section describes an overview of how to calculate the round-trip latency when using **transform**.engine as an insert. Here, we go into more detail about how the device internal latency is calculated.
+The [roundtrip latency](../../installation/roundtrip-latency.md) section describes an overview of how to calculate the round-trip latency when using **transform**.engine as an insert. Here, we go into more detail about how the device internal latency is calculated.
 
 The device internal latency is composed of the DSP pipeline latency (from the
 **transform** audio engine) plus the audio transport latency, which depends on the audio protocol in use.

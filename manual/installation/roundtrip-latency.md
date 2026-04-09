@@ -3,7 +3,7 @@ sidebar_position: 14
 sidebar_label: Roundtrip Latency
 ---
 
-## Roundtrip Latency
+# Roundtrip Latency
 
 When transform.engine is used as an insert, the round-trip latency is determined by the device internal latency, plus the latency introduced by the Dante network. The device internal latency depends on the sample rate and period size that has been configured.
 

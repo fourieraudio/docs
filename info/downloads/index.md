@@ -6,11 +6,11 @@ sidebar_position: 4
 
 Here you can find the latest **transform**.client:
 
-<a class="button button--lg button--primary" href="https://downloads.fourieraudio.com/transform/latest/FourierTransform-Release-1.6.0-win32.exe">Windows v1.6.0</a>
+<a class="button button--lg button--primary" href="https://downloads.fourieraudio.com/transform/latest/FourierTransform-Release-1.6.15-win32.exe">Windows v1.6.15</a>
 <br/><br/>
-<a class="button button--lg button--primary" href="https://downloads.fourieraudio.com/transform/latest/FourierTransform-Release-1.6.0-arm64.zip">macOS (ARM) v1.6.0</a>
+<a class="button button--lg button--primary" href="https://downloads.fourieraudio.com/transform/latest/FourierTransform-Release-1.6.15-arm64.zip">macOS (ARM) v1.6.15</a>
 <br/><br/>
-<a class="button button--lg button--primary" href="https://downloads.fourieraudio.com/transform/latest/FourierTransform-Release-1.6.0-x64.zip">macOS (x86-64) v1.6.0</a>
+<a class="button button--lg button--primary" href="https://downloads.fourieraudio.com/transform/latest/FourierTransform-Release-1.6.15-x64.zip">macOS (x86-64) v1.6.15</a>
 <br/><br/>
 
 :::info
@@ -42,7 +42,8 @@ compatibility ranges at any time.</small>
 
 | Engine Version | Client Version            | Release Date | Latest  |                      |
 | -------------- | ------------------------- | ------------ | ------- | -------------------- |
-|**1.6.0**       | **1.6.0**                 | 02/02/2026   |**Yes**  | [Release notes](v1-6-0.md) |
+|**1.6.15**      | **1.6.15**                | 09/04/2026   |**Yes**  | [Release notes](v1-6-15.md) |
+|1.6.0           | 1.6.0                     | 02/02/2026   |         | [Release notes](v1-6-0.md) |
 |                | 1.5.1                     | 31/07/2025   |         | [Release notes](v1-5-1.md) |
 |1.5.0           | 1.5.0                     | 15/07/2025   |         | [Release notes](v1-5-0.md) |
 |1.4.0           | 1.4.0                     | 31/03/2025   |         | [Release notes](v1-4-0.md) |
