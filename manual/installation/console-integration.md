@@ -12,15 +12,9 @@ As of **transform**.engine v1.4.0, you can synchronise your DiGiCo console runni
 
 There is no configuration on the **transform**.engine itself to configure the
 integration. For details on how to configure the integration on the console,
-please refer to the [DiGiCo documentation](https://digico.biz/support-files/).
+please refer to the [DiGiCo documentation](https://support.digico.biz/hc/en-gb/articles/38543442055825-Fourier-transform-engine-Console-Integration-V2025). 
 
 ## Gotchas
-
-:::info
-
-We currently do not support mirroring between two or more **transform**.engines. However, this feature is on our roadmap for future development. To stay updated, please check out our [roadmap](https://docs.fourieraudio.com/roadmap/)!
-
-:::
 
 When using the integration, you should bear the following in mind:
 
@@ -40,7 +34,6 @@ When using the integration, you should bear the following in mind:
   to ensure that each network has a non-overlapping subnet. For example, you
   could use `192.168.1.0/24` for Dante Primary, `192.168.2.0/24` for Dante
   Secondary, and `192.168.3.0/24` for control.
-
 
 ## Setup
 
