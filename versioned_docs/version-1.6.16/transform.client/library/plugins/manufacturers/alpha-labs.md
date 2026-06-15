@@ -21,16 +21,16 @@ You must run De-Feedback v1.1.4 or above on **transform**.engine. An older build
 
 **Plugin Format**: Windows VST3
 
+**Installer File Format:** `.exe`
 
 1. Follow the [Accessing Windows steps](../installation.md#accessing-the-plugin-host-to-install-plugins)
-2. On your personal device, download De-Feedback v1.1.4 or above. It should be in a `.vst3` file format.
-3. Copy this file to a USB stick.
+2. On your personal device, download the De-Feedback v1.1.4 or above Windows installer. It should be in a `.exe` file format.
+3. Copy this installer file to a USB stick.
 4. Plug it into any of the USB ports on the **transform**.engine.
-5.  Copy the De-Feedback VST3 file to:
-
-   `C:\Program Files\Common Files\VST3\`
-
-6. Exit the plugin host and rescan plugins.
+6. Locate your USB stick in the window and find your De-Feedback installer file.
+7. Run the Application.
+8. Follow the installer prompts to install De-Feedback.
+9. Exit the plugin host and rescan plugins.
 
 ## Licensing
 
