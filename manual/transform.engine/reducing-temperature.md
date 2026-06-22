@@ -5,7 +5,7 @@ sidebar_label: Reducing Temperature
 
 # Reducing Temperature
 
-The Audio Renderer reports the temperature of the hottest CPU core rather than an average across all cores, providing the most accurate indication of the thermal conditions affecting real-time audio performance. If this is still higher than expected, there are a few things you can try.
+The Audio Renderer reports the temperature of the hottest CPU core rather than an average across all cores, providing the most accurate indication of the thermal conditions affecting system performance. If this is still higher than expected, there are a few things you can try.
 
 ## Check Rack Ventilation
 
@@ -13,13 +13,13 @@ The **transform**.engine takes air in through the front of the unit, and exhaust
 
 Remove the unit from its rack and place it in an open environment with the front and side ventilation unobstructed. Power on the unit, run it under a typical plugin load, and monitor the temperature under **Settings > System Status > Audio Renderer** in **transform**.client.
 
-If the temperature returns to a normal level, check the rack installation for restricted airflow before reinstalling the unit. If the temperature remains unusually high, power off the unit, disconnect mains power, and continue with the following procedure.
+If the temperature returns to a normal level, check the rack for restricted airflow before reinstalling the unit. If the temperature remains unusually high, power off the unit, disconnect mains power, and continue with the following procedure.
 
 ## Clearing the Cooling Assembly
-Dust can accumulate inside the **transform**.engine cooling assembly over time, particularly in some operating environments. Cleaning dust from the CPU heatsink can improve cooling performance and reduce the Audio Renderer temperature.
+Dust can accumulate inside the **transform**.engine cooling assembly over time, particularly in some operating environments. Cleaning dust from the CPU heatsink will improve cooling performance and reduce the CPU temperature.
 
 **Follow the following steps if:**
-- Audio Renderer temperature is over 85°C under low plugin load
+- Audio Renderer temperature is over 85°C under plugin load
 - Persistent [Thermal warnings](../transform.client/system/system-status.md) in **transform**.client
 
 ### Items Required
@@ -54,7 +54,7 @@ Vacuum cleaners can generate static discharge and may damage the motherboard. Do
 
    ![The air duct assembly with its four screws removed](@site/static/img/transform.engine-hw/temperature/DuctNoScrews.png)
 
-  ![The four screws securing the Noctua fan to the heatsink](@site/static/img/transform.engine-hw/temperature/FanScrews.png)
+   ![The four screws securing the Noctua fan to the heatsink](@site/static/img/transform.engine-hw/temperature/FanScrews.png)
 
 
 5. With the same driver bit, remove the 4 screws securing the Noctua fan to the heatsink.
@@ -69,10 +69,10 @@ Vacuum cleaners can generate static discharge and may damage the motherboard. Do
 7. Gently remove dust build-up from the heatsink fins.
 
 :::warning
-Avoid spinning the fan excessively with compressed air, as this can generate back voltage into the fan circuitry and potentially damage the fan controller.
+Avoid spinning the fan excessively with compressed air, as this can generate back voltage into the fan circuitry and potentially damage the motherboard.
 :::
 
-8. Once cleaned, visually inspect the heatsink for any remaining obstruction or contamination.
+8. Once cleaned, visually inspect the heatsink for any remaining dusts.
 9. Refit the fan assembly.
 10. Refit the air duct. Ensure that the duct sits around the fan as shown in the correct example.
 
@@ -85,5 +85,5 @@ Avoid spinning the fan excessively with compressed air, as this can generate bac
 13. Navigate to **Settings > System Status > Audio Renderer** and observe the system temperature.
 
 :::note
-If the unit still exhibits unusually high temperatures, the issue may instead relate to thermal coupling between the CPU and heatsink. In this case, please contact [Fourier Audio Support](https://fourieraudio.com/support) for further assistance.
+If the unit still shows unusually high temperatures, the issue could be due to thermal coupling between the CPU and heatsink. In this case, please contact [Fourier Audio Support](https://fourieraudio.com/support) for further assistance.
 :::
