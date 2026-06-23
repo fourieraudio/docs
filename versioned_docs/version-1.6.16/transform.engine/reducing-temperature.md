@@ -18,9 +18,21 @@ If the temperature returns to a normal level, check the rack for restricted airf
 ## Clearing the Cooling Assembly
 Dust can accumulate inside the **transform**.engine cooling assembly over time, particularly in some operating environments. Cleaning dust from the CPU heatsink will improve cooling performance and reduce the CPU temperature.
 
-**Follow the following steps if:**
-- Audio Renderer temperature is over 85°C under plugin load
-- Persistent [Thermal warnings](../transform.client/system/system-status.md) in **transform**.client
+The temperature indicator in **transform**.client uses the following states:
+
+:::note Normal 
+< 85°C - Standard operating range. No action required.
+:::
+
+:::warning Warning
+\> 85°C - The system is running warm. Ensure airflow is not blocked. A warning indicator will appear in the status bar.
+:::
+
+:::danger Danger
+\> 90°C - The unit is operating at the upper thermal limit. Continued operation at this temperature may reduce performance. A danger indicator will appear in the status bar.
+:::
+
+Follow the steps below if the unit remains in Warning or Danger state  under plugin load.
 
 ### Items Required
 
@@ -29,7 +41,7 @@ Dust can accumulate inside the **transform**.engine cooling assembly over time, 
 - **transform**.client V1.6.0 or later running on a supported computer
 - A electronics cleaning brush / Handheld compressed air / an electronics air duster
 
-:::danger
+:::warning
 
 Do not use a vacuum cleaner or hoover directly inside the unit.
 
