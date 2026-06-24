@@ -28,6 +28,12 @@ computer and **transform**.engine, try `ping` command again. If this works, it s
 with your network: check the various devices and cabling are not damaged / cut / eaten by a rat, and
 that the network settings on the switches have been configured correctly.
 
+### Temperature Issues
+
+**Temperature unusually high?** First check that the
+front and side ventilation openings are unobstructed. For guidance on checking rack airflow and
+cleaning the cooling assembly, see [Reducing Temperature](../transform.engine/reducing-temperature.md).
+
 ### Common Dante Issues
 
 **Devices appearing as red in 'Device Info'?** Check devices are in the same subnet as your system.

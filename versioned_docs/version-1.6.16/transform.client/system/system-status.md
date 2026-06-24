@@ -124,7 +124,7 @@ The renderer is shown with:
 > **Why are these ranges so high?**
 
 The temperature value shown in this section reflects the **highest detected CPU core** temperature inside the Audio Renderer, not the ambient internal temperature.
-This means it may appear higher than expected if you are used to monitoring external temperatures.
+This means it may appear higher than expected if you are used to monitoring external temperatures. If you are experiencing constantly high temperatures, see [Reducing Temperature](../../transform.engine/reducing-temperature.md).
 
 ## System Time
 Displays the connected unit’s internal system time. Time drift can cause iLok licensing failures and, in severe cases, prevent the audio renderer from starting. The *Synchronise Unit's System Time* button allows the unit to be aligned with UTC.
