@@ -25,8 +25,8 @@ Whilst some plugin manufacturers use OpenGL, for optimum performance on the **tr
 
 ### VSTi
 
-Whilst we support VST3s, your VSTis won't get past our plugin scanner, sorry. They run a tight ship, and if your name isn't VST3, you're not getting in.
+Whilst we support VST3s and CLAP, your VSTis won't get past our plugin scanner, sorry. They run a tight ship, and if your name isn't VST3 (or CLAP... ), you're not getting in.
 
 ### Multi-channel
 
-Whilst we support mono and stereo plugin chains, we currently don't support any larger channel widths than this for now (but trust it is on our to-do list).
+We support up to 64 channels of multichannel audio, and plugin bus configurations up to 9.1.6! If greater/alternative configurations are required, email us on support@fourieraudio.com or let us know on our [Discourse forum](https://discourse.fourieraudio.com/)!
