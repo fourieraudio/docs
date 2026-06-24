@@ -32,22 +32,23 @@ The temperature indicator in **transform**.client uses the following states:
 \> 90°C - The unit is operating at the upper thermal limit. Continued operation at this temperature may reduce performance. A danger indicator will appear in the status bar.
 :::
 
-Follow the steps below if the unit remains in Warning or Danger state  under plugin load.
+Follow the steps below if the unit remains in a Warning or Danger state under plugin load.
 
 ### Items Required
 
-- A screwdriver with a Torx T8 driver bit and a PZ1 driver bit.
+- A torque screwdriver with a Torx T8 driver bit and a PZ1 driver bit
 - Physical access to the **transform**.engine out of its rack
 - **transform**.client V1.6.0 or later running on a supported computer
-- A electronics cleaning brush / Handheld compressed air / an electronics air duster
+- An electronics cleaning brush, handheld compressed air, or an electronics air duster
 
-:::warning
+### Warnings
 
-Do not use a vacuum cleaner or hoover directly inside the unit.
-
-Vacuum cleaners can generate static discharge and may damage the motherboard. Do not allow any cleaning tool to make direct contact with motherboard components unnecessarily.
-
-:::
+- This procedure must only be performed by a Skilled Person with appropriate experience or training to identify and mitigate hazards posed by energy sources inside the product.
+- Electrostatic discharge (ESD) may cause permanent damage to the **transform**.engine. Perform this procedure only at an ESD-controlled workstation, for example by wearing an anti-static wrist strap attached to the **transform**.engine earthing post.
+- There is a risk of overheating or fire if the cooling system is not assembled correctly. Use only approved parts sourced from Fourier Audio, and ensure that the fan and air duct are refitted exactly as described.
+- Do not use a vacuum cleaner or hoover directly inside the unit. Vacuum cleaners can generate static discharge and may damage the motherboard.
+- Do not allow any cleaning tool to make unnecessary direct contact with motherboard components.
+- Avoid spinning the fan excessively with compressed air, as this can generate back voltage into the fan circuitry and potentially damage the motherboard.
 
 ### Steps
 
@@ -80,19 +81,15 @@ Vacuum cleaners can generate static discharge and may damage the motherboard. Do
 
 7. Gently remove dust build-up from the heatsink fins.
 
-:::warning
-Avoid spinning the fan excessively with compressed air, as this can generate back voltage into the fan circuitry and potentially damage the motherboard.
-:::
-
-8. Once cleaned, visually inspect the heatsink for any remaining dusts.
+8. Once cleaned, visually inspect the heatsink for any remaining dust.
 9. Refit the fan assembly.
-10. Refit the air duct. Ensure that the duct sits around the fan as shown in the correct example.
+10. Refit the air duct with the 4 screws and washers previously removed. Tighten each screw to 5 lbf-in. Ensure that the duct sits around the fan as shown in the correct example.
 
     | Incorrect | Correct |
     | --- | --- |
     | ![Incorrect air duct position obstructing the fan opening](@site/static/img/transform.engine-hw/temperature/DuctWrong.png) | ![Correct air duct position around the fan](@site/static/img/transform.engine-hw/temperature/DuctRight.png) |
 
-11. Refit the lid.
+11. Refit the lid with the 6 screws previously removed. Tighten each screw to 6 lbf-in.
 12. Power on, then connect with **transform**.client.
 13. Navigate to **Settings > System Status > Audio Renderer** and observe the system temperature.
 
