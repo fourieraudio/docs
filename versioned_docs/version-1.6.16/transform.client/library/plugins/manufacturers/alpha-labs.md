@@ -74,3 +74,24 @@ Before resetting the plugin host, you must remove the De-Feedback licence using 
 
 5. On an internet-connected device, go to [http://tinyurl.com/manage-offline](http://tinyurl.com/manage-offline), upload the request file, and complete the deactivation process.
 
+## FAQ
+
+### How do I register my transform.engine to receive the discount code for Alpha Labs De-Feedback?
+
+You can register here: [transform.engine registration](https://fourieraudio.typeform.com/register?typeform-source=fourieraudio.com)
+
+### When will I receive my discount code?
+
+The code will be emailed to you within 24 hours of registration.
+
+### Where do I enter the code?
+
+Purchase the plugin on the [Alpha Labs Audio website](https://www.alphalabsaudio.com/defeedback/) and apply the coupon code during the checkout process.
+
+### Will the discounted version of De-Feedback work only on the Fourier Audio transform.engine?
+
+This discount code is for a full license of De-Feedback that is not restricted in any way and can run on any platform.
+
+### Which buffer sizes can I use with De-Feedback?
+
+De-Feedback on **transform**.engine is currently compatible with buffer sizes of 64 or greater at 48 kHz, or 128 or greater at 96 kHz.
