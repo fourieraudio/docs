@@ -9,7 +9,7 @@ Click [here](/downloads) to download the latest **transform**.client software.
 
 Deliberately designed to be simple, we want to get you up and running in next to no time.
 
-Split into three tabs:
+Split into four tabs:
 
 1. Accessible at the top left: [**Home**](home/home.md) - Build your plugin chains.
 2. Next is Cuelists: [**Cuelists**](cuelists/cuelists.md) - Control your plugins.
