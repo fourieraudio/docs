@@ -8,7 +8,7 @@ How to install **Softube** plugins on your **transform**.engine.
 
 ## Installation
 
-**Plugin Download Link:** [Softube Plugins](https://www.softube.com/support/support-getting-started/direct-installers-for-win_1)
+**Plugin Download Link:** [Softube Plugins](https://www.softube.com/support/plug-in-installers?buildID=&os=win&showOwned=false&isTreeView=true)
 
 **Licensing Method:** iLok ([Licensing Guide](../ilok.md))
 
