@@ -69,6 +69,16 @@ Follow the steps below if the unit remains in a Warning or Danger state under pl
 
    ![The four screws securing the Noctua fan to the heatsink](@site/static/img/transform.engine-hw/temperature/FanScrews.png)
 
+   Check the arrows moulded into the fan frame. The airflow arrow should point **down** towards the heatsink; the second arrow indicates the direction of blade rotation.
+
+   :::info
+   When viewing the fan from above with the air duct folded back, the circular Noctua sticker should not be visible. If you can see the sticker, the fan is fitted incorrectly. Contact [Fourier Audio Support](https://fourieraudio.com/support) with your **transform**.engine serial number before continuing.
+   :::
+
+   ![Noctua diagram showing the airflow and rotation arrows moulded into the fan frame](@site/static/img/transform.engine-hw/temperature/DirectionOfAirflowAndRotation.jpeg)
+
+   _Source: [Noctua](https://www.noctua.at/en/support/faqs/how-do-i-determine-my-fans-airflow-direction)_
+
 
 5. With the same driver bit, remove the 4 screws securing the Noctua fan to the heatsink.
 
