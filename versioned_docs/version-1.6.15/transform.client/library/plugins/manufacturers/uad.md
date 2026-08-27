@@ -2,9 +2,9 @@
 sidebar_position: 1
 ---
 
-# Universial Audio (UAD)
+# Universal Audio (UAD)
 
-How to install **Universial Audio (UAD)** plugins on your **transform**.engine!
+How to install **Universal Audio (UAD)** plugins on your **transform**.engine!
 
 ## Installation
 
@@ -42,4 +42,3 @@ The correct Windows VST3 files will only be generated on a windows device. Runni
 1. Exit the plugin host and rescan to confirm that files are copied successfully.
 ![USB with files.](@site/static/img/UAD/Finished.png)
 2.  Repeat the process if you have additional plugins to transfer.
-

@@ -2,9 +2,9 @@
 sidebar_position: 1
 ---
 
-# Universial Audio (UAD)
+# Universal Audio (UAD)
 
-How to install **Universial Audio (UAD)** plugins on your **transform**.engine!
+How to install **Universal Audio (UAD)** plugins on your **transform**.engine!
 
 ## Installation
 
@@ -48,4 +48,3 @@ Ensure you have an iLok plugged into your personal device with the correct UAD l
 7. Exit the plugin host and rescan to confirm that files are copied successfully.
 ![USB with files.](@site/static/img/UAD/Finished.png)
 8.  Repeat the process if you have additional plugins to transfer.
-
