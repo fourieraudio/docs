@@ -6,70 +6,45 @@ sidebar_position: 1
 
 How to install and license **Plugin Alliance** plugins on your **transform**.engine.
 
-:::warning
-
 Please be aware that Plugin Alliance do not support SanDisk USB drives for licensing plugins. For more info, click [here](https://support.plugin-alliance.com/hc/en-us/articles/9760037618589-Why-does-the-machine-ID-of-my-USB-drive-keep-changing)!
 
-:::
-
 ## Installation
-
-**Method 1-** Individual Plugin Installation: [Individual Plugin Alliance Plugins](https://www.plugin-alliance.com/en/products.html)
-
-**Method 2-** Multiple Plugin Installation: [Bundled Plugin Alliance Plugin](https://www.plugin-alliance.com/en/installation-manager.html)
 
 **Licensing Method:** Standard USB Key (Manufacturer Specific)
 
 **Plugin Format:** Windows VST3
 
-**Installer File Format:** `.exe`
+**Installer File Format:** `.pabundle`
 
-**Method 1- Individual**
+**Preface: You are going to need to install PA installation manager both on your personal device and on the Fourier Tansform Engine**
 
-1. After following the [Accessing Windows steps](../installation.md#accessing-the-plugin-host-to-install-plugins), you will be in a position to install plugins.
-2. On your personal device, download the desired plugin(s) for a Windows OS from the above link, it should be in a `.exe` file format.
-3. Copy this installer file to a USB stick.
-4. Plug it into any of the USB ports on the **transform**.engine.
-5. In the search bar, type ‘This PC’, it will find the ‘This PC’ app and hit enter.
-6. Locate your USB stick in the window and find your Plugin Alliance installer file.
-7. Run the Application (`.exe` file) for the desired plugin.
-8. During the installation process, when asked which components to install, ensure only VST3 is selected.
-9. Install location does not need to be altered.
-10. Navigate through each menu, and once complete, click ‘Finish’.
-11. Repeat the process if you have further plugins to install.
-
-**Method 2- Bundle**
-
-1. On your personal device, insert a USB key and download Plugin Alliance Installation Manager.
-2. Launch `PA-InstallationManager` and login using your credentials.
-3. Select 'Download/Export' as Installation Type, 'Win (64-bit)' as Platform, and 'VST3' as Filter by.
-4. To build your installer, select all the plugins you want to install on your **transform**.engine.
-5. Once happy, select 'Download & Export'.
-6. Select 'Save As' and locate your USB key inserted earlier.
-7. If your personal device is a Windows, copy the Plugin Alliance Installation Manager installer to your USB. If Mac, download the Windows version of Plugin Alliance Installation Manager to your USB key.
-8. Once done, eject and plug your USB key into the **transform**.engine.
-9. After following the 'Accessing Windows 10 Environment' (instructions above), you will be in a position to install plugins.
-10. In the search bar, type ‘This PC’, it will find the ‘This PC’ app and hit enter.
-11. Locate your USB stick in the window and install `PA-InstallationManager`. Once installed, launch the program.
-12. Select 'Import/ Install' as Installation Type, and click 'Import'.
-13. Locate the installer file from your USB key (labelled `Installer.pabundle`), and select 'Install'. Once finished, your plugins will be installed.
+1. On your personal device, download the Plugin Alliance Installation Manager. **Plugin Alliance Installation Manger Download Link:** [Plugin Alliance Installation Manager](https://www.plugin-alliance.com/en/installation-manager.html)
+2. Insert a USB stick into your personal device. If your personal device is a Windows PC, copy the Plugin Alliance Installation Manager installer to your USB. If Mac, download the Windows version of Plugin Alliance Installation Manager to your USB key.
+3. On your personal device, install Plugin Alliance Installation manager.
+4. Launch `PA-InstallationManager` and login using your credentials. (The account you choose to log in with doesn't need to be the same account which owns the licenses)
+5. Select 'Download/Export' as Installation Type, 'Win (64-bit)' as Platform, and 'VST3' as Filter by.
+6. To build your installer, select all the plugins you want to install on your **transform**.engine.
+7. Once happy, select 'Download & Export'.
+8. Select 'Save As' and locate your USB key inserted earlier.
+10. Once done, eject and plug your USB key into the **transform**.engine.
+11. After following the 'Accessing Windows 10 Environment', you will be in a position to install plugins.
+12. In the search bar, type ‘This PC’, it will find the ‘This PC’ app and hit enter.
+13. Locate your USB stick in the window and install `PA-InstallationManager`. Once installed, launch the program.
+14. Select 'Import/ Install' as Installation Type, and click 'Import'.
+15. Locate the installer file from your USB key (labelled `Installer.pabundle`), and select 'Install'. Once finished, your plugins will be installed.
 
 ### Licensing
 
 How to license your **Plugin Alliance** protected plugins on the **transform**.engine.
 
-**Software Required:** Plugin Alliance Installation Manager or Individual Installers
-
-**Plugin Alliance Installation Manger Download Link:** [Plugin Alliance Installation Manager](https://www.plugin-alliance.com/en/installation-manager.html)
-
-**Plugin Alliance Individual Plugin Installers link:** [Plugin Alliance Individual Installers](https://www.plugin-alliance.com/en/products.html)
-
 **Hardware Required:** Standard USB key
 
 **Plugin Alliance Support Website:** [Plugin Alliance Support](https://support.plugin-alliance.com/hc/en-us)
 
+**Method 1: Licensing the USB drive online. Requires Login credentials for the account which owns the license**
+
 1. To install Plugin Alliance license files onto a USB stick, you will need to use an internet connected personal device running your choice of DAW. For this example, we've used Reaper.
-2. Download the plugin using individual installers or Plugin Alliance Installation Manager for your personal device. See guide Windows guide here! (MacOS all supported)
+2. Download the plugin using Plugin Alliance Installation Manager for your personal device. See guide Windows guide here! (MacOS all supported)
 3. Plug your USB key into your personal device.
 4. Launch your Plugin Alliance plugin in your DAW. It will appear as inactive.
 5. Select 'Click to Activate'.
@@ -77,3 +52,32 @@ How to license your **Plugin Alliance** protected plugins on the **transform**.e
 7. Click 'I'm online' and login with your Plugin Alliance credentials.
 8. Select 'Activate' and you're good to go.
 9. Plug your USB key into your **transform**.engine and once your plugins are installed, they will be ready to go.
+
+**Method 2: Activating the plugin when the license owner doesn't have physical access to the USB stick. For example if the plugin license is owned by a rental partner and the operator in the field is without access to the login details**
+
+initials steps to be performed by the plugin operator:
+
+1. Open the plugin on the Transform Engine in test run
+2. 'Click to activate' the plugin,
+3. On the dropdown menu select your USB stick as the device you would like to activate, Then click I'm offline. 
+4. click 'save to file' as this will generate a text file with the Device ID key which can be save to the USB stick
+5. Send the machine_id.txt file to the license owner. The first line in the text file should be the name of your USB stick.
+
+Next steps are for the license owner (this can be done remotely):
+
+6. log into your Plugin alliance account online
+7. Navigate to your account -> Devices
+8. Click 'Select' under 'Manually activate offline license' and select the machine_id.txt file which was generated by the plugin user
+9. Then under activate existing device, choose the device you just added and click activate. (alternatively you can go into your products library and activate plugins individualy
+10. once it is activated, click download license file. Send this file back to the plugin operator
+
+Final Steps for the plugin operator again:
+
+11. Put pa.license file onto the USB stick and insert it into the Transform Engine
+12. Open the plugin on the transform engine and go to to the activation window as before. Select Flash drive > I'm Offline
+13. Under "3 download your license file..." click open License and choose the pa.license file which the license owner generated for you.
+14. Click activate and the plugin should now work
+
+If there are any issues please email: support@fourieraudio.com
+
+
