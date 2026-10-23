@@ -9,7 +9,22 @@ You can have as many plugin grids as you like, to allow you to configure your
 showfile to match your workflow. Plugin grids can contain up to 6 plugins in
 any layout you desire.
 
-![Plugin Grid Example](/img/transformclient/v1.5/grids-overview.png)
+![Plugin Grid Example](/img/transformclient/v1.7.0/grids-overview.png)
+
+## Plugin controls
+
+The top bar of each plugin in a grid contains controls for that plugin:
+
+* Bypass the plugin: ![Bypass plugin button](/img/transformclient/v1.7.0/plugin-grid-bypass.png)
+  When selected, the plugin remains loaded and continues to use DSP resources, but its
+  processing is removed from the audio path. Tap the button again to un-bypass the plugin and restore it back into the audio path.
+* Select plugin: ![Open plugin detail pane button](/img/transformclient/v1.7.0/plugin-grid-detail-pane.png) Tap here or (or anywhere in the plugin's title bar) to select the plugin instance and open its detail pane, allowing you to configure the plugin. The detail
+  pane contains settings such as presets, bus configuration and sidechain
+  routing; see [Plugin Instances](plugin-instances.md) for details.
+* Expand the plugin: ![Expand plugin button](/img/transformclient/v1.7.0/plugin-grid-expand.png)
+  This displays the plugin in a larger view, taking up the whole screen. Select the button again to return to the grid view.
+
+![Plugin grid with a plugin detail pane open](/img/transformclient/v1.7.0/plugin-grid-detail-pane-open.png)
 
 ## Creating a plugin grid
 To create a new plugin grid, hit <img src={addgrid} alt="Add plugin grid button" />

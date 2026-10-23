@@ -10,7 +10,6 @@ We intend on resolving all known issues in a future release, but until then, her
 
 | Issue Ref. | Issue Details | Workaround |
 | ---------- | ------------- | ---------- |
-| TF-2749 | A bug in macOS 15.2-15.4.1 causes macOS to block “Local Network” access for apps after reboot until manually enabled again in Settings. | Upgrade to macOS 15.6.1 or higher. |
 | TF-2698 | When bx\_limiter and AMEK EQ 200 are used in a chain, recalling cues can cause a momentary increase in DSP load. | Monitor DSP load for systems using these plugins. |
 | TF-3434 | It is possible to configure multiple network interfaces with overlapping subnets via DHCP, causing IP network issues. | Do not configure multiple interfaces to have overlapping subnets. |
 
@@ -45,3 +44,4 @@ report on our [discourse site](https://discourse.fourieraudio.com).
 | TF-1778 **[fixed]** |  It is possible to configure both the Primary and Control networks to be Link Local, causing IP network issues.|  Exercise strict network architecture. |[v1.5.0](/downloads) |
 | TF-1779 **[fixed]** | It is possible to configure multiple network interfaces with overlapping Static IP subnets, causing IP network issues. | Exercise strict network architecture. |[v1.5.0](/downloads) |
 | TF-4396 **[fixed]** | A recent update to Waves 16 plugins caused a compatibility issue with the graphics drivers used by all versions of **transform**.engine. | We temporarily recommend that users either use Waves 16 installers from prior to the December update, or use Waves 15 installers. | [v1.6.15](/downloads) |
+| TF-2749 | A bug in macOS 15.2-15.4.1 causes macOS to block “Local Network” access for apps after reboot until manually enabled again in Settings. | Upgrade to macOS 15.6.1 or higher. |

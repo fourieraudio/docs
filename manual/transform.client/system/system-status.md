@@ -1,12 +1,12 @@
 ---
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 # System Status
 
-Clicking on **System Status**, will give you useful under-the-hood information, to check your engine is running on all cylinders!
+Clicking on **System Status** allows you to configure the key audio engine settings, as well as giving you useful under-the-hood information to check your engine is running on all cylinders!
 
-![System status overview tab.](@site/static/img/transformclient/v1.6/system-status.png)
+![System status overview tab.](@site/static/img/transformclient/v1.7.0/system-status-dante.png)
 
 ## System Mode
 
@@ -34,9 +34,26 @@ The Audio IO status shows the current state of your audio pipeline. There are se
 | Offline | ![offline-icon](@site/static/img/transformclient/v1.6/status-offline.png)  | Indicates the system is in **Offline Mode**; audio engine completely stopped. |
 | Heartbeat Stalled | ![stalled-icon-white](@site/static/img/transformclient/v1.6/status-stalled-white.png) ![stalled-icon-orange](@site/static/img/transformclient/v1.6/status-stalled-orange.png) | transform.client is not receiving a heartbeat from the audio engine. This could be because of a network connection issue between transform.client and the engine, or because the audio pipeline exists but processing has stalled. **Grey** - The lack of heartbeat is expected because the audio renderer is starting up, standby! **Orange** - The lack of heartbeat is unexpected; often due to network issues. If no audio is being received, try to **Offline Mode** and then back to **Edit Mode**. |
 
+### Audio Transport
+
+Use the Audio Transport control to select **Dante** or **HYPERPORT**. The
+**transform**.engine must be in **Offline Mode** before you make a change.
+
+For more information on the available audio transports, see [Connections](../../../connections).
+
+![System Status with HYPERPORT selected and Audio IO showing Running in Edit Mode.](@site/static/img/transformclient/v1.7.0/hyperport-running.png)
+
+The latency badge beside Audio Transport shows the transport's contribution to
+the round trip in both samples and milliseconds. This value changes with the
+selected transport, sample rate and period size.
+
 ### Period Size
 
-The period size controls how many samples are processed per block.
+The period size controls how many samples are processed per block and directly controls the available budget (see [Performance](../performance)). The latency
+badge beside Period Size shows the internal DSP contribution in samples and
+milliseconds.
+
+![Period Size Selector](@site/static/img/transformclient/v1.7.0/period-size.png)
 
 Shorter periods = lower latency, but less time for plugin DSP.  
 Larger periods = higher latency, but more plugin processing capacity.
@@ -44,6 +61,11 @@ Larger periods = higher latency, but more plugin processing capacity.
 | Transport | Available Period Sizes |
 |----------|------------------------|
 | Dante | 32, 64, 128, 256, 512 samples |
+| HYPERPORT | 32, 64, 128 samples |
+
+Period sizes that are unavailable for the selected transport are disabled in
+the interface. In particular, 256- and 512-sample periods cannot be used with
+HYPERPORT.
 
 **transform**.engine must be in **Offline Mode** to reconfigure the audio pipeline. You will be prompted to
 change system mode if you are not in **Offline Mode** already when adjusting the period size.
@@ -54,45 +76,48 @@ After changing the period size, switch back to **Edit Mode** to resume audio.
 
 ### Latency Breakdown
 
-The Latency Breakdown panel explains how the different sources of latency sum to produce a total round-trip
-latency through **transform**.engine based on your current configuration.
+The Latency Breakdown panel shows how the current DSP and audio-transport
+latencies combine to produce the total round-trip latency through
+**transform**.engine. Each value is displayed in both samples and milliseconds.
 
 This makes it easy to compare processing headroom vs. latency impact when adjusting period size or transport type.
 
-The [roundtrip latency](../../installation/roundtrip-latency.md) section describes an overview of how to calculate the round-trip latency when using **transform**.engine as an insert. Here, we go into more detail about how the device internal latency is calculated.
+The [roundtrip latency](../../connections/roundtrip-latency.md) section describes how the round-trip latency is calculated.
 
-The device internal latency is composed of the DSP pipeline latency (from the
-**transform** audio engine) plus the audio transport latency, which depends on the audio protocol in use.
+The displayed total is composed of the DSP pipeline latency from the
+**transform** audio engine plus the latency of the selected audio transport.
+These figures describe latency from the perspective of **transform**.engine and
+do not include any additional buffering or routing latency inside the console or
+its interface.
 
 :::note Sample Rate, Period Size, and Latency Calculations
 
-Lets break down some of these numbers. To calculate the device internal latency, you only need three inputs:
+Lets break down some of these numbers.
 
-1) Sample rate (Hz)
-2) Period size (samples)
-3) Audio transport latency (milliseconds)
+**transform**.engine's internal latency consists of the DSP latency plus the audio transport latency.
 
-Step 1: Time per sample = 1 / sample rate
-- 96 kHz: 1/96000 = 0.000010416 s
-- 48 kHz: 1/48000 = 0.000020833 s
+In all cases, the DSP latency is 2 periods long. We can convert this time (measured in samples) into seconds via the formula:
 
-Step 2: Latency per period = time per sample × period size
-- 96 kHz, 64 samples: 0.000010416 × 64 ≈ 0.0006667 s ≈ 0.6667 ms
-- 48 kHz, 64 samples: 0.000020833 × 64 ≈ 0.001333 s ≈ 1.333 ms
+time = samples / sample rate
 
-Step 3: DSP pipeline latency = input period + output period = period latency × 2
+For example:
+- 64 samples at 96 kHz: 64 / 96,000 ≈ 0.0006667 s ≈ 0.667 ms
+- 64 samples at 48 kHz: 64 / 48,000 ≈ 0.001333 s ≈ 1.333 ms
 
-Step 4: Total round-trip = internal latency + transport latency
+For **Dante** running on **transform**.engine, the transport latency is 1 period.
+For **HYPERPORT**, the transport latency is more complex; read the appropriate
+value from the table on the [Roundtrip Latency](../../connections/roundtrip-latency.md) 
+page according to the chosen sample rate and period size.
 
-For Dante running on **transform**.engine, the transport latency is 1 period latency plus the flow latency for each direction (where the flow latency is the highest device latency of the two devices participating in the flow, configurable down to 1 ms).
+Finally, when considering the round-trip latency, for **Dante** networks we must add the flow latencies across the network to the device internal latency.
 
-**Worked example:**
+**Worked examples:**
 
-| Configuration             | Period latency | DSP Pipeline Latency | Round-trip Transport Latency | Total round-trip latency     |
-| ------------------------- | -------------- | -------------------- | ----------------- | ----------------------- |
-| Dante, 96 kHz, 32 samples | 0.333 ms       |  0.667 ms            | 2.33ms            | 3 ms                    |
+| Configuration                        | DSP Latency           | + | Transport Latency     | + | Network (Flow) Latency      | = | Total round-trip latency |
+| -------------------------            | -----------           | --|--------               | --|--------------               | ----|------------------ |
+| Dante, 96 kHz, 32 sample periods     | 64 samples - 0.667 ms | + | 32 samples - 0.333 ms | + | 1 ms (send) + 1 ms (return) | = | 3 ms |
+| HYPERPORT, 96 kHz, 32 sample periods | 64 samples - 0.667 ms | + | 0.56 ms               |   |                             | = | 1.23 ms |
 
-- NB that the transport latency depends on the selected transport and may vary with period size.
 :::
 
 ## Audio Renderers
@@ -107,23 +132,15 @@ The renderer is shown with:
 
 - Network interfaces status (Primary, Secondary, Control)
 
-- Temperature indicator:
+- Temperature indicator. If any measured temperature within the **transform**.engine is excessively high, this indicator will turn red.
 
-:::note Normal 
-< 85°C - Standard operating range. No action required.
-:::
-
-:::warning Warning
-\> 85°C - The system is running warm. Ensure airflow is not blocked. A warning indicator will appear in the status bar.
-:::
-
-:::danger Danger
-\> 90°C - The unit is operating at the upper thermal limit. Continued operation at this temperature may reduce performance. A danger indicator will appear in the status bar.
+:::danger Overheating Is Bad
+If the **transform**.engine reaches \> 90 °C, **transform**.client will show a warning indicating that the unit is operating close to its upper thermal limit. Continued operation at this temperature may cause system instability or reduce performance. If the overheating is extreme, **transform**.engine may enter thermal cutoff and shutdown.
 :::
 
 > **Why are these ranges so high?**
 
-The temperature value shown in this section reflects the **highest detected CPU core** temperature inside the Audio Renderer, not the ambient internal temperature.
+The temperature value shown in this section reflects the **highest detected** temperature inside the Audio Renderer, not the ambient internal temperature.
 This means it may appear higher than expected if you are used to monitoring external temperatures. If you are experiencing constantly high temperatures, see [Reducing Temperature](../../transform.engine/reducing-temperature.md).
 
 ## System Time
@@ -141,4 +158,3 @@ If the unit’s system time is incorrect, a warning will appear:
 ## Components
 
 The Components section provides a breakdown of key system modules, their current operational state, and their version numbers.
-

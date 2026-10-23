@@ -12,7 +12,7 @@ import pluginsidechain from '/static/img/transformclient/plugin-sidechain.png';
 import pluginsafe from '/static/img/transformclient/plugin-safe.png';
 import pluginreload from '/static/img/transformclient/plugin-reload.png';
 import ungroup from '/static/img/transformclient/ungroup-button.png';
-import filtered from '/static/img/transformclient/v1.5/chains-filtered.png';
+import filtered from '/static/img/transformclient/v1.7.0/chains-filtered.png';
 
 # Plugin Chains
 
@@ -57,14 +57,14 @@ If a plugin fails to reload 5 times, it will give up and display a failed icon. 
 
 Whilst in the top navigation bar, you'll see the **global tap tempo** control, the **showfile name**, the **DSP load indicator**, and the **transform**.engines **current mode** to give you rapid access to control your **transform**.engine.
 
-![Home tab with 6 chains](/img/transformclient/v1.5/home-chains.png)
+![Home tab with 6 chains](/img/transformclient/v1.7.0/home-chains.png)
 
 It's as simple as it looks, leaving you to build the perfect chain as soon as possible.
 
 ## Detail Pane
 With a chain selected, the detail pane at the bottom of the UI shows configuration relating to the chain.
 
-![Detail pane for a chain](/img/transformclient/v1.5/chain-detail-pane.png)
+![Detail pane for a chain](/img/transformclient/v1.7.0/chain-detail-pane.png)
 
 
 ### Input / Output
@@ -72,11 +72,18 @@ Here you can configure the channels patched to the chain's inputs and outputs, a
 
 Click the patch indicator to enter the patch selection view:
 
-![Chain Patch View](/img/transformclient/v1.5/patch-view.png)
+![Chain Patch View](/img/transformclient/v1.7.0/patch-view.png)
 
 This allows you to select which channels are used. By default, the patched channels are always grouped together in one contiguous block, but if you want to select arbitrary channels, you can toggle the "group channels" button:
 
 <img src={ungroup} alt="Channel patch group toggle" width="100" />
+
+To view or edit the input and output routing for every chain in the showfile,
+open the [Patch Bay](../system/patch-bay.md). You can access it from the
+**System** tab or use the Patch Bay navigation button in this section of the
+detail pane:
+
+![Patch Bay navigation button](/img/transformclient/v1.7.0/patch-bay-nav-button.png)
 
 ### Chain Groups
 
@@ -102,7 +109,7 @@ By default, all chains are shown. If you have placed chains into [chain groups](
 ### Plugin Grids
 A [plugin grid](plugin-grids.md) is a saved layout of specific plugins in your show, allowing you to quickly access the plugins you need. To open a plugin grid, select it here:
 
-![Selected Plugin Grid](/img/transformclient/grids-selected.png)
+![Selected Plugin Grid](/img/transformclient/v1.7.0/grids-selected.png)
 
 ### View Density Control
 By default, all chain information is shown in a low-density view. The density control lets you see less information about each chain, allowing you to see more chains at once:
@@ -110,13 +117,15 @@ By default, all chain information is shown in a low-density view. The density co
 ![Density Control](/img/transformclient/density-control.png)
 
 The other options available are medium density:
-![Medium Density View](/img/transformclient/v1.5/chains-medium-density.png)
+![Medium Density View](/img/transformclient/v1.7.0/chains-medium-density.png)
 And high density:
-![High Density View](/img/transformclient/v1.5/chains-high-density.png)
+![High Density View](/img/transformclient/v1.7.0/chains-high-density.png)
 In each case, output meters are shown for each chain.
 
 ## Action Menu
 With a chain selected, there are various actions available in the action menu on the right hand side of the screen.
+
+![Chain action menu](/img/transformclient/v1.7.0/chain-action-menu.png)
 
 ### Move/Renumber Chains
 

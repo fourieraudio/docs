@@ -9,30 +9,20 @@ The Audio Renderer reports the temperature of the hottest CPU core rather than a
 
 ## Check Rack Ventilation
 
-The **transform**.engine takes air in through the front of the unit, and exhausts out the sides. 
+The **transform**.engine takes air in through the front of the unit, and exhausts out the sides.
 
-Remove the unit from its rack and place it in an open environment with the front and side ventilation unobstructed. Power on the unit, run it under a typical plugin load, and monitor the temperature under **Settings > System Status > Audio Renderer** in **transform**.client.
+Remove the unit from its rack and place it in an open environment with the front and side ventilation unobstructed. Power on the unit, run it under a typical plugin load, and monitor the temperature under [System > System Status > Audio Renderers](../transform.client/system/system-status.md) in **transform**.client.
 
 If the temperature returns to a normal level, check the rack for restricted airflow before reinstalling the unit. If the temperature remains unusually high, power off the unit, disconnect mains power, and continue with the following procedure.
 
 ## Clearing the Cooling Assembly
 Dust can accumulate inside the **transform**.engine cooling assembly over time, particularly in some operating environments. Cleaning dust from the CPU heatsink will improve cooling performance and reduce the CPU temperature.
 
-The temperature indicator in **transform**.client uses the following states:
-
-:::note Normal 
-< 85°C - Standard operating range. No action required.
+:::danger Overheating Is Bad
+If the **transform**.engine reaches \> 90 °C, **transform**.client will show a warning indicating that the unit is operating close to its upper thermal limit. Continued operation at this temperature may cause system instability or reduce performance. If the overheating is extreme, **transform**.engine may enter thermal cutoff and shutdown.
 :::
 
-:::warning Warning
-\> 85°C - The system is running warm. Ensure airflow is not blocked. A warning indicator will appear in the status bar.
-:::
-
-:::danger Danger
-\> 90°C - The unit is operating at the upper thermal limit. Continued operation at this temperature may reduce performance. A danger indicator will appear in the status bar.
-:::
-
-Follow the steps below if the unit remains in a Warning or Danger state under plugin load.
+Follow the steps below if the temperature warning is shown continuously.
 
 ### Items Required
 
@@ -91,8 +81,8 @@ Follow the steps below if the unit remains in a Warning or Danger state under pl
 
 11. Refit the lid with the 6 screws previously removed. Tighten each screw to 6 lbf-in.
 12. Power on, then connect with **transform**.client.
-13. Navigate to **Settings > System Status > Audio Renderer** and observe the system temperature.
+13. Navigate to **System > System Status > Audio Renderers** and observe the system temperature.
 
 :::note
-If the unit still shows unusually high temperatures, the issue could be due to thermal coupling between the CPU and heatsink. In this case, please contact [Fourier Audio Support](https://fourieraudio.com/support) for further assistance.
+If the unit still shows unusually high temperatures, the issue could be related to thermal coupling between the CPU and heatsink. In this case, please contact [Fourier Audio Support](https://fourieraudio.com/support) for further assistance.
 :::

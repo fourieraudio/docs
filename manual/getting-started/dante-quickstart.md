@@ -1,16 +1,16 @@
 ---
 sidebar_position: 1
+sidebar_label: Dante Quickstart
 ---
 
 import ReactPlayer from 'react-player'
 import SplashScreen from '@site/static/img/transformclient/transform.client-connection-screen.png'
 import SplashScreen2 from '@site/static/img/transformclient/transform.client-connection-screen-2.png'
 
-# Getting Started
+# Dante Quickstart
 
-So you've just got your hands on a **transform**.engine - congratulations!!
-
-Now, let's get you up and running.
+<!-- TODO(v1.7): Replace both connection-screen images with current captures.
+The existing images show client v1.0.1 and engine v1.0.0. -->
 
 :::info
 
@@ -23,7 +23,7 @@ This page will hopefully get you up and running as soon as possible; we've kept 
 The fun bit! Carefully unpack your **transform**.engine from the box. In the box, you will find:
 
 - a **transform**.engine
-- an IEC power lead
+- 2x IEC power lead
 - a safety information document
 
 If you are missing any of the above - please get in touch with your supplier and they will be able to help.
@@ -31,14 +31,14 @@ Be sure to read diligently the important information in the safety instructions!
 
 ## Step 2: Plug it in
 
-Start by plugging in the network connections to a Dante network. To see some of the various options for network configuration, check out our handy manual page [here](installation/dante-network-examples.md).
+Start by plugging in the network connections to a Dante network. To see some of the various options for network configuration, check out our handy manual page [here](../connections/network-connections.md).
 
 Next, take your IEC cable and plug it into the **transform**.engine, and turn the power switch on.
 Wait for the engine to start: this may take a couple of minutes.
 
 ## Step 3: Configure the IP address(es) of the **transform**.engine
 
-For the purposes of this getting started guide, we will assume it is a fairly simple setup, consisting of 1x **transform**.engine, 1x Dante enabled audio mixing console, and 1x personal computer to run the **transform**.client on.
+For the purposes of this Dante quickstart guide, we will assume it is a fairly simple setup, consisting of 1x **transform**.engine, 1x Dante enabled audio mixing console, and 1x personal computer to run the **transform**.client on.
 
 Using the screen on the front of the **transform**.engine and the encoder, press the encoder once to enter the menu, and then select 'IP Config'.
 
@@ -55,18 +55,18 @@ Please bear in mind that we will use example IP addresses below, but please conf
 
 #### Primary
 * Mode: `Static`
-* IP: `192.168.1.100`
-* Subnet Prefix: `/24` (equivalent to `255.255.255.0`)
+* IP Address: `192.168.1.100`
+* Subnet Prefix Length: `/24` (equivalent to `255.255.255.0`)
 
 #### Secondary  (optional)
 * Mode: `Static`
-* IP: `192.168.2.100`
-* Subnet Prefix: `/24` (equivalent to  `255.255.255.0`)
+* IP Address: `192.168.2.100`
+* Subnet Prefix Length: `/24` (equivalent to  `255.255.255.0`)
 
 #### Control
 * Mode: `Static`
-* IP: `192.168.3.100`
-* Subnet Prefix: `/24` (equivalent to  `255.255.255.0`)
+* IP Address: `192.168.3.100`
+* Subnet Prefix Length: `/24` (equivalent to  `255.255.255.0`)
 
 ### Example Dante enabled audio mixing console IP addresses
 
@@ -78,26 +78,20 @@ Please bear in mind that we will use example IP addresses below, but please conf
 
 #### Primary
 * Mode: `Static`
-* IP: `192.168.1.50`
-* Subnet: `255.255.255.0` (equivalent to `/24`)
-* Gateway: `N/A`
+* IP Address: `192.168.1.50`
+* Subnet Prefix Length: `/24` (equivalent to `255.255.255.0`)
+* Gateway Address: `N/A`
 
 #### Secondary (optional)
 * Mode: `Static`
-* IP: `192.168.2.50`
-* Subnet: `255.255.255.0` (equivalent to `/24`)
-* Gateway: `N/A`
+* IP Address: `192.168.2.50`
+* Subnet Prefix Length: `/24` (equivalent to `255.255.255.0`)
+* Gateway Address: `N/A`
 
 #### Example Personal Computer (wired connection) IP address
 * Mode: `Static`
-* IP: `192.168.1.200` (this is for Dante patching and will change when connecting through the **transform**.client)
-* Subnet: `255.255.255.0`  (equivalent to `/24`)
-
-:::info
-
-In order for the audio engine to start (enabling you to install, open and plugins), the 'Primary' network socket must be connected to another device, and show a green light on the back of the unit.
-
-:::
+* IP Address: `192.168.1.200` (this is for Dante patching and will change when connecting through the **transform**.client)
+* Subnet Prefix Length: `/24`  (equivalent to `255.255.255.0`)
 
 ## Step 4: Dante Patching and Clocking
 
@@ -141,7 +135,7 @@ Download **transform**.client from our website [here](/downloads/), and install 
 
 :::info
 
-**Klaxon**: the **transform**.client has the associated **transform**.engine firmware bundled into the software, hence you don’t need an additional firmware file. Wherever your **transform**.client software goes, the relevant firmware will be there too!
+**Klaxon**: the **transform**.client has the associated **transform**.engine software bundled with it, hence you don’t need an additional update file. Wherever your **transform**.client software goes, the relevant engine software will be there too!
 
 :::
 
@@ -163,7 +157,9 @@ Launch **transform**.client! You’ll be presented with a window like this:
 
 <img src={SplashScreen} width="450"/>
 
-Select ‘Connect to new device’ and enter the IP address (in this case `192.168.3.100`), hit enter, and voila!
+You may find that the engine is automatically discovered for you and is shown
+in the list ready to connect. If it is not, select ‘Connect to new device’ and
+enter the IP address (in this case `192.168.3.100`), hit enter, and voila!
 
 <img src={SplashScreen2} width="450"/>
 
@@ -183,7 +179,7 @@ However, if your **transform**.engine is on a different version to your **transf
 
 :::info
 
-**Second klaxon** (and friendly reminder): the **transform**.client has the associated **transform**.engine firmware bundled into the software, hence you don’t need an extra file. Wherever your **transform**.client software goes, the relevant firmware will be there too!
+**Second klaxon** (and friendly reminder): the **transform**.client has the associated **transform**.engine software bundled with it, hence you don’t need an extra file. Wherever your **transform**.client software goes, the relevant engine software will be there too!
 
 :::
 
@@ -203,7 +199,7 @@ Here's Elliot talking you through plugin installation.
 
 To install plugins and licence some plugins on your **transform**.engine, you will need to install them in the Plugin Host (Windows 10 environment).
 
-We will  use a SSL plugin as an example below, we also have a range of walk through guides to installation and licensing on our website from various manufacturers, [here](https://docs.fourieraudio.com/manual/**transform**.client/library/plugins/manufacturers/).
+We will use a SSL plugin as an example below. We also have a range of walkthrough guides to installation and licensing for various manufacturers [here](../transform.client/library/plugins/manufacturers/index.md).
 
 ### Accessing the Plugin Host
 
@@ -227,18 +223,18 @@ Once in the Plugin Host, install plugins as you normally would on any Windows 10
 10. Navigate through each menu, and once complete, click ‘Finish’.
 11. Repeat the process if you have further plugins to install.
 
+Once you have installed your plugins, return to audio processing:
+
+1. Select **Close and rescan plugins** to leave the Plugin Host.
+2. Wait for the scan to complete, then select **Finish**.
+3. Select **Close** to restart the audio engine. Your plugins are now ready to add to chains.
+
 ## Step 8: Showfiles and System
 
 Here's Elliot talking you through showfile management and system status.
 
 <ReactPlayer controls url="https://www.youtube.com/watch?v=ZiR2LXC6WYI" />
 
-If you select the System tab, you will see 5 tabs on the right hand side.
+If you select the **System** tab, you will see various sections in the sidebar on the left which allow you to configure the system further. 
 
-* **Showfiles-** **transform**.engine automatically saves every change you make, immediately, but if you want to take your show file elsewhere, or copy it, you can do it here.
-* **System Status-** an overview of the different components of your system. Key detail here is ‘Audio IO’, this will tell you if the audio engine is ‘Running’ and a spinning cog for visual feedback!
-* **Performance-** a more detailed looked at the DSP load.
-* **Software-** version numbers and log files!
-* **System Reset-** proceed with extreme caution, delete all show files, and return the plugin host to its factory default (removes all installed plugins and  any license files stored in the plugin host environment). Your box will be brand new! Remember: with great power, comes great responsibility.
-
-For more detailed information, please see the [System Status section of the manual](transform.client/system/system-status.md).
+For more detailed information, please see the [System](../transform.client/system/index.md) section of the manual.

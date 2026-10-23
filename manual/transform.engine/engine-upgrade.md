@@ -55,16 +55,16 @@ Download the latest client before continuing.
 This is the **only step that requires internet access**. You can complete the rest of the upgrade offline once you’ve downloaded the correct version.
 :::
 
-1. **Close down transform.client**  
+2. **Close down transform.client**  
    Make sure **transform**.client is not running while updating.
 
-2. **Run the installer**  
+3. **Run the installer**  
    You will obtain a .zip file containing an installer for the updated **transform**.client. Extract and run the installer.
 
-3. **Follow on-screen prompts**  
+4. **Follow on-screen prompts**  
    The update tool will guide you through **transform**.client installation.
    
-4. **Run the new transform.client**  
+5. **Run the new transform.client**  
    The application will now show its installed version, now connect to your **transform**.engine. You should see a discrepancy between the version numbers like so:
 
       <div style={{ textAlign: "center" }}>
@@ -72,13 +72,13 @@ This is the **only step that requires internet access**. You can complete the re
       </div>  
    Now, let's get the **transform**.engine up to speed.
 
-5. **Navigate to the System tab**  
+6. **Navigate to the System tab**  
    Once you have connected to your **transform**.engine, you will see the System tab in the top right:
       <div style={{ textAlign: "center" }}>
       <img src="/img/update/SystemNotif.png" alt="Upgrade Warning" style={{ width: "20%", border: "2px solid #AAA" }} />
       </div>  
 
-6. **Navigate to the software section**  
+7. **Navigate to the software section**  
       On the left-hand side of your screen, you will see the settings menu. Select the Software section:
       <div style={{ textAlign: "center" }}>
       <img src="/img/update/Menu.png" style={{ width: "50%", borderRadius: "12px"}} />

@@ -18,7 +18,7 @@ please refer to the [DiGiCo documentation](https://support.digico.biz/hc/en-gb/a
 
 When using the integration, you should bear the following in mind:
 
-* When using the integration to view and control plugins, the Dante patch must be 1-1: channel
+* When using the integration to view and control plugins and Dante for audio, the Dante patch must be 1-1: channel
   1 on the console's Audio IO interface must be patched to Dante 1 on the **transform**.engine.
 * Sync is one-way, from the console to **transform**.engine. No changes made
   using the **transform**.client software will be synchronised to the console:
@@ -26,7 +26,7 @@ When using the integration, you should bear the following in mind:
 * When using snapshot sync, the console will create a "Digico" cuelist on
   **transform**.engine. You should let the console use this cuelist exclusively
   and not modify it manually, or sync may be interrupted.
-* Only one console can use the snapshot / session sync at a time. If one engine
+* Only one console can use the snapshot / session sync at a time. If one **transform**.engine
   is being shared between consoles, be sure to only enable snapshot / session
   sync on one of the two consoles.
 * When configuring the IP addresses of the network, if using multiple networks
@@ -51,6 +51,11 @@ architecture. This setup showcases a direct, high-performance connection
 between the Q225 and the transform.engine, making it an ideal approach for
 venues or productions requiring a compact yet powerful processing solution.
 
+#### Compatibility
+
+* **Dante**: ✅
+* **HYPERPORT**: ✅
+
 ![Separate network Point-To-Point Setup](/img/transform.engine-hw/integration/single-console-separate.png)
 
 ### Point to Point (combined)
@@ -65,7 +70,13 @@ reduces infrastructure complexity, making it an efficient solution for
 environments where a straightforward, high-performance audio processing
 workflow is required.
 
+#### Compatibility
+
+* **Dante**: ✅
+* **HYPERPORT**: ❌
+
 ![Combined network Point-To-Point Setup](/img/transform.engine-hw/integration/single-console-combined.png)
+
 
 ### Point to Point (no switch)
 
@@ -82,6 +93,11 @@ which can cause issues.
 
 :::
 
+#### Compatibility
+
+* **Dante**: ✅
+* **HYPERPORT**: ❌
+
 ![No-Switch Point-To-Point Setup](/img/transform.engine-hw/integration/single-console-simple.png)
 
 ### Dual Engine
@@ -94,6 +110,11 @@ through a distributed network configuration to provide DiGiCo console
 integration. This architecture allows for the engineer to switch engines and
 maintain transform.engine console integration. This example shows two switches
 using a fibre LAG, but note that this is not required.
+
+#### Compatibility
+
+* **Dante**: ✅
+* **HYPERPORT**: ✅
 
 ![Dual Engine Setup](/img/transform.engine-hw/integration/dual-engine.png)
 
@@ -111,6 +132,11 @@ isolated network segments. This architecture optimises DSP resources, minimises
 hardware redundancy, and ensures seamless operation without network congestion
 or control conflicts.
 
+#### Compatibility
+
+* **Dante**: ✅
+* **HYPERPORT**: ❌
+
 ![Dual Console Setup](/img/transform.engine-hw/integration/dual-console-separate.png)
 
 ### Dual Console (converged control network)
@@ -127,5 +153,10 @@ without network interference or control conflicts.
 
 Note there is no VLAN operating, the devices in this architecture are able to
 handle shared network traffic.
+
+#### Compatibility
+
+* **Dante**: ✅
+* **HYPERPORT**: ❌
 
 ![Dual Console Setup with converged control network](/img/transform.engine-hw/integration/dual-console-combined.png)
