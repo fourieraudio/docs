@@ -15,5 +15,5 @@ Fourier Audio does not operate a bug bounty programme at this time.
 Fourier Audio will provide security updates to ensure compliance with the applicable security
 requirements according to the UK Product Security and Telecommunications Infrastructure Act and The
 Product Security and Telecommunications Infrastructure (Security Requirements for Relevant
-Connectable Products) Regulations 2023 for its products until at least May 1st, 2027. This minimum
+Connectable Products) Regulations 2023 for its products until at least October 6th, 2031. This minimum
 commitment is a legal requirement under these regulations and may be extended at a future time.

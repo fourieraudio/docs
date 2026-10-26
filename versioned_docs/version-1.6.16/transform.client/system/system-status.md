@@ -141,4 +141,3 @@ If the unit’s system time is incorrect, a warning will appear:
 ## Components
 
 The Components section provides a breakdown of key system modules, their current operational state, and their version numbers.
-

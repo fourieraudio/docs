@@ -9,7 +9,7 @@ The Audio Renderer reports the temperature of the hottest CPU core rather than a
 
 ## Check Rack Ventilation
 
-The **transform**.engine takes air in through the front of the unit, and exhausts out the sides. 
+The **transform**.engine takes air in through the front of the unit, and exhausts out the sides.
 
 Remove the unit from its rack and place it in an open environment with the front and side ventilation unobstructed. Power on the unit, run it under a typical plugin load, and monitor the temperature under **Settings > System Status > Audio Renderer** in **transform**.client.
 
@@ -20,7 +20,7 @@ Dust can accumulate inside the **transform**.engine cooling assembly over time, 
 
 The temperature indicator in **transform**.client uses the following states:
 
-:::note Normal 
+:::note Normal
 < 85°C - Standard operating range. No action required.
 :::
 

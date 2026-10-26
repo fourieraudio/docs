@@ -1,12 +1,12 @@
 ---
-sidebar_position: 5
+sidebar_position: 6
 ---
 
 # Performance
 You may have noticed in your navigation bar, an overview of the DSP load on your **transform**.engine, selecting this will take you to the **Performance** tab.
 Here, you will find the current performance metrics for your **transform**.engine!
 
-![System status overview tab.](@site/static/img/transformclient/v1.5/system-performance.png)
+![Performance tab.](@site/static/img/transformclient/v1.7.0/system-performance.png)
 
 ## DSP Load Breakdown
 
@@ -74,4 +74,3 @@ followed by detailed statistics for each renderer, mainly useful for support:
 * **Engine Time**: The amount of time, per period, spent on internal engine audio processing tasks.
 * **Period Time**: The inter-period time as measured from the Dante network.
 * **Engine Xruns**: The count of occasions where time-skew was detected.
-
