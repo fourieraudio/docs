@@ -20,7 +20,7 @@ De-Feedback on **transform**.engine currently supports the following buffer size
 
 > How do I register my **transform**.engine to receive the discount code for Alpha Labs De-Feedback?
 
-You can register here: [**transform**.engine registration](https://fourieraudio.typeform.com/register?typeform-source=fourieraudio.com)
+Hardware registration can be found in the [System > Support & Software](../../../system/software.md) tab.
 
 > When will I receive my discount code?
 
