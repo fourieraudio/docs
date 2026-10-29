@@ -39,7 +39,16 @@ before installing or powering on **transform**.engine.
 
 In addition to the items supplied with **transform**.engine, you will need:
 
-- a [compatible, up-to-date DiGiCo console or interface](../connections/hyperport.md#compatibility)
+- a [compatible, up-to-date DiGiCo console or
+  interface](../connections/hyperport.md#compatibility).
+
+  :::warning
+
+  If you have not made sure your console **and** interface are up-to-date, **check this now before
+  proceeding**! Download links and instructions are available [here](../connections/hyperport.md#supported-software).
+
+  :::
+
 - a computer running **transform**.client v1.7.0 or newer
 - a network cable for the direct HYPERPORT audio connection (or two if you want cable redundancy!)
 - a network cable for the Control connection
