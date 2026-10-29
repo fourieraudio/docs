@@ -13,8 +13,7 @@ HYPERPORT is a low-latency, point-to-point audio protocol for connecting a
 * 64 channels at 48 kHz or 96 kHz
 * Down to 1.2 ms round-trip latency
 * Plug-and-play: no configuration required
-* Almost-instant redundant cable failover
-
+* Near-seamless redundant cable failover
 
 If you are setting up **transform**.engine for the first time, begin
 with the [HYPERPORT Quickstart](../getting-started/hyperport-quickstart.md).
@@ -68,14 +67,15 @@ supports HYPERPORT.
 
 **In all cases, the Console must be running version 22 or above.**
 
-| DiGiCo audio interface  | Minimum interface software | Support and downloads |
-| ----------------------- | -------------------------- | --------------------- |
-| Onboard Dante (Q1 / Q6) | `2242.4` | [Console software downloads](https://support.digico.biz/hc/en-gb/categories/26478756671377-Software-Downloads) |
-| Fourier Interface Card  | `v1.0.24` | [DiGiCo support](https://support.digico.biz/hc/en-gb) |
-| DMI-DANTE64@96z (March 2023 onwards) | `07/10/2026 + 107 + 4.2.20` | [DMI card support](https://support.digico.biz/hc/en-gb/categories/22460544868497-Racks-and-I-Os) |
+| DiGiCo audio interface  | Minimum interface software | Support and downloads | Tech Note |
+| ----------------------- | -------------------------- | --------------------- | --------- |
+| Onboard Dante (Q1 / Q6) | `2242.4` | [Quantum software downloads](https://support.digico.biz/hc/en-gb/sections/26355528481681-Quantum) |
+| Fourier Interface Card  | `v1.0.24` | [DiGiCo support - FIC](https://support.digico.biz/hc/en-gb/articles/52315162397969-Fourier-Interface-Card-Installation-Files-For-Hyperport-Compatibility) | [TN756](https://support.digico.biz/hc/en-gb/articles/52315162397969-Fourier-Interface-Card-Installation-Files-For-Hyperport-Compatibility)
+| DMI-DANTE64@96z (March 2023 onwards) | `07/10/2026 + 107 + 4.2.20` | [DiGiCo support - DMI](https://support.digico.biz/hc/en-gb/articles/52237900817297-DMI-Dante64-96z-Installation-Files-For-Hyperport-Compatibility) | [TN755](https://support.digico.biz/hc/en-gb/article_attachments/52376041992337)
 
-Use the [DiGiCo support portal](https://support.digico.biz/hc/en-gb) for software
-requirements and update instructions for your interface.
+See the assosciated documentation downloads on the
+[DiGiCo support portal](https://support.digico.biz/hc/en-gb/sections/52084551036433-HYPERPORT)
+for software requirements and update instructions for your interface.
 
 ## Connection & Setup Requirements
 
