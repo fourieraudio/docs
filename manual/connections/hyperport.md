@@ -70,7 +70,7 @@ supports HYPERPORT.
 | DiGiCo audio interface  | Minimum interface software | Support and downloads | Tech Note |
 | ----------------------- | -------------------------- | --------------------- | --------- |
 | Onboard Dante (Q1 / Q6) | `2242.4` | [Quantum software downloads](https://support.digico.biz/hc/en-gb/sections/26355528481681-Quantum) |
-| Fourier Interface Card  | `v1.0.24` | [DiGiCo support - FIC](https://support.digico.biz/hc/en-gb/articles/52315162397969-Fourier-Interface-Card-Installation-Files-For-Hyperport-Compatibility) | [TN756](https://support.digico.biz/hc/en-gb/articles/52315162397969-Fourier-Interface-Card-Installation-Files-For-Hyperport-Compatibility)
+| Fourier Interface Card  | `v1.0.24` | [DiGiCo support - FIC](https://support.digico.biz/hc/en-gb/articles/52315162397969-Fourier-Interface-Card-Installation-Files-For-Hyperport-Compatibility) | [TN756](https://support.digico.biz/hc/en-gb/article_attachments/52314970017425)
 | DMI-DANTE64@96z (March 2023 onwards) | `07/10/2026 + 107 + 4.2.20` | [DiGiCo support - DMI](https://support.digico.biz/hc/en-gb/articles/52237900817297-DMI-Dante64-96z-Installation-Files-For-Hyperport-Compatibility) | [TN755](https://support.digico.biz/hc/en-gb/article_attachments/52376041992337)
 
 See the assosciated documentation downloads on the
