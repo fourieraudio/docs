@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 2
 ---
 
 # Software Downloads
@@ -12,6 +12,14 @@ Here you can find the latest **transform**.client:
 <br/><br/>
 <a class="button button--lg button--primary" href="https://downloads.fourieraudio.com/transform/latest/FourierTransform-Release-1.7.0-x64.zip">macOS (x86-64) v1.7.0</a>
 <br/><br/>
+
+# Helpful instructions!
+
+Need a shortcut to the fast lane?
+
+<a class="button button--lg button--primary" href="../manual/getting-started">Getting Started!</a>
+<br/><br/>
+
 
 :::info
 
