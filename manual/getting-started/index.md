@@ -17,7 +17,7 @@ You will need:
 
 ## Let's Roll
 
-1. Is your transform.engine up to date? If yes, skip straight to number 2!
+1. Is your transform.engine up to date? If yes, skip straight to number 2! If no, let's get you upgraded!
 
 <a class="button button--lg button--primary" href="./engine-upgrade.md">Upgrade Instructions</a>  
 
