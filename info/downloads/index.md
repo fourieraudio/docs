@@ -13,7 +13,7 @@ Here you can find the latest **transform**.client:
 <a class="button button--lg button--primary" href="https://downloads.fourieraudio.com/transform/latest/FourierTransform-Release-1.7.0-x64.zip">macOS (x86-64) v1.7.0</a>
 <br/><br/>
 
-# Instructions
+# Helpful instructions!
 
 Need a shortcut to the fast lane?
 
