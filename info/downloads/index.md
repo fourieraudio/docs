@@ -1,22 +1,25 @@
 ---
-sidebar_position: 4
+sidebar_position: 2
 ---
 
 # Software Downloads
 
 Here you can find the latest **transform**.client:
 
-<a class="button button--lg button--primary" href="https://downloads.fourieraudio.com/transform/latest/FourierTransform-Release-1.7.0-win32.exe">Windows v1.7.0</a>
+<a class="button button--lg button--primary" href="https://downloads.fourieraudio.com/transform/latest/FourierTransform-Release-1.7.0-win32.exe">transform.client Windows v1.7.0</a>
 <br/><br/>
-<a class="button button--lg button--primary" href="https://downloads.fourieraudio.com/transform/latest/FourierTransform-Release-1.7.0-arm64.zip">macOS (ARM) v1.7.0</a>
+<a class="button button--lg button--primary" href="https://downloads.fourieraudio.com/transform/latest/FourierTransform-Release-1.7.0-arm64.zip">transform.client macOS (ARM) v1.7.0</a>
 <br/><br/>
-<a class="button button--lg button--primary" href="https://downloads.fourieraudio.com/transform/latest/FourierTransform-Release-1.7.0-x64.zip">macOS (x86-64) v1.7.0</a>
+<a class="button button--lg button--primary" href="https://downloads.fourieraudio.com/transform/latest/FourierTransform-Release-1.7.0-x64.zip">transform.client macOS (x86-64) v1.7.0</a>
 <br/><br/>
 
 :::info
 
-The **transform**.client comes with compatible engine software bundled so you can upgrade the **transform**.engine offline.
-It will advise you to upgrade your engine software if needed.
+**Install this software onto your computer.** You will be prompted to upgrade the connected **transform**.engine if necessary.
+
+For detailed step-by-step instructions for upgrading your engine, see [Upgrade Instructions](../../manual/transform.engine/engine-upgrade/).
+
+The **transform**.client software comes with compatible engine software bundled so you can upgrade the **transform**.engine offline.
 
 :::
 
