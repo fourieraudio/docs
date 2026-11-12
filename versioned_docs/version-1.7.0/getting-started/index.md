@@ -17,7 +17,19 @@ You will need:
 
 ## Let's Roll
 
-First, decide whether you want to connect to your **transform**.engine via Dante or HYPERPORT.
+1. Is your transform.engine up to date? If yes, skip straight to number 2! If no, let's get you upgraded!
+
+<a class="button button--lg button--primary" href="./engine-upgrade.md">Upgrade Instructions</a>  
+
+2. Decide whether you want to connect to your **transform**.engine via Dante or HYPERPORT.
+
+### HYPERPORT
+
+Choose HYPERPORT for the lowest latency when connecting **transform**.engine
+directly to a compatible DiGiCo console. Read the [HYPERPORT compatibility requirements](../connections/hyperport.md#compatibility)
+before choosing HYPERPORT.
+
+<a class="button button--lg button--primary" href="./hyperport-quickstart">Get started with HYPERPORT</a>  
 
 ### Dante
 
@@ -27,12 +39,6 @@ compatibility but is slightly more complex to configure than HYPERPORT.
 
 <a class="button button--lg button--primary" href="./dante-quickstart">Get started with Dante</a>
 
-### HYPERPORT
 
-Choose HYPERPORT for the lowest latency when connecting **transform**.engine
-directly to a compatible DiGiCo console. Read the [HYPERPORT compatibility requirements](../connections/hyperport.md#compatibility)
-before choosing HYPERPORT.
-
-<a class="button button--lg button--primary" href="./hyperport-quickstart">Get started with HYPERPORT</a>  
   
 
