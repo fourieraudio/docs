@@ -125,12 +125,12 @@ HYPERPORT requires software v1.7.0 or newer **transform**.engine. Check your
 version numbers under [System > Support & Software](../transform.client/system/software.md) before continuing.
 An older engine may still accept a connection from a newer client, so being
 able to connect does not mean that HYPERPORT is available.
-If the engine needs updating, follow the [upgrade instructions](../transform.engine/engine-upgrade.md).
+If the engine needs updating, follow the [upgrade instructions](./engine-upgrade.md).
 
 DiGiCo console and interface updates must be obtained separately from [DiGiCo
 support](https://support.digico.biz/hc/en-gb). Check the [DiGiCo version
 compatibility
-grid](../connections/hyperport.md#digico-version-compatibility-grid) before
+grid](../connections/hyperport.md#supported-software) before
 selecting HYPERPORT.
 
 

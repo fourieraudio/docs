@@ -25,7 +25,7 @@ Need a shortcut to the fast lane?
 
 **Install this software onto your computer.** You will be prompted to upgrade the connected **transform**.engine if necessary.
 
-For detailed step-by-step instructions for upgrading your engine, see [Upgrade Instructions](../../manual/transform.engine/engine-upgrade/).
+For detailed step-by-step instructions for upgrading your engine, see [Upgrade Instructions](/manual/getting-started/engine-upgrade/).
 
 The **transform**.client software comes with compatible engine software bundled so you can upgrade the **transform**.engine offline.
 
