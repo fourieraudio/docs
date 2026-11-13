@@ -60,7 +60,7 @@ compatible with HYPERPORT.
 HYPERPORT requires **transform**.engine software
 v1.7.0 or newer. Check your version under [System > Support &
 Software](../transform.client/system/software.md) and follow the [upgrade
-instructions](../transform.engine/engine-upgrade.md) if needed.
+instructions](../getting-started/engine-upgrade.md) if needed.
 
 The DiGiCo console and audio interface must also be running software that
 supports HYPERPORT.
